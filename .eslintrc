@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["react", "jsx-a11y", "import"],
+  "rules": {
+    "comma-dangle": "off", // nie wymagaj przecinka na końcu linii w obiektach, itp.
+    "no-unused-vars": ["warn", { "args": "none" }], // argumenty funkcji nie oznaczane jak warn, nie uyta zmienna oznaczana jako warn
+    "react/jsx-filename-extension": 0, // można używać JSX w pliku z każdym rozszerzeniem
+    "linebreak-style": ["warn", "windows"], // domyślnie Enter jest traktowany jako błąd na Windowsie, teraz nie jest
+    "quotes": ["warn", "single", { "allowTemplateLiterals": true }], // tylko singlequotes oraz backticks na stringach
+    "no-multiple-empty-lines": ["warn", { "max": 5 }] // max 5 pustych linii w pliku
+  }
+}
