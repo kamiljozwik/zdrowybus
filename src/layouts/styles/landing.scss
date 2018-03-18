@@ -1,0 +1,84 @@
+.landing {
+  &__banner {
+    &--parallax {
+      position: relative;
+      .parallax-outer {
+        opacity: 0.6;
+      }
+    }
+    &--polakPotrafi {
+      width: 300px;
+      height: auto;
+      z-index: 2;
+      position: absolute;
+      top: 20%;
+      left: 300px;
+      animation: blink 3s infinite;
+    }
+    &--wspomoz {
+      background: rgba(255, 0, 0, 0.7);
+      color: azure;
+      position: absolute;
+      top: 17%;
+      left: 220px;
+      transform: rotateZ(-20deg);
+      padding: 10px 25px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+  &__infografika {
+    position: relative;
+    display: inline-block;
+    width: 39vw;
+    img {
+      width: 39vw;
+      margin-top: 30px;
+    }
+  }
+
+  &__wstep {
+    display: flex;
+    position: relative;
+    &--leftPanel {
+      display: inline-block;
+      width: 60vw;
+    }
+    &--tytul {
+      font-size: 46px;
+      margin-left: 5%;
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      width: 50vw;
+    }
+    &--tresc {
+      font-size: 24px;
+      width: 50vw;
+      margin-left: 7%;
+      font-family: "Roboto", sans-serif;
+      font-weight: 100;
+    }
+  }
+  &__YT {
+    width: 50vw;
+    margin: 10px 0 10px 7%;
+    height: 400px;
+  }
+}
+
+.cytat {
+  font-style: italic;
+}
+
+@keyframes blink {
+  0% {
+    transform: scale(1);
+  }
+  4% {
+    transform: scale(1.5);
+  }
+  8% {
+    transform: scale(1);
+  }
+}
