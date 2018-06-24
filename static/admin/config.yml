@@ -15,5 +15,4 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "main"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Extra", name: "extra", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
