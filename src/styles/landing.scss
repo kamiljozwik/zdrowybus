@@ -1,0 +1,73 @@
+@mixin enter {
+    padding: 10px 0px;
+            background: $black;
+            width: 60%;
+            color: white;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+            font-size: 60px;
+            font-family: "Roboto-Thin";
+            cursor: pointer;
+}
+
+@mixin background($image, $position) {
+    background: url($image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: $position;
+    opacity: 0.2;
+    transition: 0.4s;
+    &:hover {
+        transition: 0.4s;
+        opacity: 1;
+        box-shadow: 0 0 25px;
+    }
+}
+
+.landing {
+    display: flex;
+    height: 100vh;
+    .landing-left {
+        width: 50%;
+        @include background('../img/mountains.jpg', 50%);
+    }
+    &__left-panel {
+        padding-top: 30%;
+        &--logo {
+            height: 400px;
+            margin: 0 auto;
+            position: relative;
+            display: block;
+        }
+        &--enter {
+            @include enter;
+        }
+    }
+    .landing-right {
+        width: 50%;
+        @include background('../img/bus1.jpg', 50%);
+    }
+    &__right-panel {
+        padding-top: 30%;
+        &--logo {
+            height: 400px;
+            margin: 0 auto;
+            span {
+                background: $black;
+                width: 80%;
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                padding: 50px 0px;
+                color: white;
+                font-family: "Roboto-Thin";
+                font-size: 80px;
+                transform: translateY(100px)
+            }
+        }
+        &--enter {
+            @include enter;
+        }
+    }
+}
