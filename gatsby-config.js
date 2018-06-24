@@ -12,11 +12,30 @@ module.exports = {
     },
   },
   {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      path: `${__dirname}/static/img`,
+      name: 'img',
+    },
+  },
+  {
     resolve: 'gatsby-transformer-remark',
     options: {
-      plugins: [] // for extra plugins :)
+      plugins: 
+      [
+        {
+          resolve: `gatsby-remark-relative-images`,
+        },
+        {
+          resolve: `gatsby-remark-images`,
+          options: {
+            maxWidth: 590,
+          },
+        },
+      ],
     }
   },
+  
   /*{
     resolve: 'gatsby-plugin-netlify-cms',
     options: {

@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import CMS from 'netlify-cms'
+// import CMS from 'netlify-cms'
 
 export default function TemplateMain({
   data, // this prop will be injected by the GraphQL query
@@ -23,7 +23,7 @@ export default function TemplateMain({
 );
 }
 
-CMS.registerPreviewTemplate('my-template', TemplateMain)
+// CMS.registerPreviewTemplate('my-template', TemplateMain)
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
