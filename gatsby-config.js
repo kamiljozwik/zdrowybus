@@ -17,5 +17,9 @@ module.exports = {
       plugins: [] // for extra plugins :)
     }
   },
+  {
+    resolve: 'gatsby-plugin-netlify-cms',
+    options: {},
+  },
 ],
 }

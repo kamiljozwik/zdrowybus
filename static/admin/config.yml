@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/main/index.md"
+        label: "Main Page"
+        name: "main"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "main"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Extra", name: "extra", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
