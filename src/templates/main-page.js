@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import yt from '../img/youtube.svg';
+import fb from '../img/facebook.svg';
 
 export const MainPageTemplate = ({
     jumbotrone,
@@ -9,29 +11,39 @@ export const MainPageTemplate = ({
 }) => {
 
     return (
-        <div>
-            <section>
-                <div>{jumbotrone.title}</div>
-                <div>{jumbotrone.description}</div>
-            </section>
-            <section>
-                <div>{intro.title}</div>
-                <div>{intro.description}</div>
-            </section>
-            <section>
-                <div>{notes.title}</div>
-                <div>{notes.description}</div>
-            </section>
-            <section>
-                <img
-                    style={{ borderRadius: '50%', width: '100px' }}
-                    src={ownerBox.avatar.image}
-                    alt={ownerBox.avatar.image}
-                />
-                <div>{ownerBox.title}</div>
-                <div>{ownerBox.description}</div>
-            </section>
-        </div>
+        <section className="main">
+            <div className="main__jumbo jumbo">
+                <div className="jumbo__title">{jumbotrone.title}</div>
+                <div className="jumbo__desc">{jumbotrone.description}</div>
+                <div className="jumbo__links links">
+                    <a className="links__yt" href="http://www.youtube.pl"><img alt='YT logo' src={yt}/></a>
+                    <a className="links__fb" href="http://www.facebook.pl"><img alt='FB logo' src={fb}/></a>
+                </div>
+            </div>
+            <div className="main_body">
+                <section className="intro">
+                    <div className="intro__title title">{intro.title}</div>
+                    <div className="intro__desc desc">{intro.description}</div>
+                </section>
+                <section className="notes">
+                    <div className="notes__title title">{notes.title}</div>
+                    <div className="notes__desc desc">{notes.description}</div>
+                </section>
+                <section className="owner-box">
+                    <div className="owner-box__img">
+                        <img
+                            src={ownerBox.avatar.image}
+                            alt={ownerBox.avatar.image}
+                        />
+                    </div>
+                    <div className="owner-box__title title">{ownerBox.title}</div>
+                    <div className="owner-box__desc desc">{ownerBox.description}</div>
+                </section>
+                <section className="youtube-video">
+                    <div>YOUTUBE</div>
+                </section>
+            </div>
+        </section>
     );
 }
 

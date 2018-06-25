@@ -1,28 +1,17 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import Logo from '../img/Logo_small.png'
 
 const Navbar = () => (
-  <nav className="navbar is-transparent">
-    <div className="container">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item">
-          <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-          </figure>
-        </Link>
-      </div>
-      <div className="navbar-start">
-        <Link className="navbar-item" to="/about">
-          About
-        </Link>
-        <Link className="navbar-item" to="/products">
-          Products
-        </Link>
-      </div>
-    </div>
+  <nav className="navbar">
+    <img className="navbar__logo" src={Logo} alt="navbar logo" />
+    <ul className="navbar__wrapper">
+      <li className="navbar__item">Projekt</li>
+      <li className="navbar__item">Dołącz</li>
+      <li className="navbar__item">Zespół</li>
+      <li className="navbar__item">BLOG</li>
+      <li className="navbar__item">Kontakt</li>
+    </ul>
   </nav>
 )
 
