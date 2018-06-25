@@ -43,3 +43,12 @@ collections:
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+      - file: "src/pages/main/index.md"
+        label: "Main Page"
+        name: "main"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+          - {label: Intro, name: intro, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
+          - {label: Notes, name: notes, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
+          - {label: OwnerBox, name: ownerBox, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}, {label: avatar, name: avatar, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          
