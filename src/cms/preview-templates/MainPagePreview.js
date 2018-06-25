@@ -4,7 +4,6 @@ import { MainPageTemplate } from '../../templates/main-page'
 
 const MainPagePreview = ({ entry, getAsset }) => (
   <MainPageTemplate
-    title={entry.getIn(['data', 'title'])}
     Jumbotrone={{
       title: entry.getIn(['data', 'Jumbotrone', 'title']),
       description: entry.getIn(['data', 'Jumbotrone', 'description']),
