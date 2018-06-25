@@ -5,23 +5,23 @@ import { MainPageTemplate } from '../../templates/main-page'
 const MainPagePreview = ({ entry, getAsset }) => (
   <MainPageTemplate
     jumbotrone={{
-      title: entry.getIn(['data', 'Jumbotrone', 'title']),
-      description: entry.getIn(['data', 'Jumbotrone', 'description']),
+      title: entry.getIn(['data', 'jumbotrone', 'title']),
+      description: entry.getIn(['data', 'jumbotrone', 'description']),
     }}
     intro={{
-      title: entry.getIn(['data', 'Intro', 'title']),
-      description: entry.getIn(['data', 'Intro', 'description']),
+      title: entry.getIn(['data', 'intro', 'title']),
+      description: entry.getIn(['data', 'intro', 'description']),
     }}
     notes={{
-      title: entry.getIn(['data', 'Notes', 'title']),
-      description: entry.getIn(['data', 'Notes', 'description']),
+      title: entry.getIn(['data', 'notes', 'title']),
+      description: entry.getIn(['data', 'notes', 'description']),
     }}
     ownerBox={{
-      title: entry.getIn(['data', 'OwnerBox', 'title']),
-      description: entry.getIn(['data', 'OwnerBox', 'description']),
+      title: entry.getIn(['data', 'ownerBox', 'title']),
+      description: entry.getIn(['data', 'ownerBox', 'description']),
       avatar: {
-        image: getAsset(entry.getIn(['data', 'OwnerBox', 'avatar', 'image'])),
-        alt: entry.getIn(['data', 'OwnerBox', 'avatar', 'alt']),
+        image: getAsset(entry.getIn(['data', 'ownerBox', 'avatar', 'image'])),
+        alt: entry.getIn(['data', 'ownerBox', 'avatar', 'alt']),
       }
     }}
   />

@@ -41,10 +41,10 @@ const MainPage = ({ data }) => {
     return (
         <MainPageTemplate
             title={post.frontmatter.title}
-            jumbotrone={post.frontmatter.Jumbotrone}
-            intro={post.frontmatter.Intro}
-            notes={post.frontmatter.Notes}
-            ownerBox={post.frontmatter.OwnerBox}
+            jumbotrone={post.frontmatter.jumbotrone}
+            intro={post.frontmatter.intro}
+            notes={post.frontmatter.notes}
+            ownerBox={post.frontmatter.ownerBox}
         />    
     )
 }
@@ -56,19 +56,19 @@ export const mainPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-        Jumbotrone {
+        jumbotrone {
             title
             description
         }
-        Intro {
+        intro {
             title
             description
         }
-        Notes {
+        notes {
             title
             description
         }
-        OwnerBox {
+        ownerBox {
             title
             description
             avatar {

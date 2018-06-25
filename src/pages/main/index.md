@@ -2,16 +2,16 @@
 templateKey: 'main-page'
 path: /main
 title: Main Page
-Jumbotrone:
+jumbotrone:
     title: Jumbotrone Title
     description: Jumbotrone Text Jumbotrone Text Jumbotrone Text Jumbotrone Text Jumbotrone Text
-Intro:
+intro:
     title: Intro Title
     description: Intro Intro Intro Intro Intro Intro Intro Intro Intro Intro 
-Notes:
+notes:
     title: Notes Title
     description: Notes Notes Notes Notes Notes Notes Notes Notes Notes Notes Notes Notes
-OwnerBox:
+ownerBox:
     avatar:
         alt: Avatar image
         image: /img/products-grid3.jpg

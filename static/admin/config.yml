@@ -48,7 +48,8 @@ collections:
         name: "main"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-          - {label: Intro, name: intro, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
-          - {label: Notes, name: notes, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
-          - {label: OwnerBox, name: ownerBox, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}, {label: avatar, name: avatar, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: jumbotrone, name: jumbotrone, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
+          - {label: intro, name: intro, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
+          - {label: notes, name: notes, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
+          - {label: ownerBox, name: ownerBox, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}, {label: avatar, name: avatar, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
           
