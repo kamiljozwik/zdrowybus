@@ -4,19 +4,19 @@ import { MainPageTemplate } from '../../templates/main-page'
 
 const MainPagePreview = ({ entry, getAsset }) => (
   <MainPageTemplate
-    Jumbotrone={{
+    jumbotrone={{
       title: entry.getIn(['data', 'Jumbotrone', 'title']),
       description: entry.getIn(['data', 'Jumbotrone', 'description']),
     }}
-    Intro={{
+    intro={{
       title: entry.getIn(['data', 'Intro', 'title']),
       description: entry.getIn(['data', 'Intro', 'description']),
     }}
-    Notes={{
+    notes={{
       title: entry.getIn(['data', 'Notes', 'title']),
       description: entry.getIn(['data', 'Notes', 'description']),
     }}
-    OwnerBox={{
+    ownerBox={{
       title: entry.getIn(['data', 'OwnerBox', 'title']),
       description: entry.getIn(['data', 'OwnerBox', 'description']),
       avatar: {
