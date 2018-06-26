@@ -38,7 +38,15 @@ export const MainPageTemplate = ({
                 <div className="owner-box__desc desc">{ownerBox.description}</div>
             </section>
             <section className="youtube-video">
-                <div>YOUTUBE</div>
+                <div className="youtube-video__wrapper">
+                    <iframe
+                        className="youtube-video__iframe"
+                        src="https://www.youtube.com/embed/hmXjyOWi6nc?rel=0&amp;showinfo=1"
+                        frameBorder="0"
+                        allowFullScreen=""
+                        title="ZdrowyBus"
+                    />
+                </div>
             </section>
         </div>
     </section>
