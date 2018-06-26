@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import Nabvar from '../components/Navbar';
 
 import '../styles/styles.scss';
 

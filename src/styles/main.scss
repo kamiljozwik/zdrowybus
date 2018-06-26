@@ -48,7 +48,9 @@
     }
 
     .main_body {
-        // @include border(red);
+        section {
+            background: white;
+        }
         margin-top: 30px;
         display: grid;
         grid-template-columns: 3fr 1fr;
@@ -82,6 +84,7 @@
         }
 
         .owner-box {
+            background: white;
             grid-area: owner;
             max-height: 400px;
             padding: 20px 0px;
@@ -109,6 +112,7 @@
         .youtube-video {
             @include border($border);
             grid-area: youtube;
+            background: transparent;
         }
     }
 }
