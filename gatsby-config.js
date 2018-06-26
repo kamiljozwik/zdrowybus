@@ -5,7 +5,19 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    'gatsby-plugin-eslint',
+    {
+      resolve: 'gatsby-plugin-eslint',
+      options: {
+        test: /\.js$|\.jsx$/,
+        exclude: /(node_modules|cache|public)/,
+        options: {
+          emitWarning: true,
+          emitError: false,
+          failOnWarning: false,
+          failOnError: false
+        }
+      }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
