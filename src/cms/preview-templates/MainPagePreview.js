@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { MainPageTemplate } from '../../templates/main-page'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { MainPageTemplate } from '../../templates/main-page';
 
 const MainPagePreview = ({ entry, getAsset }) => (
   <MainPageTemplate
@@ -25,6 +25,13 @@ const MainPagePreview = ({ entry, getAsset }) => (
       }
     }}
   />
-)
+);
 
-export default MainPagePreview
+MainPagePreview.propTypes = {
+  entry: PropTypes.shape({
+    getIn: PropTypes.func,
+  }),
+  getAsset: PropTypes.func,
+};
+
+export default MainPagePreview;
