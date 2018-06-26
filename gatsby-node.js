@@ -83,3 +83,19 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     })
   }
 }
+
+exports.onCreatePage = async ({ page, boundActionCreators }) => {
+  const { createPage } = boundActionCreators;
+
+  return new Promise((resolve, reject) => {
+    if (page.path.match(/^\/landing-page/)) {
+      // It's assumed that `landingPage.js` exists in the `/layouts/` directory
+      page.layout = "landing";
+
+      // Update the page.
+      createPage(page);
+    }
+
+    resolve();
+  });
+};
