@@ -42,6 +42,10 @@
         }
         &--enter {
             @include enter;
+            a {
+                display: inline-block;
+                width: 100%;
+            }
         }
     }
     .landing-right {

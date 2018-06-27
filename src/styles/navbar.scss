@@ -13,6 +13,7 @@
         top: 0;
         left: 30px;
         width: 100px;
+        cursor: pointer;
     }
     .navbar__wrapper {
         margin: 0 auto;
@@ -23,8 +24,10 @@
         align-items: center;
     }
     .navbar__item {
-        padding: 0 50px;
+        // padding: 0 50px;
+        width: 150px;
         display: flex;
+        justify-content: center;
         height: 100%;
         align-items: center;
         color: white;
@@ -32,13 +35,18 @@
         font-size: 18px;
         cursor: pointer;
         transition: 0.2s;
-        &:last-child {
-            padding-right: 0;
-        }
         &:hover {
             background: $green;
-            transition: 0.4s;
-        }       
+            transition: 0.3s;
+        }
+        &.active {
+            background: $green;
+        }
+        a {
+            width: 100%;
+            text-align: center;
+            display: inline-block;
+        }
     }
 
 }

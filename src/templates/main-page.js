@@ -9,7 +9,7 @@ export const MainPageTemplate = ({
     notes,
     ownerBox,
 }) => (
-    <section className="main">
+    <section className="main component-wrapper">
         <div className="main__jumbo jumbo">
             <div className="jumbo__title">{jumbotrone.title}</div>
             <div className="jumbo__desc">{jumbotrone.description}</div>
@@ -18,16 +18,16 @@ export const MainPageTemplate = ({
                 <a className="links__fb" href="http://www.facebook.pl"><img alt="FB logo" src={fb} /></a>
             </div>
         </div>
-        <div className="main_body">
-            <section className="intro">
+        <div className="main_body component_body">
+            <section className="intro text-box">
                 <div className="intro__title title">{intro.title}</div>
                 <div className="intro__desc desc">{intro.description}</div>
             </section>
-            <section className="notes">
+            <section className="notes text-box">
                 <div className="notes__title title">{notes.title}</div>
                 <div className="notes__desc desc">{notes.description}</div>
             </section>
-            <section className="owner-box">
+            <section className="owner-box right-box">
                 <div className="owner-box__img">
                     <img
                         src={ownerBox.avatar.image}
@@ -43,7 +43,7 @@ export const MainPageTemplate = ({
                         className="youtube-video__iframe"
                         src="https://www.youtube.com/embed/hmXjyOWi6nc?rel=0&amp;showinfo=1"
                         frameBorder="0"
-                        allowFullScreen=""
+                        allowFullScreen="true"
                         title="ZdrowyBus"
                     />
                 </div>

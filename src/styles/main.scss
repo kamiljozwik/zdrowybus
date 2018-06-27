@@ -1,6 +1,5 @@
-.main {
-    width: 80%;
-    margin: 0 auto;
+
+
     .jumbo {
         background: url(../img/jumbo.jpg) no-repeat;
         background-size: cover;
@@ -48,44 +47,25 @@
     }
 
     .main_body {
-        section {
-            background: white;
-        }
-        margin-top: 30px;
         display: grid;
         grid-template-columns: 3fr 1fr;
         grid-gap: 20px;
-        
         grid-template-areas:
             "intro owner"
             "notes owner"
-            "youtube ."; 
-        .title {
-            padding: 5px 0px;
-            font-family: 'Roboto-Regular';
-            font-size: 30px;
-        }
-        .desc {
-            font-family: 'Roboto-Light';
-            font-size: 18px;
-            padding-top: 15px;
-            line-height: 1.3;
-        }
+            "youtube .";
+
         .intro {
-            @include border($border);
             grid-area: intro;
-            padding: 10px;
         }
 
         .notes {
-            @include border($border);
             grid-area: notes;
-            padding: 10px;
         }
 
-        .owner-box {
-            background: white;
+        .owner-box, .right-box {
             grid-area: owner;
+            background: white;
             max-height: 400px;
             padding: 20px 0px;
             &__img {
@@ -110,9 +90,14 @@
             }
         }
         .youtube-video {
-            @include border($border);
             grid-area: youtube;
+            @include border($border);
+            align-self: center;
+            justify-self: center;
             background: transparent;
+            &__iframe {
+                width: 800px;
+                height: 600px;
+            }
         }
     }
-}
