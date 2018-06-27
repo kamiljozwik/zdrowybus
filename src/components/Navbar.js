@@ -17,7 +17,7 @@ const Navbar = ({ path }) => (
             <li className={`navbar__item ${path === '/project' ? 'active' : ''}`}><Link to="/project">Projekt</Link></li>
             <li className={`navbar__item ${path === '/join' ? 'active' : ''}`}><Link to="/join">Dołącz</Link></li>
             <li className={`navbar__item ${path === '/team' ? 'active' : ''}`}><Link to="/team">Zespół</Link></li>
-            <li className={`navbar__item ${path === '/blog' ? 'active' : ''}`}><Link to="/blog">BLOG</Link></li>
+            <li className={`navbar__item ${path === '/blogEntry' ? 'active' : ''}`}><Link to="/blogEntry">BLOG</Link></li>
             <li className={`navbar__item ${path === '/contact' ? 'active' : ''}`}><Link to="/contact">Kontakt</Link></li>
         </ul>
     </nav>
