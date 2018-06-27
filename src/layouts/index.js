@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Nabvar from '../components/Navbar';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 import '../styles/styles.scss';
 
@@ -12,7 +12,7 @@ const TemplateWrapper = ({ children, location }) => (
             <Helmet title="ZdrowyBus" />
             <Nabvar path={location.pathname} />
             <div>{children()}</div>
-            <Footer />
+            {/* <Footer */}
         </div>
     </React.Fragment>
 );

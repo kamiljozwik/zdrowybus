@@ -1,0 +1,39 @@
+.contact {
+    .contact_body {
+        display: flex;
+        flex-wrap: wrap;
+        .first-field, .second-field {
+            width: 60%;
+            border: none;
+            padding: 20px 0px;
+            width: 50%;
+        }
+
+        .links {
+            width: 40%;
+            .contact_links {
+                padding-left: 150px;
+                // border: 1px solid red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+            &__yt {
+                display: inline-block;
+                position: relative;
+                img {
+                    height: 70px;
+                }
+            }
+            &__fb {
+                display: inline-block;
+                position: relative;
+                margin-left: 50px;
+                img {
+                    height: 70px;
+                }
+            }
+        }
+    }
+}
