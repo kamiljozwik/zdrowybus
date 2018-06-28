@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import yt from '../img/youtube.svg';
 import fb from '../img/facebook.svg';
 
-export const BlogPageTemplate = ({
+export const ContactPageTemplate = ({
     firstField,
     secondField,
 }) => (
@@ -27,11 +27,11 @@ export const BlogPageTemplate = ({
     </section>
 );
 
-const BlogPage = ({ data }) => {
+const ContactPage = ({ data }) => {
     const { markdownRemark: post } = data;
 
     return (
-        <BlogPageTemplate
+        <ContactPageTemplate
             title={post.frontmatter.title}
             firstField={post.frontmatter.firstField}
             secondField={post.frontmatter.secondField}
@@ -39,20 +39,20 @@ const BlogPage = ({ data }) => {
     );
 };
 
-export default BlogPage;
+export default ContactPage;
 
-BlogPageTemplate.propTypes = {
+ContactPageTemplate.propTypes = {
     firstField: PropTypes.object,
     secondField: PropTypes.object,
 };
 
-BlogPage.propTypes = {
+ContactPage.propTypes = {
     data: PropTypes.object,
 };
 
 /* eslint-disable */
-export const blogPageQuery = graphql`
-  query BlogPage($id: String!) {
+export const contactPageQuery = graphql`
+  query ContactPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
