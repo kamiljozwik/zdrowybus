@@ -59,3 +59,10 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
           - {label: firstField, name: firstField, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
           - {label: secondField, name: secondField, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
+      - file: "src/pages/team/index.md"
+        label: "Team Page"
+        name: "team"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+          - {label: firstField, name: firstField, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
+          - {label: person1, name: person1, widget: object, fields: [{label: name, name: name, widget: string}, {label: description, name: description, widget: text}, {label: avatar, name: avatar, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
