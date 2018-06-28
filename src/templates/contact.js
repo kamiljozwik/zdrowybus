@@ -15,8 +15,8 @@ export const ContactPageTemplate = ({
             </section>
             <section className="links">
                 <div className="contact_links">
-                    <a className="links__yt" href="http://www.youtube.pl"><img alt="YT logo" src={yt} /></a>
-                    <a className="links__fb" href="http://www.facebook.pl"><img alt="FB logo" src={fb} /></a>        
+                    <a className="links__yt" href="https://www.youtube.com/channel/UCYkgb3qAj6vQ9bgF_Eitvdg"><img alt="YT logo" src={yt} /></a>
+                    <a className="links__fb" href="https://www.facebook.com/ZdrowyBuspl/"><img alt="FB logo" src={fb} /></a>        
                 </div>
             </section>
             <section className="second-field text-box">

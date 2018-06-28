@@ -14,8 +14,8 @@ export const MainPageTemplate = ({
             <div className="jumbo__title">{jumbotrone.title}</div>
             <div className="jumbo__desc">{jumbotrone.description}</div>
             <div className="jumbo__links links">
-                <a className="links__yt" href="http://www.youtube.pl"><img alt="YT logo" src={yt} /></a>
-                <a className="links__fb" href="http://www.facebook.pl"><img alt="FB logo" src={fb} /></a>
+                <a className="links__yt" href="https://www.youtube.com/channel/UCYkgb3qAj6vQ9bgF_Eitvdg"><img alt="YT logo" src={yt} /></a>
+                <a className="links__fb" href="https://www.facebook.com/ZdrowyBuspl/"><img alt="FB logo" src={fb} /></a>
             </div>
         </div>
         <div className="main_body component_body">
@@ -41,7 +41,7 @@ export const MainPageTemplate = ({
                 <div className="youtube-video__wrapper">
                     <iframe
                         className="youtube-video__iframe"
-                        src="https://www.youtube.com/embed/hmXjyOWi6nc?rel=0&amp;showinfo=1"
+                        src="https://www.youtube.com/embed/KUEZyt4L-ow1?rel=0&amp;showinfo=1"
                         frameBorder="0"
                         allowFullScreen="true"
                         title="ZdrowyBus"
