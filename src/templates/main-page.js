@@ -41,7 +41,7 @@ export const MainPageTemplate = ({
                 <div className="youtube-video__wrapper">
                     <iframe
                         className="youtube-video__iframe"
-                        src="https://www.youtube.com/embed/KUEZyt4L-ow1?rel=0&amp;showinfo=1"
+                        src="https://www.youtube.com/embed/KUEZyt4L-ow?ecver=1"
                         frameBorder="0"
                         allowFullScreen="true"
                         title="ZdrowyBus"
