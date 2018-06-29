@@ -1,0 +1,26 @@
+.project_body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "firstField rightGraph"
+        "busGraph rightGraph"
+        "secondField ."; 
+}
+
+.first-field {
+    grid-area: firstField;
+}
+
+.second-field {
+    grid-area: secondField;
+}
+
+.right-graph {
+    grid-area: rightGraph
+}
+
+.bus-graph {
+    grid-area: busGraph;
+    justify-self: center;
+}

@@ -1,12 +1,10 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import logo from '../assets/Logo.png';
+// import Link from 'gatsby-link';
 
 const Footer = () => (
-  <footer>
-    <span>Copyrigth: zdrowybus.pl</span>
-    <span>Author: kamiljozwik</span>
-  </footer>
+    <footer className="footer">
+        <span>zdrowybus.pl - 2018 - All rights reserved</span>
+    </footer>
 );
 
 export default Footer;

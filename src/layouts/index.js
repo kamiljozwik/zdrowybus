@@ -1,30 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ParallaxProvider } from 'react-scroll-parallax';
 import Helmet from 'react-helmet';
-import Navigation from '../components/Navigation';
-import './styles/index.scss';
-import Footer from '../components/Footer';
+import Nabvar from '../components/Navbar';
+// import Footer from '../components/Footer';
 
-const TemplateWrapper = ({ children }) => (
-  <ParallaxProvider>
-    <div>
-      <Helmet
-        title="Zdrowy Bus"
-        meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' }
-        ]}
-      />
-      <Navigation />
-      <div>{children()}</div>
-      <Footer />
-    </div>
-  </ParallaxProvider>
+import '../styles/styles.scss';
+
+const TemplateWrapper = ({ children, location }) => (
+    <React.Fragment>
+        <div>
+            <Helmet title="ZdrowyBus" />
+            <Nabvar path={location.pathname} />
+            <div>{children()}</div>
+            {/* <Footer */}
+        </div>
+    </React.Fragment>
 );
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func
+    children: PropTypes.func,
+    location: PropTypes.object
 };
 
 export default TemplateWrapper;
