@@ -23,7 +23,7 @@ module.exports = {
         }
       }
     },
-    {
+    /* {
       resolve: 'gatsby-plugin-eslint',
       options: {
         test: /\.js$|\.jsx$/,
@@ -35,7 +35,7 @@ module.exports = {
           failOnError: false
         }
       }
-    },
+    }, */
     {
       resolve: 'gatsby-source-filesystem',
       options: {

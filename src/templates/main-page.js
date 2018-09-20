@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import yt from '../img/youtube.svg';
 import fb from '../img/facebook.svg';
+import { graphql } from "gatsby"
 
 export const MainPageTemplate = ({
     jumbotrone,

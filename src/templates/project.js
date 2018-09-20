@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import busGraph from '../img/BusOfficial.jpg';
 import infografika from '../img/Infografika.png';
+import { graphql } from "gatsby"
 
 export const ProjectPageTemplate = ({
     firstField,

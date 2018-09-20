@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import busGraph from '../img/friends2.jpg';
+import { graphql } from "gatsby"
 
 export const JoinPageTemplate = ({
     firstField,

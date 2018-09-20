@@ -7,12 +7,12 @@ import '../styles/styles.scss';
 const TemplateWrapper = ({ children }) => (
     <div>
         <Helmet title="ZdrowyBus" />
-        <div>{children()}</div>
+        <div>{children}</div>
     </div>
 );
 
-TemplateWrapper.propTypes = {
-    children: PropTypes.func,
-};
+// TemplateWrapper.propTypes = {
+//     children: PropTypes.func,
+// };
 
 export default TemplateWrapper;

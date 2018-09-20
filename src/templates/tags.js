@@ -1,7 +1,8 @@
 /*eslint-disable*/
 import React from 'react'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
+import { graphql } from "gatsby"
 
 class TagRoute extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class TagRoute extends React.Component {
         </Link>
       </li>
     ))
-    const tag = this.props.pathContext.tag
+    const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
     const tagHeader = `${totalCount} post${

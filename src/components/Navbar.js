@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link, { navigateTo } from 'gatsby-link';
+import { Link, navigate } from 'gatsby';
 import Logo from '../img/Logo_small.png';
 
 const Navbar = ({ path }) => (
@@ -10,8 +10,8 @@ const Navbar = ({ path }) => (
             src={Logo}
             alt="navbar logo"
             role="presentation"
-            onClick={() => navigateTo('/main')}
-            onKeyDown={() => navigateTo('/main')}
+            onClick={() => navigate('/main')}
+            onKeyDown={() => navigate('/main')}
         />
         <ul className="navbar__wrapper">
             <li className={`navbar__item ${path === '/project' ? 'active' : ''}`}><Link to="/project">Projekt</Link></li>
