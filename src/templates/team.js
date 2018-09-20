@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from "gatsby"
+import Layout from '../components/layout'
 
 export const TeamPageTemplate = ({
     firstField,
     person1,
 }) => (
+    <Layout>
     <section className="team component-wrapper">
         <div className="team_body component_body">
             <section className="first-field">
@@ -26,6 +28,7 @@ export const TeamPageTemplate = ({
             </section>
         </div>
     </section>
+    </Layout>
 );
 
 const TeamPage = ({ data }) => {

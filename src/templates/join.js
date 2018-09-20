@@ -2,11 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import busGraph from '../img/friends2.jpg';
 import { graphql } from "gatsby"
+import Layout from '../components/layout'
 
 export const JoinPageTemplate = ({
     firstField,
     secondField,
 }) => (
+    <Layout>
     <section className="join component-wrapper">
         <div className="join_body component_body">
             <section className="first-field text-box">
@@ -22,6 +24,7 @@ export const JoinPageTemplate = ({
             </section>
         </div>
     </section>
+    </Layout>
 );
 
 const JoinPage = ({ data }) => {

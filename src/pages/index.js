@@ -2,10 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import Logo from '../img/Logo.png';
+import LandingLayout from '../components/landingLayout'
 
 export default class IndexPage extends React.Component {
     render() {
         return (
+            <LandingLayout>
             <section className="landing">
                 <div className="landing-left">
                     <div className="landing__left-panel panel">
@@ -22,6 +24,7 @@ export default class IndexPage extends React.Component {
                     </div>
                 </div>
             </section>
+            </LandingLayout>
         );
     }
 }

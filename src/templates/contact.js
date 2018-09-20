@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 import yt from '../img/youtube.svg';
 import fb from '../img/facebook.svg';
 import { graphql } from "gatsby";
+import Layout from '../components/layout'
 
 export const ContactPageTemplate = ({
     firstField,
     secondField,
 }) => (
+    <Layout>
     <section className="contact component-wrapper">
         <div className="contact_body component_body">
             <section className="first-field text-box">
@@ -26,6 +28,7 @@ export const ContactPageTemplate = ({
             </section>
         </div>
     </section>
+    </Layout>
 );
 
 const ContactPage = ({ data }) => {

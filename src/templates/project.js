@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 import busGraph from '../img/BusOfficial.jpg';
 import infografika from '../img/Infografika.png';
 import { graphql } from "gatsby"
+import Layout from '../components/layout'
 
 export const ProjectPageTemplate = ({
     firstField,
     secondField,
 }) => (
+    <Layout>
     <section className="project component-wrapper">
         <div className="project_body component_body">
             <section className="first-field text-box">
@@ -26,6 +28,7 @@ export const ProjectPageTemplate = ({
             </section>
         </div>
     </section>
+    </Layout>
 );
 
 const ProjectPage = ({ data }) => {

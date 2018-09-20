@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import yt from '../img/youtube.svg';
 import fb from '../img/facebook.svg';
 import { graphql } from "gatsby"
+import Layout from '../components/layout'
 
 export const MainPageTemplate = ({
     jumbotrone,
@@ -10,6 +11,7 @@ export const MainPageTemplate = ({
     notes,
     ownerBox,
 }) => (
+    <Layout>
     <section className="main component-wrapper">
         <div className="main__jumbo jumbo">
             <div className="jumbo__title">{jumbotrone.title}</div>
@@ -51,6 +53,7 @@ export const MainPageTemplate = ({
             </section>
         </div>
     </section>
+    </Layout>
 );
 
 const MainPage = ({ data }) => {
