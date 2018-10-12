@@ -1,13 +1,12 @@
 ---
 templateKey: contact
 firstField:
-  description: |+
-    infoinfo@gmail
-
+  description: |
+    zdrowybus@gmail.com
+    arek_pralat@wp.pl
   title: Napisz do nas
 secondField:
-  description: |
-    Nie mamy hajsu :)
-  title: Info dla sponsorów
+  description: ''
+  title: 'Dla sponsorów:'
 ---
 
