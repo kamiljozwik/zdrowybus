@@ -1,12 +1,12 @@
 body {
     height: 100%;
     min-height: 100%;
+    background: $black;
+    color: white;
 }
 
 .component-wrapper {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 60px;
+    position: relative;
 }
 
 .component_body {
@@ -14,12 +14,7 @@ body {
 }
 
 section {
-    background: white;
-}
-
-.text-box {
-    @include border($border);
-    padding: 10px;
+    background: $black;
 }
 
 .title {

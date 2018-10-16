@@ -1,46 +1,49 @@
 {
-  "parser": "babel-eslint",
-  "extends": "airbnb",
-  "parserOptions": {
-      "ecmaVersion": 8
-  },
-  "plugins": ["react", "jsx-a11y", "import"],
-  "env": {
-      "browser": true,
-      "node": true
-  },
-  "globals": {},
-  "rules": {
-      "class-methods-use-this": "off",
-      "comma-dangle": "off", // nie wymagaj przecinka na końcu ostatniej linii w obiektach
-      "function-paren-newline": [2, "consistent"], // equires consistent usage of linebreaks for each pair of parentheses. It reports an error if one parenthesis in the pair has a linebreak inside it and the other parenthesis does not.
-      "func-names": ["error", "as-needed"],
-      "indent": ["error", 2, { "SwitchCase": 1 }],
-      "jsx-quotes": ["error", "prefer-double"], // enforces the use of double quotes for all JSX attribute values that don’t contain a double quote.
-      "linebreak-style": ["warn", "windows"], // domyślnie Enter jest traktowany jako błąd na Windowsie, teraz nie jest
-      "max-len": ["error", { "code": 200, "ignoreComments": true, "ignoreStrings": true, "ignoreTemplateLiterals": true }], // maksymalna długość jednej linii kodu
-      "no-debugger": "off",
-      "no-multiple-empty-lines": ["warn", { "max": 5 }], // max 5 pustych linii w pliku
-      "no-plusplus": "off", // pozwala na użycie foo++
-      "no-prototype-builtins": "warn",
-      "no-underscore-dangle": ["error", { "allow": ["__REDUX_DEVTOOLS_EXTENSION_COMPOSE__", "_state"], "enforceInMethodNames": true }], // allows dangling underscores (np. "_foo") only in method names
-      "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }], // pozawala na użycie "warunek ? ifTrue : ifFalse"
-      "no-unused-vars": ["warn", { "args": "none" }], // argumenty funkcji nie oznaczane jak warn, nie użyta zmienna oznaczana jako warn
-      "quotes": ["warn", "single", { "allowTemplateLiterals": true }], // tylko singlequotes oraz backticks na stringach
-      "radix": ["error", "as-needed"],
-      "react/forbid-prop-types": ["error", { "forbid": ["any"], "checkContextTypes": false, "checkChildContextTypes": false }], //zabrania tylko uzywania "any" w proptypes'ach
-      "react/jsx-filename-extension": 0, // można używać JSX w pliku z każdym rozszerzeniem
-      "react/jsx-first-prop-new-line": [1, "multiline"], //The first property should always be placed on a new line when the JSX tag takes up multiple lines.
-      "react/jsx-indent": [1, 2], // wcięcie na 2 spacje dla JSX
-      "react/jsx-indent-props": [1, 2], // wcięcie dla propsów, na 2 spacje
-      "react/jsx-max-props-per-line": [1, { "maximum": 3 }], // maksymalna liczba propsów dla JSX w jednej linii
-      "semi": ["error", "always", { "omitLastInOneLineBlock": true }], // wymagaj średników na końcu linii
-      "react/prefer-stateless-function": "off",
-      "no-return-assign": ["error", "except-parens"], // można teraz używać bez warningów ref'ów
-      "react/destructuring-assignment": 0,
-      "jsx-a11y/label-has-associated-control": 0,
-      "jsx-a11y/label-has-for": 0,
-      "jsx-a11y/anchor-is-valid": 0,
-      "react/no-danger": 0,
-  }
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": 8
+    },
+    "plugins": ["react", "jsx-a11y", "import"],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals": {},
+    "rules": {
+        "class-methods-use-this": "off",
+        "comma-dangle": "off", // nie wymagaj przecinka na końcu ostatniej linii w obiektach
+        "function-paren-newline": [2, "consistent"], // equires consistent usage of linebreaks for each pair of parentheses. It reports an error if one parenthesis in the pair has a linebreak inside it and the other parenthesis does not.
+        "func-names": ["error", "as-needed"],
+        "indent": ["error", 2, { "SwitchCase": 1 }],
+        "jsx-quotes": ["error", "prefer-double"], // enforces the use of double quotes for all JSX attribute values that don’t contain a double quote.
+        "linebreak-style": ["warn", "windows"], // domyślnie Enter jest traktowany jako błąd na Windowsie, teraz nie jest
+        "max-len": ["error", { "code": 200, "ignoreComments": true, "ignoreStrings": true, "ignoreTemplateLiterals": true }], // maksymalna długość jednej linii kodu
+        "no-debugger": "off",
+        "no-multiple-empty-lines": ["warn", { "max": 5 }], // max 5 pustych linii w pliku
+        "no-plusplus": "off", // pozwala na użycie foo++
+        "no-prototype-builtins": "warn",
+        "no-underscore-dangle": ["error", { "allow": ["__REDUX_DEVTOOLS_EXTENSION_COMPOSE__", "_state"], "enforceInMethodNames": true }], // allows dangling underscores (np. "_foo") only in method names
+        "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }], // pozawala na użycie "warunek ? ifTrue : ifFalse"
+        "no-unused-vars": ["warn", { "args": "none" }], // argumenty funkcji nie oznaczane jak warn, nie użyta zmienna oznaczana jako warn
+        "quotes": ["warn", "single", { "allowTemplateLiterals": true }], // tylko singlequotes oraz backticks na stringach
+        "radix": ["error", "as-needed"],
+        "react/forbid-prop-types": ["error", { "forbid": ["any"], "checkContextTypes": false, "checkChildContextTypes": false }], //zabrania tylko uzywania "any" w proptypes'ach
+        "react/jsx-filename-extension": 0, // można używać JSX w pliku z każdym rozszerzeniem
+        "react/jsx-first-prop-new-line": [1, "multiline"], //The first property should always be placed on a new line when the JSX tag takes up multiple lines.
+        "react/jsx-indent": [1, 2], // wcięcie na 2 spacje dla JSX
+        "react/jsx-indent-props": [1, 2], // wcięcie dla propsów, na 2 spacje
+        "react/jsx-max-props-per-line": [1, { "maximum": 3 }], // maksymalna liczba propsów dla JSX w jednej linii
+        "semi": ["error", "always", { "omitLastInOneLineBlock": true }], // wymagaj średników na końcu linii
+        "react/prefer-stateless-function": "off",
+        "no-return-assign": ["error", "except-parens"], // można teraz używać bez warningów ref'ów
+        "react/destructuring-assignment": 0,
+        "jsx-a11y/label-has-associated-control": 0,
+        "jsx-a11y/label-has-for": 0,
+        "jsx-a11y/anchor-is-valid": 0,
+        "react/no-danger": 0,
+        "object-curly-newline": 0,
+        "prefer-destructuring": ["error", {"object": true, "array": false}],
+        "react/prop-types": [1, { "ignore": ["data"] }]
+    }
 }
