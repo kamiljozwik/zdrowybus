@@ -101,4 +101,7 @@ notes:
     dobrej zabawy, pomocy innym
   title: Cele projektu
 ---
-
+* Lista
+* Lista
+* Lista
+* Lista
