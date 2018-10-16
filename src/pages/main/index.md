@@ -37,11 +37,18 @@ intro:
     Ciesz się Swoim życiem! ; )
   title: 'Tytułem wstępu: '
 notes:
-  description: >
+  description: >-
     Ogólny: 
 
 
     Promocja zdrowego stylu życia
+
+
+    * element1
+
+    * element2
+
+    * element3
 
 
     Szczegółowe: 
@@ -69,13 +76,7 @@ notes:
     8. Pisanie poradników -podróżniczych ( co warto zwiedzić itp.) -motywujących
     ( dąż do celu, rób co kochasz, rozwijaj się, celebruj życie, szanuj każdą
     chwilę, niemożliwe nie istnieje 
-
-    9.Branie udziału w wydarzeniach sportowych - zdobywanie koron górskich -
-    biegi uliczne - biegi miejskie z przeszkodami - biegi górskie - biegi
-    ekstremalne - spływy kajakowe - rafting - ścianki wspinaczkowe - skoki
-    bungee - skoki spadochronowe - Adventure race - nurkowanie - mecze uliczne
-    koszykówki, piłki nożnej, siatkówki.
-
+       9.Branie udziału w wydarzeniach sportowych - zdobywanie koron górskich - biegi uliczne - biegi miejskie z przeszkodami - biegi górskie - biegi ekstremalne - spływy kajakowe - rafting - ścianki wspinaczkowe - skoki bungee - skoki spadochronowe - Adventure race - nurkowanie - mecze uliczne koszykówki, piłki nożnej, siatkówki.
 
     ZAŁOŻENIA:
 
