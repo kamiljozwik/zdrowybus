@@ -6,15 +6,19 @@ jumbotrone:
 intro:
   description: >-
     Podróż, sport, pasja, promocja zdrowego stylu życia, dawanie szczęścia i
-    pomoc innym. 
+    pomoc innym.
 
 
-    Ruszył ZdrowyBus.pl!  
+    Ruszył ZdrowyBus.pl!
+
+
 
 
     Jeździmy po świecie, zarażając pasją do sportu - Przeprowadzając: warsztaty,
     animacje, festyny sportowe. Pokazując przy tym, że zdrowe odżywianie i
     aktywność fizyczna idzie w parze z  podróżowaniem!
+
+
 
 
     Dodatkowo opisujemy poznane miejsca/kulturę, podsyłamy inspirujące materiały
@@ -23,10 +27,14 @@ intro:
     sportu, pasji i podróży. 
 
 
+
+
     Zapraszamy do aktywnego udziału w życia Fanpage’a! :) 
 
 
-    Ciesz się Swoim życiem! ; ) 
+
+
+    Ciesz się Swoim życiem! ; )
   title: 'Tytułem wstępu: '
 notes:
   description: >
@@ -91,23 +99,5 @@ notes:
     7. Pokażemy, że podróżowanie może być stylem życia, źródłem zarobku, wiedzy,
     dobrej zabawy, pomocy innym
   title: Cele projektu
-ownerBox:
-  avatar:
-    alt: Logo projektu
-    image: /img/bus-logo-official-bez-tła.png
-  description: >2-
-     Arkadiusz Prałat magister Wychowania Fizycznego na Akademii Wychowania Fizycznego we Wrocławiu. Instruktor Kulturystyki, Fitness oraz Trener Personalny. Otrzymywał stypendium rektora dla najlepszych studentów na swojej uczelni przez 2 lata trwania mgr. Uczestnik wielu szkoleń o tematyce zdrowia, treningu oraz rozwoju osobistego. Jego pasja związana ze sportem trwa od 6 roku życia i dotyczy wielu dyscyplin, co rzutuje na szeroką wiedzę w zakresie aktywności fizycznej oraz zdrowego stylu życia. Jego konikiem jest lekkoatletyka, a dokładnie mówiąc biegi długie oraz biegi ekstremalne. Autor książki "Jak żyć zdrowo i mieć 100% skuteczności w działaniu, czyli to co najważniejsze." Publikacja zawiera nie tylko porady zdrowotne, bądź treningowe, ale przede wszystkim mówi nam o motywacji do działania i spełnianiu swoich celów, swoich marzeń. 
-    Twórca Fanpaga: Enjoy Your Life (ciesz się swoim życiem) oraz założyciel
-    grupy pasjonatów których celem jest wspólne spełnianie marzeń.
-    https://www.facebook.com/Ciesz.sie.Swoim.zyciem/ Podróżnik, który jak
-    miesiąc siedzi w jednym miejscu to czuję się nieswojo. Głodny poznawania
-    świata. Zwiedził już 20 krajów każdym rodzajem transportu – od siły własnych
-    mięśni, po busa, auto-stopowanie, prom czy samolot. Uczestnik wielu akcji
-    charytatywnych. Największe marzenie? Być szczęśliwym w każdej sekundzie
-    życia i dzielić się szczęściem z innymi. Jak można się domyślić jest osobą
-    bardzo energiczną i pozytywnie nastawioną do życia. Ulubiony cytat: „Żyje
-    się tylko raz, ale jeśli zrobisz to właściwie, to jeden raz wystarczy” Mae
-    West
-  title: 'Krótko o pomysłodawcy projektu:'
 ---
 
