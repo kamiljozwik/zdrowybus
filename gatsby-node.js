@@ -3,7 +3,7 @@ const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage, createRedirect } = actions;
+  const { createPage } = actions;
 
   return graphql(`
     {
@@ -43,7 +43,6 @@ exports.createPages = ({ actions, graphql }) => {
           id,
         },
       });
-      createRedirect({ fromPath: '/', toPath: '/main', isPermanent: true });
     });
 
     // Tag pages:

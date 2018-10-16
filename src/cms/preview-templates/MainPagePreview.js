@@ -16,14 +16,6 @@ const MainPagePreview = ({ entry, getAsset }) => (
             title: entry.getIn(['data', 'notes', 'title']),
             description: entry.getIn(['data', 'notes', 'description']),
         }}
-        ownerBox={{
-            title: entry.getIn(['data', 'ownerBox', 'title']),
-            description: entry.getIn(['data', 'ownerBox', 'description']),
-            avatar: {
-                image: getAsset(entry.getIn(['data', 'ownerBox', 'avatar', 'image'])),
-                alt: entry.getIn(['data', 'ownerBox', 'avatar', 'alt']),
-            }
-        }}
     />
 );
 

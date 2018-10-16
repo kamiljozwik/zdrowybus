@@ -102,3 +102,13 @@ notes:
   title: Cele projektu
 ---
 
+## KAMIL
+
+Kamil The Specialty Coffee Assoc Kamil trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+
+* Kamil
+* roasters
+* importers/exporters
+* retailers
+* manufacturers
+* baristas

@@ -1,15 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import yt from '../img/youtube.svg';
-import fb from '../img/facebook.svg';
 import Layout from '../components/layout';
 
 export const MainPageTemplate = ({
   jumbotrone,
   intro,
   notes,
-  ownerBox,
+  html
 }) => (
   <Layout>
     <section className="main component-wrapper">
@@ -25,6 +23,7 @@ export const MainPageTemplate = ({
         <section className="notes">
           <div className="notes__title title">{notes.title}</div>
           <div className="notes__desc desc">{notes.description}</div>
+          <div className="html" dangerouslySetInnerHTML={{ __html: html }} />
         </section>
       </div>
     </section>
@@ -40,7 +39,7 @@ const MainPage = ({ data }) => {
       jumbotrone={post.frontmatter.jumbotrone}
       intro={post.frontmatter.intro}
       notes={post.frontmatter.notes}
-      ownerBox={post.frontmatter.ownerBox}
+      html={post.html}
     />
   );
 };
@@ -50,13 +49,14 @@ export default MainPage;
 MainPageTemplate.propTypes = {
   jumbotrone: PropTypes.object.isRequired,
   intro: PropTypes.object.isRequired,
-  notes: PropTypes.object.isRequired,
-  ownerBox: PropTypes.object.isRequired,
+  notes: PropTypes.object.isRequired
 };
 
 MainPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
+
+// "4a959880-fa53-5806-8fe1-d40f48bf2350"
 
 export const mainPageQuery = graphql`
   query MainPage($id: String!) {
@@ -75,15 +75,8 @@ export const mainPageQuery = graphql`
             title
             description
         }
-        ownerBox {
-            title
-            description
-            avatar {
-                image
-                alt
-            }
-        }
       }
+      html
     }
   }
 `;
