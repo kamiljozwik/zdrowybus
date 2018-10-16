@@ -112,3 +112,7 @@ Kamil The Specialty Coffee Assoc Kamil trade organization for the specialty coff
 * retailers
 * manufacturers
 * baristas
+* Lista
+* Lista
+* Lista
+* Lista
