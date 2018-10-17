@@ -13,7 +13,7 @@ export const MainPageTemplate = ({
         <div className="jumbo__title">{jumbotrone.title}</div>
         <div className="jumbo__desc">{jumbotrone.description}</div>
       </div>
-      <div className="main_body component_body">
+      <div className="main__body component_body">
         <section className="purposes cms_content" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </section>
