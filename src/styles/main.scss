@@ -24,11 +24,15 @@
         }
     }
 
-    .main_body {
-        .intro {
-            display: block;
-        }
-        .notes {
-            display: block
+    .main__body {
+        position: relative;
+        .main-desc {
+            &__purposes {
+                overflow: hidden;
+                &.show {
+                }
+                &--toggle {
+                }
+            }
         }
     }

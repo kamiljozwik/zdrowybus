@@ -46,4 +46,14 @@ footer.footer {
         width: 80%;
         color: #9E9E9E;
     }
-} 
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    background: $green;
+    font-family: 'Roboto-regular';
+    color: $black;
+    cursor: pointer;
+    padding: 2px;
+}
