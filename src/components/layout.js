@@ -16,7 +16,7 @@ const TemplateWrapper = props => (
           { name: 'keywords', content: 'sample, something' },
         ]}
       />
-      <Sidebar />
+      <Sidebar path={props.path} />
       <div>{props.children}</div>
     </div>
   </React.Fragment>
@@ -24,6 +24,7 @@ const TemplateWrapper = props => (
 
 TemplateWrapper.propTypes = {
   children: PropTypes.node.isRequired,
+  path: PropTypes.string.isRequired
 };
 
 export default TemplateWrapper;

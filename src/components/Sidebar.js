@@ -1,7 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import nanoid from 'nanoid';
 import { Link, navigate } from 'gatsby';
 import Logo from '../img/Logo_small.png';
+
+const menuItemsList = {
+  '/main': 'O nas',
+  '/trips': 'Wyprawy',
+  '/blogEntry': 'BLOG',
+  '/team': 'Zespół',
+  '/offer': 'Współpraca',
+  '/contact': 'Kontakt'
+};
+
+const renderList = path => (
+  Object.keys(menuItemsList).map((item, i) => (
+    <li className={`sidebar__item ${path === item ? 'active' : ''}`} key={nanoid()}>
+      <Link to={item}>{menuItemsList[item]}</Link>
+    </li>
+  ))
+);
 
 const Sidebar = ({ path }) => (
   <nav className="sidebar">
@@ -17,12 +35,7 @@ const Sidebar = ({ path }) => (
       />
     </div>
     <ul className="sidebar__links">
-      <li className="sidebar__item active"><Link to="/main">O nas</Link></li>
-      <li className="sidebar__item"><Link to="/trips">Wyprawy</Link></li>
-      <li className="sidebar__item"><Link to="/blogEntry">BLOG</Link></li>
-      <li className="sidebar__item"><Link to="/team">Zespół</Link></li>
-      <li className="sidebar__item"><Link to="/offer">Współpraca</Link></li>
-      <li className="sidebar__item"><Link to="/contact">Kontakt</Link></li>
+      {renderList(path)}
     </ul>
   </nav>
 );

@@ -1,8 +1,9 @@
 import React from 'react';
-import Layout from '../components/layout'
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
 
-export const BlogEntryPageTemplate = () => (
-  <Layout>
+export const BlogEntryPageTemplate = ({ path }) => (
+  <Layout path={path}>
     <section className="blogEntry component-wrapper">
       <div className="blogEntry_body component_body">
         <div className="blogEntry__first-line">Zdrowy blog</div>
@@ -12,7 +13,25 @@ export const BlogEntryPageTemplate = () => (
   </Layout>
 );
 
-const BlogEntryPage = () => <BlogEntryPageTemplate />;
+const BlogEntryPage = ({ data }) => {
+  const { markdownRemark: post } = data;
 
+  return (
+    <BlogEntryPageTemplate
+      path={post.frontmatter.path}
+    />
+  );
+};
 
 export default BlogEntryPage;
+
+export const blogPageQuery = graphql`
+  query BlogPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      frontmatter {
+        path
+        title
+      }
+    }
+  }
+`;

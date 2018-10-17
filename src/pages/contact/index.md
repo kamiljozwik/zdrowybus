@@ -1,5 +1,6 @@
 ---
 templateKey: contact
+path: /contact
 firstField:
   description: |
     zdrowybus@gmail.com

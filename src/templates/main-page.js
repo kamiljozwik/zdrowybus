@@ -6,9 +6,10 @@ import Layout from '../components/layout';
 export const MainPageTemplate = ({
   jumbotrone,
   html,
-  description
+  description,
+  path
 }) => (
-  <Layout>
+  <Layout path={path}>
     <section className="main component-wrapper">
       <div className="main__jumbo jumbo">
         <div className="jumbo__title">{jumbotrone.title}</div>
@@ -29,6 +30,7 @@ const MainPage = ({ data }) => {
 
   return (
     <MainPageTemplate
+      path={post.frontmatter.path}
       title={post.frontmatter.title}
       jumbotrone={post.frontmatter.jumbotrone}
       description={post.frontmatter.description}
@@ -42,6 +44,7 @@ export default MainPage;
 MainPageTemplate.propTypes = {
   jumbotrone: PropTypes.object.isRequired,
   description: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
   html: PropTypes.any.isRequired //eslint-disable-line
 };
 
@@ -53,6 +56,7 @@ export const mainPageQuery = graphql`
   query MainPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
+        path
         title
         jumbotrone {
             title
