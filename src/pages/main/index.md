@@ -4,20 +4,12 @@ jumbotrone:
   description: Coś więcej niż sport i podróże. PASJA!
   title: ZdrowyBus!
 ---
-# Tytuł z edytora
 
-Lista z edytora
-
-* jeden
-* dwa
-* trzy
-
-\
-### Intro
+## Intro
 Podróż, sport, pasja, promocja zdrowego stylu życia, dawanie szczęścia i
 pomoc innym.
 
-Ruszył ZdrowyBus.pl!
+__Ruszył ZdrowyBus.pl!__
 
 Jeździmy po świecie, zarażając pasją do sportu - Przeprowadzając: warsztaty,
 animacje, festyny sportowe. Pokazując przy tym, że zdrowe odżywianie i
@@ -30,47 +22,35 @@ sportu, pasji i podróży.
 
 Zapraszamy do aktywnego udziału w życia Fanpage’a! :) 
 
-Ciesz się Swoim życiem! ; )
+__Ciesz się Swoim życiem! ;)__
 
-Ogólny: 
-
-Promocja zdrowego stylu życia
-
-* element1
-* element2
-* element3
-
-\###Szczegółowe: 
-
+## Główne cele: 
 1. Prowadzenie festynów sportowych 
 2. Prowadzenie zajęć sportowych z dziećmi 
 3. Przeprowadzanie zajęć fitness 
 4. Pokazy akrobatyki, parkour 
 5. Przemówienia motywacyjne 
-6. Prowadzenie warsztatów - z pierwszej pomocy, - motywacji, - zdrowego
-   stylu życia, - zdrowego odżywiania, - treningi personalne, fitness -
-   żonglerki
+6. Prowadzenie warsztatów: pierwsza pomoc, motywacja, zdrowy styl życia, zdrowe odżywiania, treningi personalne, fitness -
+żonglerki
 7. Seminaria, wykłady, prelekcje -  podróżnicze: co warto zwiedzić,
-   wskazówki podróżnicze: jak podróżować małym kosztem, jak połączyć podróże z
-   pracą, jak połączyć podróże                    ze zdrowym stylem życia,
-   dlaczego podróże wzbogacają itp. - motywacyjne 
+wskazówki podróżnicze: jak podróżować małym kosztem, jak połączyć podróże z
+pracą, jak połączyć podróże                    ze zdrowym stylem życia,
+dlaczego podróże wzbogacają itp. - motywacyjne 
 8. Pisanie poradników -podróżniczych ( co warto zwiedzić itp.) -motywujących
-   ( dąż do celu, rób co kochasz, rozwijaj się, celebruj życie, szanuj każdą
-   chwilę, niemożliwe nie istnieje.
+( dąż do celu, rób co kochasz, rozwijaj się, celebruj życie, szanuj każdą
+chwilę, niemożliwe nie istnieje.
+9. Branie udziału w wydarzeniach sportowych - zdobywanie koron górskich - biegi uliczne - biegi miejskie z przeszkodami - biegi górskie - biegi ekstremalne - spływy kajakowe - rafting - ścianki wspinaczkowe - skoki bungee - skoki spadochronowe - Adventure race - nurkowanie - mecze uliczne koszykówki, piłki nożnej, siatkówki.
 
-9.Branie udziału w wydarzeniach sportowych - zdobywanie koron górskich - biegi uliczne - biegi miejskie z przeszkodami - biegi górskie - biegi ekstremalne - spływy kajakowe - rafting - ścianki wspinaczkowe - skoki bungee - skoki spadochronowe - Adventure race - nurkowanie - mecze uliczne koszykówki, piłki nożnej, siatkówki.
-
-ZAŁOŻENIA:
-
+## ZAŁOŻENIA:
 1. Przekażemy jak największej liczbie osób wiedzę, radość, energię, pasję,
-   motywację, odwagę do realizacji celów. 
+motywację, odwagę do realizacji celów. 
 2. Zarazimy społeczeństwo zdrowym stylem życia oraz
-   sportem                          w niekonwencjonalny sposób. 
+sportem                          w niekonwencjonalny sposób. 
 3. Poznamy jak najwięcej miast, państw, krajów, kontynentów, kultur i
-   przekażemy zgromadzoną wiedzę. 
+przekażemy zgromadzoną wiedzę. 
 4. Zainspirujemy innych, że warto spełniać marzenia i cieszyć się życiem. 
 5. Wywołamy uśmiech na twarzach dzieci i dorosłych. 
 6. Udowodnimy, że można podróżować: żywiąc się racjonalnie, mając czas na
-   treningi oraz nie potrzebując większych nakładów finansowych. 
+treningi oraz nie potrzebując większych nakładów finansowych. 
 7. Pokażemy, że podróżowanie może być stylem życia, źródłem zarobku, wiedzy,
-   dobrej zabawy, pomocy innym
+dobrej zabawy, pomocy innym

@@ -14,15 +14,7 @@ export const MainPageTemplate = ({
         <div className="jumbo__desc">{jumbotrone.description}</div>
       </div>
       <div className="main_body component_body">
-        <section className="intro">
-          <div className="intro__title title">Intro tytuł</div>
-          <div className="intro__desc desc">Intro opis</div>
-        </section>
-        <section className="notes">
-          <div className="notes__title title">Notes Tytul</div>
-          <div className="notes__desc desc">Notes opis</div>
-          <div className="html" dangerouslySetInnerHTML={{ __html: html }} />
-        </section>
+        <section className="purposes cms_content" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </section>
   </Layout>
@@ -49,8 +41,6 @@ MainPageTemplate.propTypes = {
 MainPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
-
-// "4a959880-fa53-5806-8fe1-d40f48bf2350"
 
 export const mainPageQuery = graphql`
   query MainPage($id: String!) {
