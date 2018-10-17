@@ -3,16 +3,10 @@ templateKey: main-page
 jumbotrone:
   description: Coś więcej niż sport i podróże. PASJA!
   title: ZdrowyBus!
+description: >-
+  Jeździmy po świecie, zarażając pasją do sportu - Przeprowadzając: warsztaty, animacje, festyny sportowe. Pokazując przy tym, że zdrowe odżywianie i aktywność fizyczna idzie w parze z podróżowaniem!
+  Dodatkowo opisujemy poznane miejsca/kulturę, podsyłamy inspirujące materiały oraz prowadzimy prelekcję, aby poszerzać świadomość społeczeństwa nie tylko na temat zdrowego stylu życia ale także na temat rozwoju osobistego, sportu, pasji i podróży. 
 ---
-Jeździmy po świecie, zarażając pasją do sportu - Przeprowadzając: warsztaty,
-animacje, festyny sportowe. Pokazując przy tym, że zdrowe odżywianie i
-aktywność fizyczna idzie w parze z  podróżowaniem!
-
-Dodatkowo opisujemy poznane miejsca/kulturę, podsyłamy inspirujące materiały
-oraz prowadzimy prelekcję, aby poszerzać świadomość społeczeństwa nie tylko
-na temat zdrowego stylu życia, ale także na temat rozwoju osobistego,
-sportu, pasji i podróży. 
-
 ## Główne cele:
 
 1. Prowadzenie festynów sportowych 

@@ -5,7 +5,8 @@ import Layout from '../components/layout';
 
 export const MainPageTemplate = ({
   jumbotrone,
-  html
+  html,
+  description
 }) => (
   <Layout>
     <section className="main component-wrapper">
@@ -14,7 +15,10 @@ export const MainPageTemplate = ({
         <div className="jumbo__desc">{jumbotrone.description}</div>
       </div>
       <div className="main__body component_body">
-        <section className="purposes cms_content" dangerouslySetInnerHTML={{ __html: html }} />
+        <section className="main-desc">
+          <div className="main-desc__general">{description}</div>
+          <div className="main-desc__purposes cms_content" dangerouslySetInnerHTML={{ __html: html }} />
+        </section>
       </div>
     </section>
   </Layout>
@@ -27,6 +31,7 @@ const MainPage = ({ data }) => {
     <MainPageTemplate
       title={post.frontmatter.title}
       jumbotrone={post.frontmatter.jumbotrone}
+      description={post.frontmatter.description}
       html={post.html}
     />
   );
@@ -35,7 +40,9 @@ const MainPage = ({ data }) => {
 export default MainPage;
 
 MainPageTemplate.propTypes = {
-  jumbotrone: PropTypes.object.isRequired
+  jumbotrone: PropTypes.object.isRequired,
+  description: PropTypes.string.isRequired,
+  html: PropTypes.any.isRequired //eslint-disable-line
 };
 
 MainPage.propTypes = {
@@ -51,6 +58,7 @@ export const mainPageQuery = graphql`
             title
             description
         }
+        description
       }
       html
     }

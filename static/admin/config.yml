@@ -28,4 +28,6 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
           - {label: jumbotrone, name: jumbotrone, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
-          - {label: "Treść", name: "body", widget: "markdown"}
+          - {label: Ebook, name: ebook, widget: file,  default: "/ebook"}
+          - {label: Opis, name: description, widget: text}
+          - {label: Treść, name: "body", widget: markdown}
