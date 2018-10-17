@@ -33,5 +33,4 @@ sportu, pasji i podróży.
 4. Zainspirujemy innych, że warto spełniać marzenia i cieszyć się życiem. 
 5. Wywołamy uśmiech na twarzach dzieci i dorosłych. 
 6. Udowodnimy, że można podróżować: żywiąc się racjonalnie, mając czas na treningi oraz nie potrzebując większych nakładów finansowych. 
-7. Pokażemy, że podróżowanie może być stylem życia, źródłem zarobku, wiedzy,
-   dobrej zabawy, pomocy innym
+7. Pokażemy, że podróżowanie może być stylem życia, źródłem zarobku, wiedzy, dobrej zabawy, pomocy innym
