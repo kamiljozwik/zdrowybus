@@ -5,8 +5,6 @@ import Layout from '../components/layout';
 
 export const MainPageTemplate = ({
   jumbotrone,
-  intro,
-  notes,
   html
 }) => (
   <Layout>
@@ -17,12 +15,12 @@ export const MainPageTemplate = ({
       </div>
       <div className="main_body component_body">
         <section className="intro">
-          <div className="intro__title title">{intro.title}</div>
-          <div className="intro__desc desc">{intro.description}</div>
+          <div className="intro__title title">Intro tytuł</div>
+          <div className="intro__desc desc">Intro opis</div>
         </section>
         <section className="notes">
-          <div className="notes__title title">{notes.title}</div>
-          <div className="notes__desc desc">{notes.description}</div>
+          <div className="notes__title title">Notes Tytul</div>
+          <div className="notes__desc desc">Notes opis</div>
           <div className="html" dangerouslySetInnerHTML={{ __html: html }} />
         </section>
       </div>
@@ -37,8 +35,6 @@ const MainPage = ({ data }) => {
     <MainPageTemplate
       title={post.frontmatter.title}
       jumbotrone={post.frontmatter.jumbotrone}
-      intro={post.frontmatter.intro}
-      notes={post.frontmatter.notes}
       html={post.html}
     />
   );
@@ -47,9 +43,7 @@ const MainPage = ({ data }) => {
 export default MainPage;
 
 MainPageTemplate.propTypes = {
-  jumbotrone: PropTypes.object.isRequired,
-  intro: PropTypes.object.isRequired,
-  notes: PropTypes.object.isRequired
+  jumbotrone: PropTypes.object.isRequired
 };
 
 MainPage.propTypes = {
@@ -64,14 +58,6 @@ export const mainPageQuery = graphql`
       frontmatter {
         title
         jumbotrone {
-            title
-            description
-        }
-        intro {
-            title
-            description
-        }
-        notes {
             title
             description
         }
