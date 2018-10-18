@@ -2,6 +2,15 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 
+const noNewTrips = {
+  node: {
+    frontmatter: {
+      title: 'Brak nowych wyjazdów',
+      date: ''
+    }
+  }
+};
+
 export const TripsPageTemplate = ({ path, newTrips }) => (
   <Layout path={path}>
     <section className="blogEntry component-wrapper">
@@ -26,7 +35,7 @@ const TripsPage = ({ data }) => {
   return (
     <TripsPageTemplate
       path={post.frontmatter.path}
-      newTrips={newTrips ? newTrips.edges : []}
+      newTrips={newTrips ? newTrips.edges : [noNewTrips]}
     />
   );
 };
