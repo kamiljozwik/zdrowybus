@@ -26,7 +26,7 @@ const TripsPage = ({ data }) => {
   return (
     <TripsPageTemplate
       path={post.frontmatter.path}
-      newTrips={newTrips.edges}
+      newTrips={newTrips ? newTrips.edges : []}
     />
   );
 };
