@@ -6,6 +6,33 @@ body {
     font-family: 'Roboto-light';
 }
 
+.jumbo {
+    // background: url(../img/jumbo.jpg) no-repeat;
+    background: black;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__title, &__desc {
+        width: 100%;
+        text-align: right;
+        box-sizing: border-box;
+        padding: 10px 50px 0px 0px;
+        color: white;
+    }
+    &__title {
+        font-family: "Roboto-Light";
+        font-size: 60px;
+    }
+    &__desc {
+        font-family: "Roboto-Thin";
+        font-size: 20px;
+    }
+}
+
 .component-wrapper {
     position: relative;
 }

@@ -4,7 +4,7 @@ import { TweenMax } from 'gsap/TweenMax';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 
-class MainPageTemplate extends Component {
+export class MainPageTemplate extends Component {
   constructor(props) {
     super(props);
     this.jumbotrone = props.jumbotrone;
@@ -14,19 +14,19 @@ class MainPageTemplate extends Component {
     this.purposes = React.createRef();
   }
 
+  componentDidMount() {
+    TweenMax.to(this.purposes.current, 0, { height: 0 });
+  }
+
   togglePurposes = (event) => {
-    this.purposes.current.classList.toggle('show');
-    // TweenMax.to(this.purposes.current, 0.2, { height: 0 });
-
-    // if(!this.purposes.current.hasClass('show')) {
-    //   TweenMax.to(this.purposes.current, 0.2, { height: 0 });
-    //   $this.addClass("closed")
-    // }else{
-    //   TweenLite.set($content, {height:"auto"})
-    //   TweenLite.from($content, 0.2, {height:0})
-    //   $this.removeClass("closed");
-    // }
-
+    const desc = this.purposes.current;
+    if (desc.classList.contains('show')) {
+      TweenMax.to(desc, 0.3, { height: 0 });
+      desc.classList.remove('show');
+    } else {
+      TweenMax.to(desc, 0.3, { height: 600 });
+      desc.classList.add('show');
+    }
     const button = event.target.innerHTML;
     button === 'Pokaż' ? event.target.innerHTML = 'Ukryj' : event.target.innerHTML = 'Pokaż'; // eslint-disable-line
   }
@@ -42,8 +42,8 @@ class MainPageTemplate extends Component {
           <div className="main__body component_body">
             <section className="main-desc">
               <div className="main-desc__general">{this.description}</div>
-              <button type="button" className="btn main-desc__purposes--toggle" onClick={this.togglePurposes}>Pokaż</button>
               <div ref={this.purposes} className="main-desc__purposes cms_content" dangerouslySetInnerHTML={{ __html: this.html }} />
+              <button type="button" className="btn main-desc__purposes--toggle" onClick={this.togglePurposes}>Pokaż</button>
             </section>
           </div>
         </section>
@@ -51,6 +51,7 @@ class MainPageTemplate extends Component {
     );
   }
 }
+
 
 const MainPage = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -67,7 +68,6 @@ const MainPage = ({ data }) => {
 };
 
 export default MainPage;
-// export MainPageTemplate;
 
 MainPageTemplate.propTypes = {
   jumbotrone: PropTypes.object.isRequired,

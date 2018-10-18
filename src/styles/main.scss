@@ -1,12 +1,5 @@
-    .jumbo {
+    .main__jumbo {
         background: url(../img/jumbo.jpg) no-repeat;
-        background-size: cover;
-        width: 100vw;
-        height: 100vh;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         &__title, &__desc {
             width: 100%;
             text-align: right;
@@ -29,10 +22,6 @@
         .main-desc {
             &__purposes {
                 overflow: hidden;
-                &.show {
-                }
-                &--toggle {
-                }
             }
         }
     }
