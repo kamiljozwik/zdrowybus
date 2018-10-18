@@ -1,5 +1,6 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import PropTypes from 'prop-types';
+import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 
 const noNewTrips = {
@@ -11,6 +12,15 @@ const noNewTrips = {
   }
 };
 
+const renderTrips = tripsArray => tripsArray.map(trip => (
+    <>
+      <div>{trip.node.frontmatter.title}</div>
+      <div>{trip.node.frontmatter.date}</div>
+      <div>{trip.node.frontmatter.place}</div>
+      <div><Link to={trip.node.fields.slug}>Zobacz więcej</Link></div>
+    </>
+));
+
 export const TripsPageTemplate = ({ path, newTrips }) => (
   <Layout path={path}>
     <section className="blogEntry component-wrapper">
@@ -18,11 +28,12 @@ export const TripsPageTemplate = ({ path, newTrips }) => (
         <div className="jumbo__title">Najbliższy wyjazd</div>
         <div className="jumbo__title">{newTrips[0].node.frontmatter.title}</div>
         <div className="jumbo__desc">{newTrips[0].node.frontmatter.date}</div>
+        <div className="jumbo__desc">{newTrips[0].node.frontmatter.place}</div>
+        <div className="jumbo__desc"><Link to={newTrips[0].node.fields.slug}>Zobacz więcej</Link></div>
       </div>
       <div className="blogEntry_body component_body">
         <div className="blogEntry__first-line">Pozostałe wyjazdy</div>
-        <div className="blogEntry__second-line">{newTrips[0].node.frontmatter.title}</div>
-        <div className="blogEntry__second-line">{newTrips[0].node.frontmatter.date}</div>
+        {renderTrips(newTrips)}
       </div>
     </section>
   </Layout>
@@ -38,6 +49,11 @@ const TripsPage = ({ data }) => {
       newTrips={newTrips ? newTrips.edges : [noNewTrips]}
     />
   );
+};
+
+TripsPageTemplate.propTypes = {
+  path: PropTypes.string.isRequired,
+  newTrips: PropTypes.array.isRequired
 };
 
 export default TripsPage;
@@ -59,9 +75,13 @@ query TripPage($id: String!) {
   ) {
     edges {
       node {
+        fields {
+          slug
+        }
         frontmatter{
           title
           date(formatString: "DD.MM.YYYY")
+          place
         }
       }
     }

@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: new-trip
 title: Zdobywamy Kopiec Kościuszki
 date: 2018-10-22T10:46:11.548Z
 place: Kraków

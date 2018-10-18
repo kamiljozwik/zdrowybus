@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: new-trip
 title: Super wyjazd w góry
 date: 2018-10-19T10:46:11.548Z
 place: Zakopane
