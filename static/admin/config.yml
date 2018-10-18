@@ -27,7 +27,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Data wyjazdu", name: "date", widget: "date", format: "DD.MM.YYYY"}
+      - {label: "Data wyjazdu", name: "date", widget: "date"}
       - {label: "Miejsce wyjazdu", name: "place", widget: "string"}
       - {label: "Krótki Opis", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
