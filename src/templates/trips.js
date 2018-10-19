@@ -20,7 +20,7 @@ const renderTrips = tripsArray => tripsArray.map(trip => (
   </div>
 ));
 
-export const TripsPageTemplate = ({ path, newTrips }) => (
+export const TripsPageTemplate = ({ path, newTrips, finishedTrips }) => (
   !(_.isEmpty(newTrips))
     ? (
       <Layout path={path}>
@@ -34,8 +34,14 @@ export const TripsPageTemplate = ({ path, newTrips }) => (
             <div className="jumbo__desc"><Link to={newTrips[0].slug}>Zobacz więcej</Link></div>
           </div>
           <div className="blogEntry_body component_body">
-            <div className="blogEntry__first-line">Wszystkie wyjazdy</div>
-            {renderTrips(newTrips)}
+            <div>
+              <div className="blogEntry__first-line">Nadchodzące wyjazdy</div>
+              {renderTrips(newTrips)}
+            </div>
+            <div>
+              <div className="blogEntry__first-line">Zakończone wyjazdy</div>
+              {renderTrips(finishedTrips)}
+            </div>
           </div>
         </section>
       </Layout>
@@ -54,25 +60,32 @@ export const TripsPageTemplate = ({ path, newTrips }) => (
 
 const TripsPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { allMarkdownRemark: newTrips } = data;
+  const { newTrips } = data;
+  const { finishedTrips } = data;
 
-  // format trips data
-  const tripsData = !(_.isEmpty(newTrips)) ? newTrips.edges.map((trip) => {
-    const tripData = {
-      graphic: trip.node.frontmatter.graphic,
-      title: trip.node.frontmatter.title,
-      date: trip.node.frontmatter.date,
-      place: trip.node.frontmatter.place,
-      description: trip.node.frontmatter.description,
-      slug: trip.node.fields.slug
-    };
-    return tripData;
-  }) : [];
+  const tripsDataFormatter = (trips) => {
+    const formatedTrips = trips.edges.map((trip) => {
+      const tripData = {
+        graphic: trip.node.frontmatter.graphic,
+        title: trip.node.frontmatter.title,
+        date: trip.node.frontmatter.date,
+        place: trip.node.frontmatter.place,
+        description: trip.node.frontmatter.description,
+        slug: trip.node.fields.slug
+      };
+      return tripData;
+    });
+    return formatedTrips;
+  };
+
+  const newTripsData = tripsDataFormatter(newTrips);
+  const finishedTripsData = tripsDataFormatter(finishedTrips);
 
   return (
     <TripsPageTemplate
       path={post.frontmatter.path}
-      newTrips={_.sortBy(tripsData, ['date'])}
+      newTrips={_.sortBy(newTripsData, ['date'])}
+      finishedTrips={_.sortBy(finishedTripsData, ['date'])}
     />
   );
 };
@@ -92,10 +105,33 @@ query TripPage($id: String!) {
       title
     }
   }
-  allMarkdownRemark (
+  newTrips: allMarkdownRemark (
     filter: {
       frontmatter: {
         type: {eq: "new-trip"}
+      }
+    }
+  ) {
+    edges {
+      node {
+        fields {
+          slug
+        }
+        frontmatter{
+          graphic
+          title
+          date
+          place
+          description
+          type
+        }
+      }
+    }
+  }
+  finishedTrips: allMarkdownRemark (
+    filter: {
+      frontmatter: {
+        type: {eq: "finished-trip"}
       }
     }
   ) {
