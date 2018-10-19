@@ -1,82 +1,31 @@
-/*eslint-disable*/
-import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { Link } from 'gatsby'
-import Content, { HTMLContent } from '../components/Content'
-import { graphql } from "gatsby"
+import React from 'react';
+import moment from 'moment';
+import { graphql, withPrefix } from 'gatsby';
+import Layout from '../components/layout';
 
-export const BlogPostTemplate = ({
-  content,
-  contentComponent,
-  description,
-  tags,
-  title,
-  helmet,
-}) => {
-  const PostContent = contentComponent || Content
-
-  return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
-        </div>
+export const TripPageTemplate = trip => (
+  <Layout path="/trips">
+    <section className="blogEntry component-wrapper">
+      <div className="trips__jumbo jumbo" style={{ background: `url(${withPrefix(trip.trip.frontmatter.graphic)}) no-repeat` }}>
+        <div className="jumbo__title">{trip.trip.frontmatter.title}</div>
+        <div className="jumbo__desc">{moment(trip.trip.date).format('DD-MM-YYYY')}</div>
+        <div className="jumbo__desc">{trip.trip.place}</div>
+        <div className="jumbo__desc">{trip.trip.description}</div>
       </div>
+      <div className="main-desc__purposes cms_content" dangerouslySetInnerHTML={{ __html: trip.trip.html }} />
     </section>
-  )
-}
+  </Layout>
+);
 
-BlogPostTemplate.propTypes = {
-  content: PropTypes.string.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
-  helmet: PropTypes.instanceOf(Helmet),
-}
-
-const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
+const TripPage = ({ data }) => {
+  const { markdownRemark: trip } = data;
 
   return (
-    <BlogPostTemplate
-      content={post.html}
-      contentComponent={HTMLContent}
-      description={post.frontmatter.description}
-      helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
-      tags={post.frontmatter.tags}
-      title={post.frontmatter.title}
-    />
-  )
-}
+    <TripPageTemplate trip={trip} />
+  );
+};
 
-BlogPost.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-}
-
-export default BlogPost
+export default TripPage;
 
 export const pageQuery = graphql`
   query NewTrip($id: String!) {
@@ -87,9 +36,10 @@ export const pageQuery = graphql`
         graphic
         title
         date
+        place
         description
-        tags
       }
     }
   }
-`
+`;
+
