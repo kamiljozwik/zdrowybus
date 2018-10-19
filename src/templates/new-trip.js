@@ -84,6 +84,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
+        graphic
         title
         date
         description
