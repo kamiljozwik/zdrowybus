@@ -1,0 +1,50 @@
+// Trips Page
+.trips {
+    .jumbo {
+        &__label {}
+        &__title {}
+        &__date {}
+        &__place {}
+        &__desc {}
+        &__button {}
+    }
+
+    & &__body {
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    & &__new-trips, & &__finished-trips{
+        &--label {
+            padding: 30px;
+        }
+        .single-trip {
+            &__wrapper {
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid green;
+            }
+            &__data {}
+            .data {
+                &--title {}
+                &--date {}
+                &--place {}
+                &--desc {}
+                &--button {}
+                &--image {
+                    width: 200px;
+                    height: 200px;
+                    background-position: 50% 50%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}
+
+
+
+// Single trip

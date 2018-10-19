@@ -42,7 +42,7 @@ export class MainPageTemplate extends Component {
           <div className="main__body component_body">
             <section className="main-desc">
               <div className="main-desc__general">{this.description}</div>
-              <div ref={this.purposes} className="main-desc__purposes cms_content" dangerouslySetInnerHTML={{ __html: this.html }} />
+              <div ref={this.purposes} className="main-desc__purposes cms-content" dangerouslySetInnerHTML={{ __html: this.html }} />
               <button type="button" className="btn main-desc__purposes--toggle" onClick={this.togglePurposes}>Pokaż</button>
             </section>
           </div>
@@ -51,7 +51,6 @@ export class MainPageTemplate extends Component {
     );
   }
 }
-
 
 const MainPage = ({ data }) => {
   const { markdownRemark: post } = data;

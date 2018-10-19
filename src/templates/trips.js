@@ -8,15 +8,15 @@ import Layout from '../components/layout';
 const _ = require('lodash');
 
 const renderTrips = tripsArray => tripsArray.map(trip => (
-  <div className="single-trip" key={nanoid()}>
-    <div className="single-trip--data">
-      <div>{trip.title}</div>
-      <div>{moment(trip.date).format('DD-MM-YYYY')}</div>
-      <div>{trip.place}</div>
-      <div>{trip.description}</div>
-      <div><Link to={trip.slug}>Zobacz więcej</Link></div>
+  <div className="single-trip single-trip__wrapper" key={nanoid()}>
+    <div className="single-trip__data data">
+      <div className="data--title">{trip.title}</div>
+      <div className="data--date">{moment(trip.date).format('DD-MM-YYYY')}</div>
+      <div className="data--place">{trip.place}</div>
+      <div className="data--desc">{trip.description}</div>
+      <div className="data--button"><Link to={trip.slug}>Zobacz więcej</Link></div>
     </div>
-    <div className="single-trip--image" style={{ background: `url(${withPrefix(trip.graphic)}) no-repeat` }} />
+    <div className="data--image" style={{ backgroundImage: `url(${withPrefix(trip.graphic)})` }} />
   </div>
 ));
 
@@ -24,23 +24,27 @@ export const TripsPageTemplate = ({ path, newTrips, finishedTrips }) => (
   !(_.isEmpty(newTrips))
     ? (
       <Layout path={path}>
-        <section className="blogEntry component-wrapper">
-          <div className="trips__jumbo jumbo" style={{ background: `url(${withPrefix(newTrips[0].graphic)}) no-repeat` }}>
-            <div className="jumbo__title">Najbliższy wyjazd</div>
+        <section className="trips component-wrapper">
+          <div className="trips__jumbo jumbo" style={{ backgroundImage: `url(${withPrefix(newTrips[0].graphic)})` }}>
+            <div className="jumbo__label">Najbliższy wyjazd</div>
             <div className="jumbo__title">{newTrips[0].title}</div>
-            <div className="jumbo__desc">{moment(newTrips[0].date).format('DD-MM-YYYY')}</div>
-            <div className="jumbo__desc">{newTrips[0].place}</div>
+            <div className="jumbo__date">{moment(newTrips[0].date).format('DD-MM-YYYY')}</div>
+            <div className="jumbo__place">{newTrips[0].place}</div>
             <div className="jumbo__desc">{newTrips[0].description}</div>
-            <div className="jumbo__desc"><Link to={newTrips[0].slug}>Zobacz więcej</Link></div>
+            <div className="jumbo__button"><Link to={newTrips[0].slug}>Zobacz więcej</Link></div>
           </div>
-          <div className="blogEntry_body component_body">
+          <div className="trips__body component_body">
             <div>
-              <div className="blogEntry__first-line">Nadchodzące wyjazdy</div>
-              {renderTrips(newTrips)}
+              <div className="trips__new-trips">
+                <div className="trips__new-trips--label">Nadchodzące wyjazdy</div>
+                {renderTrips(newTrips)}
+              </div>
             </div>
             <div>
-              <div className="blogEntry__first-line">Zakończone wyjazdy</div>
-              {renderTrips(finishedTrips)}
+              <div className="trips__finished-trips">
+                <div className="trips__finished-trips--label">Zakończone wyjazdy</div>
+                {renderTrips(finishedTrips)}
+              </div>
             </div>
           </div>
         </section>
@@ -48,7 +52,7 @@ export const TripsPageTemplate = ({ path, newTrips, finishedTrips }) => (
     )
     : (
       <Layout path={path}>
-        <section className="blogEntry component-wrapper">
+        <section className="trips component-wrapper">
           <div className="trips__jumbo jumbo no-trips">
             <div className="jumbo__title">Brak wyjazdów</div>
             <div className="jumbo__desc">Zapraszamy wkrótce</div>
@@ -92,7 +96,8 @@ const TripsPage = ({ data }) => {
 
 TripsPageTemplate.propTypes = {
   path: PropTypes.string.isRequired,
-  newTrips: PropTypes.array.isRequired
+  newTrips: PropTypes.array.isRequired,
+  finishedTrips: PropTypes.array.isRequired,
 };
 
 export default TripsPage;
