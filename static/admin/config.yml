@@ -26,6 +26,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "new-trip"}
+      - {label: "Grafika", name: "graphic", widget: "image"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Data wyjazdu", name: "date", widget: "date"}
       - {label: "Miejsce wyjazdu", name: "place", widget: "string"}

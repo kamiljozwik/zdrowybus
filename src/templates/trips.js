@@ -7,10 +7,6 @@ import Layout from '../components/layout';
 
 const _ = require('lodash');
 
-const noNewTrips = {
-  title: 'Brak wyjazdów'
-};
-
 const renderTrips = tripsArray => tripsArray.map(trip => (
   <div className="single-trip" key={nanoid()}>
     <div>{trip.title}</div>
@@ -21,28 +17,42 @@ const renderTrips = tripsArray => tripsArray.map(trip => (
 ));
 
 export const TripsPageTemplate = ({ path, newTrips }) => (
-  <Layout path={path}>
-    <section className="blogEntry component-wrapper">
-      <div className="trips__jumbo jumbo">
-        <div className="jumbo__title">Najbliższy wyjazd</div>
-        <div className="jumbo__title">{newTrips[0].title}</div>
-        <div className="jumbo__desc">{moment(newTrips[0].date).format('DD-MM-YYYY')}</div>
-        <div className="jumbo__desc">{newTrips[0].place}</div>
-        <div className="jumbo__desc"><Link to={newTrips[0].slug}>Zobacz więcej</Link></div>
-      </div>
-      <div className="blogEntry_body component_body">
-        <div className="blogEntry__first-line">Pozostałe wyjazdy</div>
-        {renderTrips(newTrips)}
-      </div>
-    </section>
-  </Layout>
+  newTrips.lenght > 0
+    ? (
+      <Layout path={path}>
+        <section className="blogEntry component-wrapper">
+          <div className="trips__jumbo jumbo">
+            <div className="jumbo__title">Najbliższy wyjazd</div>
+            <div className="jumbo__title">{newTrips[0].title}</div>
+            <div className="jumbo__desc">{moment(newTrips[0].date).format('DD-MM-YYYY')}</div>
+            <div className="jumbo__desc">{newTrips[0].place}</div>
+            <div className="jumbo__desc"><Link to={newTrips[0].slug}>Zobacz więcej</Link></div>
+          </div>
+          <div className="blogEntry_body component_body">
+            <div className="blogEntry__first-line">Pozostałe wyjazdy</div>
+            {renderTrips(newTrips)}
+          </div>
+        </section>
+      </Layout>
+    )
+    : (
+      <Layout path={path}>
+        <section className="blogEntry component-wrapper">
+          <div className="trips__jumbo jumbo no-trips">
+            <div className="jumbo__title">Brak wyjazdów</div>
+            <div className="jumbo__desc">Zapraszamy wkrótce</div>
+          </div>
+        </section>
+      </Layout>
+    )
 );
 
 const TripsPage = ({ data }) => {
   const { markdownRemark: post } = data;
   const { allMarkdownRemark: newTrips } = data;
 
-  const tripsData = newTrips.edges ? newTrips.edges.map((trip) => {
+  // format trips data
+  const tripsData = newTrips ? newTrips.edges.map((trip) => {
     const tripData = {
       title: trip.node.frontmatter.title,
       date: trip.node.frontmatter.date,
@@ -50,7 +60,7 @@ const TripsPage = ({ data }) => {
       slug: trip.node.fields.slug
     };
     return tripData;
-  }) : noNewTrips;
+  }) : [];
 
   return (
     <TripsPageTemplate
@@ -90,7 +100,7 @@ query TripPage($id: String!) {
         frontmatter{
           title
           date
-          place
+          tags
         }
       }
     }
