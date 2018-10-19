@@ -6,7 +6,5 @@ date: 2018-10-23T08:34:30.884Z
 place: Warszawa
 description: Krótki Opis
 type: new-trip
-tags:
-  - newTrip
 ---
 Treść

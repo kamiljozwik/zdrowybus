@@ -6,7 +6,5 @@ date: 2018-10-24T09:43:22.674Z
 place: Poznań
 description: asdfg
 type: finished-trip
-tags:
-  - newTrip
 ---
 zxcvbmn

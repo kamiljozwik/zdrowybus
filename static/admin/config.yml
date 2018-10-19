@@ -33,7 +33,6 @@ collections:
       - {label: "Krótki Opis", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Type", name: "type", widget: "select", options: ["new-trip","finished-trip"]}
-      - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "pages"
     label: "Strona WWW"
