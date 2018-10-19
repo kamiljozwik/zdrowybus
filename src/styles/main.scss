@@ -1,5 +1,6 @@
     .main__jumbo {
         background: url(../img/jumbo.jpg) no-repeat;
+        background-size: cover;
         &__title, &__desc {
             width: 100%;
             text-align: right;
