@@ -88,7 +88,7 @@ query TripPage($id: String!) {
   allMarkdownRemark (
     filter: {
       frontmatter: {
-        tags: {in: "newTrip"}
+        type: {in: "new-trip"}
       }
     }
   ) {
@@ -101,6 +101,7 @@ query TripPage($id: String!) {
           title
           date
           tags
+          type
         }
       }
     }
