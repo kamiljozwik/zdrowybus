@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 
 export const BlogEntryPageTemplate = ({ path }) => (
@@ -7,7 +7,7 @@ export const BlogEntryPageTemplate = ({ path }) => (
     <section className="blogEntry component-wrapper">
       <div className="blogEntry_body component_body">
         <div className="blogEntry__first-line">Zdrowy blog</div>
-        <div className="blogEntry__second-line">coming soon...</div>
+        <Link to="/blog">Przejdź na BLOG</Link>
       </div>
     </section>
   </Layout>

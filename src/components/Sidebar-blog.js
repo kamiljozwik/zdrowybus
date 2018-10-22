@@ -5,12 +5,10 @@ import { Link, navigate } from 'gatsby';
 import Logo from '../img/Logo_small.png';
 
 const menuItemsList = {
-  '/main': 'O nas',
-  '/trips': 'Wyprawy',
-  '/blog-page': 'BLOG',
-  '/team': 'Zespół',
-  '/offer': 'Współpraca',
-  '/contact': 'Kontakt'
+  '/tags/blog-trips': 'Podróże',
+  '/tags/blog-health': 'Zdrowie',
+  '/tags/blog-training': 'Trening',
+  '/tags/blog-couching': 'Rozwój osobisty'
 };
 
 const renderList = path => (
@@ -22,7 +20,7 @@ const renderList = path => (
 );
 
 const Sidebar = ({ path }) => (
-  <nav className="sidebar">
+  <nav className="sidebar blog">
     <div className="sidebar__lead">
       <p className="sidebar__lead--title">ZdrowyBus</p>
       <img
@@ -34,6 +32,7 @@ const Sidebar = ({ path }) => (
         onKeyDown={() => navigate('/main')}
       />
     </div>
+    <div className="sidebar__return"><Link to="/main">Przejdź na stronę</Link></div>
     <ul className="sidebar__links">
       {renderList(path)}
     </ul>
