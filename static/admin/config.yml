@@ -38,11 +38,32 @@ collections:
     label: "Strona WWW"
     files:
       - file: "src/pages/main/index.md"
-        label: "Main Page"
+        label: "Strona główna"
         name: "main"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "main-page"}
           - {label: jumbotrone, name: jumbotrone, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
           - {label: Ebook, name: ebook, widget: file,  default: "/ebook"}
           - {label: Opis, name: description, widget: text}
           - {label: Treść, name: "body", widget: markdown}
+      - file: "src/pages/team/index.md"
+        label: "Zespół"
+        name: "team"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
+          - {label: jumbotrone, name: jumbotrone, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
+          - {label: Treść, name: "body", widget: markdown}
+      - file: "src/pages/offer/index.md"
+        label: "Współpraca"
+        name: "offer"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "offer"}
+          - {label: jumbotrone, name: jumbotrone, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
+          - {label: Treść, name: "body", widget: markdown}
+      - file: "src/pages/contact/index.md"
+        label: "Kontakt"
+        name: "contact"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact"}
+          - {label: email-bus, name: emailBus, widget: string}
+          - {label: email-arek, name: emailArek, widget: string}
