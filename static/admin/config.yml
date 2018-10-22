@@ -65,5 +65,5 @@ collections:
         name: "contact"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact"}
-          - {label: email-bus, name: emailBus, widget: string}
-          - {label: email-arek, name: emailArek, widget: string}
+          - {label: Email-bus, name: emailBus, widget: string}
+          - {label: Email-arek, name: emailArek, widget: string}
