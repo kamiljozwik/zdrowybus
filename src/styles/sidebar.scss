@@ -57,4 +57,50 @@
         }
     }
 
+    // ------- Sidebar na blogu ------- //
+
+    &.blog {
+        background: white;
+        .sidebar{
+            &__lead {
+                width: 100%;
+                background: white;
+                &--title {
+                    color: $black;
+                }
+            }
+            &__links {
+                margin-top: 20px;
+            }
+            &__return {
+                cursor: pointer;
+                color: $green;
+                font-family: 'Roboto-Medium';
+                text-align: center;
+                display: inline-block;
+                margin-left: 10%;
+                padding: 10px 10px;
+                border: 1px solid $green;
+                &:hover {
+                    border: 1px solid $green;
+                    color: white;
+                    background: $green;
+                }
+            }
+            &__item {
+                &:hover {
+                    color: $black;
+                }
+                &.active {
+                    color: $black;
+                    &::after {
+                        content: '';
+                        width: 200px;
+                        height: 0px;
+                        border-top: 4px solid $gold;
+                    }
+                }
+            }
+        }
+    }
 }
