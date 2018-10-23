@@ -1,48 +1,44 @@
-/*eslint-disable*/
-import React from 'react'
-import Helmet from 'react-helmet'
-import { Link } from 'gatsby'
-import { graphql } from "gatsby"
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import LayoutBlog from '../components/layout-blog';
 
 class TagRoute extends React.Component {
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges
-    const postLinks = posts.map(post => (
+    const NewPosts = this.props.data.allMarkdownRemark.edges.slice(0, 3);
+    const OldPosts = this.props.data.allMarkdownRemark.edges.slice(3);
+
+    const postLinks = posts => posts.map(post => (
       <li key={post.node.fields.slug}>
-        <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
-        </Link>
+        <h2>{post.node.frontmatter.title}</h2>
+        <p>{post.node.frontmatter.description}</p>
+        <Link to={post.node.fields.slug}>Zobacz</Link>
       </li>
-    ))
-    const tag = this.props.pageContext.tag
-    const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const tagHeader = `${totalCount} post${
-      totalCount === 1 ? '' : 's'
-    } tagged with “${tag}”`
+    ));
+
+    // const { tag } = this.props.pageContext;
+    const { totalCount } = this.props.data.allMarkdownRemark;
+    const tagHeader = `Liczba postów: ${totalCount}`;
 
     return (
-      <section className="section">
-        <Helmet title={`${tag}`} />
-        <div className="container content">
-          <div className="columns">
-            <div
-              className="column is-10 is-offset-1"
-              style={{ marginBottom: '6rem' }}
-            >
-              <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-              <ul className="taglist">{postLinks}</ul>
-              <p>
-                <Link to="/tags/">Browse all tags</Link>
-              </p>
+      <LayoutBlog path={`/tags/${this.props.pageContext.tag}`}>
+        <section className="blog-post component-wrapper">
+          <div className="blog-post__jumbo jumbo">
+            <div>{tagHeader}</div>
+            <ul>{postLinks(NewPosts)}</ul>
+          </div>
+          <div className="blog-post__body component_body">
+            <div>
+              <div>Pozostałe posty:</div>
+              <ul>{postLinks(OldPosts)}</ul>
             </div>
           </div>
-        </div>
-      </section>
-    )
+        </section>
+      </LayoutBlog>
+    );
   }
 }
 
-export default TagRoute
+export default TagRoute;
 
 export const tagPageQuery = graphql`
   query TagPage($tag: String) {
@@ -59,9 +55,11 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
+            description
           }
         }
       }
     }
   }
-`
+`;
+

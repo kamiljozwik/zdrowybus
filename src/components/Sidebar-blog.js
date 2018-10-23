@@ -5,6 +5,7 @@ import { Link, navigate } from 'gatsby';
 import Logo from '../img/Logo_small.png';
 
 const menuItemsList = {
+  '/blog': 'Start',
   '/tags/blog-trips': 'Podróże',
   '/tags/blog-health': 'Zdrowie',
   '/tags/blog-training': 'Trening',
