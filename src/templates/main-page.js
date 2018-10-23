@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { TweenMax } from 'gsap/TweenMax';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
+import placeholder from '../img/placeholder.jpg';
 
 export class MainPageTemplate extends Component {
   constructor(props) {
@@ -21,14 +22,14 @@ export class MainPageTemplate extends Component {
   togglePurposes = (event) => {
     const desc = this.purposes.current;
     if (desc.classList.contains('show')) {
-      TweenMax.to(desc, 0.3, { height: 0 });
+      TweenMax.to(desc, 0.1, { height: 0 });
       desc.classList.remove('show');
     } else {
-      TweenMax.to(desc, 0.3, { height: 600 });
+      TweenMax.to(desc, 0.1, { height: 900 });
       desc.classList.add('show');
     }
     const button = event.target.innerHTML;
-    button === 'Pokaż' ? event.target.innerHTML = 'Ukryj' : event.target.innerHTML = 'Pokaż'; // eslint-disable-line
+    button === 'Zobacz więcej' ? event.target.innerHTML = 'Ukryj' : event.target.innerHTML = 'Zobacz więcej'; // eslint-disable-line
   }
 
   render() {
@@ -38,12 +39,43 @@ export class MainPageTemplate extends Component {
           <div className="main__jumbo jumbo">
             <div className="jumbo__title">{this.jumbotrone.title}</div>
             <div className="jumbo__desc">{this.jumbotrone.description}</div>
+            <button type="button" className="jumbo__button btn">Zobacz więcej</button>
           </div>
           <div className="main__body component_body">
             <section className="main-desc">
+              <h2 className="main-desc__label">Wstęp</h2>
               <div className="main-desc__general">{this.description}</div>
               <div ref={this.purposes} className="main-desc__purposes cms-content" dangerouslySetInnerHTML={{ __html: this.html }} />
-              <button type="button" className="btn main-desc__purposes--toggle" onClick={this.togglePurposes}>Pokaż</button>
+              <button type="button" className="btn main-desc__purposes--toggle" onClick={this.togglePurposes}>Zobacz więcej</button>
+            </section>
+            <section className="main-ebook">
+              <div className="main-ebook__inner">
+                <div className="main-ebook__text">
+                  <span className="main-ebook__text--label">Pobierz darmowy ebook</span>
+                  <span className="main-ebook__text--title">Tytuł ebooka</span>
+                  <span className="main-ebook__text--desc">opis ebooka</span>
+                </div>
+                <div className="main-ebook__button">
+                  <button type="button">POBIERZ</button>
+                </div>
+              </div>
+            </section>
+            <section className="main-gallery" />
+            <section className="main-partners">
+              <div className="main-partners--label">Partnerzy</div>
+              <div className="main-partners__partners" />
+            </section>
+            <section className="main-trip">
+              <div className="main-trip--label">Najbliższy wyjazd</div>
+              <div className="main-trip__data">
+                <div className="main-trip__data--text">
+                  <span className="main-trip__data--">Kraków</span>
+                  <span className="main-trip__data--">12/03/2018 - 23/03/2018</span>
+                  <span className="main-trip__data--">Interactively facilitate virtual supply chains whereas parallel total linkage.</span>
+                  <button className="main-trip__data--" type="button">Zobacz więcej</button>
+                </div>
+                <div className="main-trip__data--img" />
+              </div>
             </section>
           </div>
         </section>

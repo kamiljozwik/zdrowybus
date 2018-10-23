@@ -1,27 +1,129 @@
     .main__jumbo {
         background-image: url(../img/jumbo.jpg);
-        &__title, &__desc {
-            width: 100%;
-            text-align: right;
-            box-sizing: border-box;
-            padding: 10px 50px 0px 0px;
-            color: white;
-        }
-        &__title {
-            font-family: "Roboto-Light";
-            font-size: 60px;
-        }
-        &__desc {
-            font-family: "Roboto-Thin";
-            font-size: 20px;
+        .jumbo {
+            &__button {
+                margin: 50px 0px 0px 500px;
+            }
         }
     }
 
     .main__body {
         position: relative;
         .main-desc {
-            &__purposes {
-                overflow: hidden;
+            width: 70vw;
+            margin: 0 auto;
+            position: relative;
+            &__label {
+                font-size: 24px;
+                color: white;
+                margin: 20px 0 10px;
+                padding: 0;
+                font-weight: bold;
             }
+            &__general {
+                margin: 50px 0 0 80px;
+                line-height: 22px;
+            }
+            &__purposes {
+                margin: 50px 0 0 80px;
+                overflow: hidden;
+                &.show {
+                    overflow: visible;
+                }
+                h2 {
+                    position: relative;
+                    left: -160px;
+                }
+                ol, ul {
+                    width: 60%;
+                    position: relative;
+                    line-height: 22px;
+                    &:first-of-type::after {
+                        content: "";
+                        position: absolute;
+                        background: grey;
+                        right: -600px;
+                        top: 0;
+                        width: 500px;
+                        height: 600px;
+                    }
+                }
+                &--toggle {
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .main-ebook {
+            margin-top: 50px;
+            width: 99vw;
+            height: 300px;
+            background-color: $green;
+            box-sizing: border-box;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__inner {
+                width: 96%;
+                height: 90%;
+                border: 3px dashed $black;
+                display: flex;
+            }
+            &__text {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: $black;
+                margin-bottom: 40px;
+                &--label {
+                    position: relative;
+                    font-size: 70px;
+                    font-family: "Pacifico";
+                    padding: 15px 0;
+                }
+                &--title {
+                    font-size: 40px;
+                    font-family: "Roboto-Medium";
+                    padding: 15px 0;
+                }
+                &--desc {
+                    font-size: 20px;
+                    font-family: "Roboto-Light";
+                    padding: 10px 0;
+                }
+            }
+            &__button {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button {
+                    cursor: pointer;
+                    background-color: $black;
+                    padding: 30px 60px;
+                    font-size: 30px;
+                    box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.5);
+                }
+            }
+        }
+
+        .main-gallery {
+            height: 400px;
+        }
+        .main-partners {
+            height: 200px;
+            background-color: $green;
+            &--label {
+                font-size: 30px;
+                font-family: "Roboto-Light";
+                padding: 15px 15px 15px 50px;
+                color: $black;
+            }
+        }
+        .main-trip {
+            height: 400px;
         }
     }
