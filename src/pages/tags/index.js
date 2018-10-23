@@ -6,10 +6,10 @@ import { Link } from 'gatsby';
 import { graphql } from "gatsby"
 
 const TagsPage = ({
-  data: { allMarkdownRemark: { group }, site: { siteMetadata: { title } } },
+  data: { allMarkdownRemark: { group }  },
 }) => (
   <section className="section">
-    <Helmet title={`Tags | ${title}`} />
+    <Helmet title="Tags" />
     <div className="container content">
       <div className="columns">
         <div

@@ -24,8 +24,8 @@ export const BlogEntryPageTemplate = ({ path, newPosts, tripsPosts }) => (
 );
 
 const BlogEntryPage = ({ data }) => {
-  const { markdownRemark: page } = data;
-  const { allMarkdownRemark: newPosts } = data;
+  const { page } = data;
+  const { newPosts } = data;
   const { tripsPosts } = data;
 
   return (
@@ -41,14 +41,14 @@ export default BlogEntryPage;
 
 export const blogPageQuery = graphql`
   query Blog($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    page: markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         path
         title
       }
     }
-    allMarkdownRemark(
+    newPosts: allMarkdownRemark(
       limit: 50
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { templateKey: { in: "blog-post" } } }
@@ -58,15 +58,12 @@ export const blogPageQuery = graphql`
           fields {
             slug
           }
-          frontmatter {
-            title
-            description
-          }
+          ...NewTripsData
         }
       }
     }
     tripsPosts: allMarkdownRemark(
-      limit: 20
+      limit: 3
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: "blog-trips" } } }
     ) {
@@ -75,10 +72,49 @@ export const blogPageQuery = graphql`
           fields {
             slug
           }
-          frontmatter {
-            title
-            description
+          ...NewTripsData
+        }
+      }
+    }
+    healthPosts: allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { in: "blog-health" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
           }
+          ...NewTripsData
+        }
+      }
+    }
+    trainingPosts: allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { in: "blog-training" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          ...NewTripsData
+        }
+      }
+    }
+    couchingPosts: allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { in: "blog-couching" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          ...NewTripsData
         }
       }
     }
