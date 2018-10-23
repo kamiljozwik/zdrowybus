@@ -11,7 +11,7 @@ const renderTrips = tripsArray => tripsArray.map(trip => (
   <div className="single-trip single-trip__wrapper" key={nanoid()}>
     <div className="single-trip__data data">
       <div className="data--title">{trip.title}</div>
-      <div className="data--date">{moment(trip.date).format('DD-MM-YYYY')}</div>
+      <div className="data--date">{`${moment(trip.date).format('DD/MM/YYYY')} - ${moment(trip.endDate).format('DD/MM/YYYY')}`}</div>
       <div className="data--place">{trip.place}</div>
       <div className="data--desc">{trip.description}</div>
       <div className="data--button"><Link to={trip.slug}>Zobacz więcej</Link></div>
@@ -28,7 +28,7 @@ export const TripsPageTemplate = ({ path, newTrips, finishedTrips }) => (
           <div className="trips__jumbo jumbo" style={{ backgroundImage: `url(${withPrefix(newTrips[0].graphic)})` }}>
             <div className="jumbo__label">Najbliższy wyjazd</div>
             <div className="jumbo__title">{newTrips[0].title}</div>
-            <div className="jumbo__date">{moment(newTrips[0].date).format('DD-MM-YYYY')}</div>
+            <div className="jumbo__date">{`${moment(newTrips[0].date).format('DD/MM/YYYY')} - ${moment(newTrips[0].endDate).format('DD/MM/YYYY')}`}</div>
             <div className="jumbo__place">{newTrips[0].place}</div>
             <div className="jumbo__desc">{newTrips[0].description}</div>
             <div className="jumbo__button"><Link to={newTrips[0].slug}>Zobacz więcej</Link></div>
