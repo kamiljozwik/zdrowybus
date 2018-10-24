@@ -43,7 +43,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "main-page"}
           - {label: jumbotrone, name: jumbotrone, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
-          - {label: Ebook, name: ebook, widget: file,  default: "/ebook"}
+          - {label: Ebook, name: ebook, widget: object, fields: [{label: Tytuł, name: title, widget: string}, {label: Opis, name: description, widget: text}, {label: Plik, name: file, widget: file,  default: "/img/ebook.pdf"}]}
           - {label: Opis, name: description, widget: text}
           - {label: Treść, name: "body", widget: markdown}
       - file: "src/pages/team/index.md"

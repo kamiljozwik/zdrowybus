@@ -22,41 +22,44 @@
             }
             &__general {
                 margin: 50px 0 0 80px;
-                line-height: 22px;
+                line-height: 26px;
+            }
+            &__img {
+                position: absolute;
+                &.img1 {
+                    top: 330px;
+                    left: -100px;
+                }
+                &.img2 {
+                    top: 960px;
+                    right: -100px;
+                }
             }
             &__purposes {
-                margin: 50px 0 0 80px;
-                overflow: hidden;
-                &.show {
-                    overflow: visible;
-                }
+                margin: 100px 0 0 0;
                 h2 {
-                    position: relative;
-                    left: -160px;
-                }
-                ol, ul {
-                    width: 60%;
-                    position: relative;
-                    line-height: 22px;
-                    &:first-of-type::after {
-                        content: "";
-                        position: absolute;
-                        background: grey;
-                        right: -600px;
-                        top: 0;
-                        width: 500px;
-                        height: 600px;
+                    font-size: 40px;
+                    font-family: "Roboto-Bold";
+                    &:first-of-type {
+                        margin: 50px 0 0 450px;
                     }
                 }
-                &--toggle {
-                    margin: 0 auto;
+                ol {
+                    margin: 30px 0 0 0;
+                    width: 50%;
+                    position: relative;
+                    line-height: 22px;
+                    &:first-of-type {
+                        margin: 30px 0 100px 450px;
+                        width: 60%;
+                    }
                 }
             }
         }
 
         .main-ebook {
-            margin-top: 50px;
-            width: 99vw;
+            margin: 100px auto;
+            width: 80vw;
             height: 300px;
             background-color: $green;
             box-sizing: border-box;
@@ -80,7 +83,7 @@
                 margin-bottom: 40px;
                 &--label {
                     position: relative;
-                    font-size: 70px;
+                    font-size: 60px;
                     font-family: "Pacifico";
                     padding: 15px 0;
                 }
@@ -100,7 +103,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                button {
+                &--download {
                     cursor: pointer;
                     background-color: $black;
                     padding: 30px 60px;
@@ -114,16 +117,73 @@
             height: 400px;
         }
         .main-partners {
-            height: 200px;
+            width: 80vw;
+            margin: 100px auto;
+            height: 150px;
             background-color: $green;
             &--label {
                 font-size: 30px;
-                font-family: "Roboto-Light";
+                font-family: "Pacifico";
                 padding: 15px 15px 15px 50px;
                 color: $black;
             }
         }
         .main-trip {
-            height: 400px;
+            width: 70vw;
+            margin: 50px auto;
+            position: relative;
+            &--label {
+                font-size: 40px;
+                font-family: "Roboto-Bold";
+            }
+            &__data {
+                display: flex;
+                position: relative;
+                align-items: center;
+                font-size: 18px;
+                &--text {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                span {
+                    margin: 10px;
+                    width: 80%;
+                }
+                &--title {
+                    font-family: "Roboto-Medium";
+                }
+                &--date {
+                }
+                &--desc {
+                }
+                &--btn {
+                    margin: 10px;
+                }
+                &--place {
+                    position: absolute;
+                    top: 40%;
+                    width: 100% !important;
+                    text-align: center;
+                    font-family: "Pacifico";
+                    font-size: 50px;
+                }
+                &--img {
+                    position: relative;
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    .trip-image {
+                        @include thumbnail(100%, 300px)
+                    }
+                }
+            }
+            .trips-divider {
+                position: relative;
+                width: 97%;
+                border-top: 1px solid darken($color: $grey, $amount: 25%);
+                margin: 20px;
+            }
         }
     }

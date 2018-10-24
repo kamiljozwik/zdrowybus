@@ -2,3 +2,11 @@
     border: 1px solid;
     border-color: $color;
 }
+
+@mixin thumbnail($width, $height) {
+    width: $width;
+    height: $height;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

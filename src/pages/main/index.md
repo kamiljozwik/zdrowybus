@@ -2,9 +2,12 @@
 templateKey: main-page
 path: /main
 jumbotrone:
-  description: Coś więcej niż sport i podróże. PASJA!
   title: ZdrowyBus!
-ebook: /img/testcv.pdf
+  description: Coś więcej niż sport i podróże. PASJA!
+ebook:
+  title: Tytuł PDFa  
+  description: Jakiś opis dla prezentu albo info o książce
+  file: /img/ebook.pdf
 description: |-
   Jeździmy po świecie, zarażając pasją do sportu - Przeprowadzając: warsztaty,
   animacje, festyny sportowe. Pokazując przy tym, że zdrowe odżywianie i
@@ -14,7 +17,7 @@ description: |-
   na temat zdrowego stylu życia, ale także na temat rozwoju osobistego,
   sportu, pasji i podróży.
 ---
-## Główne cele:
+## Główne cele
 
 1. Prowadzenie festynów sportowych 
 2. Prowadzenie zajęć sportowych z dziećmi 
@@ -26,7 +29,7 @@ description: |-
 8. Pisanie poradników podróżniczych ( co warto zwiedzić itp.), motywujących (dąż do celu, rób co kochasz, rozwijaj się, celebruj życie, szanuj każdą chwilę, niemożliwe nie istnieje).
 9. Branie udziału w wydarzeniach sportowych: zdobywanie koron górskich, biegi uliczne, biegi miejskie z przeszkodami, biegi górskie, biegi ekstremalne, spływy kajakowe, rafting, ścianki wspinaczkowe, skoki bungee, skoki spadochronowe, Adventure race, nurkowanie, mecze uliczne koszykówki, piłki nożnej, siatkówki.
 
-## ZAŁOŻENIA:
+## Założenia
 
 1. Przekażemy jak największej liczbie osób wiedzę, radość, energię, pasję, motywację, odwagę do realizacji celów. 
 2. Zarazimy społeczeństwo zdrowym stylem życia oraz sportem w niekonwencjonalny sposób. 
