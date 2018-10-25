@@ -1,5 +1,7 @@
 ---
 templateKey: main-page
+title: MainPage
+path: /main
 jumbotrone:
   description: Coś więcej niż sport i podróże. PASJA!
   title: ZdrowyBus!

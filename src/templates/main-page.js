@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 import { graphql, Link, withPrefix } from 'gatsby';
+import Carousel from '../components/Carousel';
 import Layout from '../components/layout';
 
 export class MainPageTemplate extends Component {
@@ -10,6 +11,7 @@ export class MainPageTemplate extends Component {
     this.jumbotrone = props.jumbotrone;
     this.ebook = props.ebook;
     this.html = props.html;
+    this.gallery = props.gallery;
     this.newTrip = props.newTrip;
     this.newTrip2 = props.newTrip2;
     this.description = props.description;
@@ -42,11 +44,13 @@ export class MainPageTemplate extends Component {
                   <span className="main-ebook__text--desc">{this.ebook.description}</span>
                 </div>
                 <div className="main-ebook__button">
-                  <a className="main-ebook__button--download" href={this.ebook.file} download>POBIERZ</a>
+                  <a className="main-ebook__button--download" href="https://www.zdrowybus.pl/img/ebook.pdf" download>POBIERZ</a>
                 </div>
               </div>
             </section>
-            <section className="main-gallery" />
+            <section className="main-gallery">
+              <Carousel images={this.gallery} />
+            </section>
             <section className="main-partners">
               <div className="main-partners--label">Partnerzy</div>
               <div className="main-partners__partners" />
@@ -99,6 +103,7 @@ const MainPage = ({ data }) => {
       ebook={post.frontmatter.ebook}
       description={post.frontmatter.description}
       html={post.html}
+      gallery={post.frontmatter.gallery}
       newTrip={newTrip.edges[0].node}
       newTrip2={newTrip.edges[1].node}
     />
@@ -120,7 +125,7 @@ MainPageTemplate.propTypes = {
 MainPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
-
+// "4a959880-fa53-5806-8fe1-d40f48bf2350"
 export const mainPageQuery = graphql`
   query MainPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
@@ -134,9 +139,9 @@ export const mainPageQuery = graphql`
         ebook {
           title
           description
-          file
         }
         description
+        gallery
       }
       html
     }

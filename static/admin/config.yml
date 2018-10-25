@@ -4,6 +4,10 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 35de4c9bf32fafe18524
 
 collections:
   - name: "blog"
@@ -43,9 +47,17 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "main-page"}
           - {label: jumbotrone, name: jumbotrone, widget: object, fields: [{label: title, name: title, widget: string}, {label: description, name: description, widget: text}]}
-          - {label: Ebook, name: ebook, widget: object, fields: [{label: Tytuł, name: title, widget: string}, {label: Opis, name: description, widget: text}, {label: Plik, name: file, widget: file,  default: "/img/ebook.pdf"}]}
+          - {label: Ebook, name: ebook, widget: object, fields: [{label: Tytuł, name: title, widget: string}, {label: Opis, name: description, widget: text}]}
           - {label: Opis, name: description, widget: text}
           - {label: Treść, name: "body", widget: markdown}
+          - name: gallery
+            label: Image Gallery
+            widget: image
+            options:
+              media_library:
+                config:
+                  multiple: true
+                  previewStep: true
       - file: "src/pages/team/index.md"
         label: "Zespół"
         name: "team"
