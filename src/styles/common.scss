@@ -1,9 +1,19 @@
+html {
+    height: 100%;
+}
+
 body {
     height: 100%;
     min-height: 100%;
     background: $black;
     color: white;
     font-family: 'Roboto-light';
+    position: relative;
+}
+
+#container {
+    min-height: calc(100vh + 90px);
+    position: relative;
 }
 
 .jumbo {
@@ -70,20 +80,64 @@ section {
 }
 
 footer.footer {
-    background-color: $black;
-    height: 40px;
+    background-color: $green;
+    // background:  linear-gradient(to top, rgba(34,186,194,1) 0%, rgba(34,186,194,0) 100% );
+    height: 90px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 0px;
     left: 0;
-    width: 100%;
-    span {
-        display: inline-block;
-        width: 80%;
-        color: #9E9E9E;
+    width: 100vw;
+    .footer__logo {
+        width: 100%;
+        img {
+            position: absolute;
+            margin: 0 auto;
+            top: -80px;
+            left: calc(50% - 40px);
+        }
     }
+    .footer__data {
+        color: $black;
+        display: flex;
+        width: 100%;
+        font-family: "Roboto-Light";
+        font-size: 22px;
+        &--mail {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            text-align: center;
+            span {
+                padding: 10px;
+            }
+        }
+        &--social {
+            width: 50%;
+            display: flex;
+            justify-content: center;            
+            align-items: center;
+            .footer-yt {
+                width: 100px;
+                height: 100px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .footer-fb {
+                width: 100px;
+                height: 50px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }    
 }
 
 .btn {
