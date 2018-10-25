@@ -1,5 +1,5 @@
     .main__jumbo {
-        background-image: url(../img/jumbo.jpg);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(33,33,33,1) 100%), url(../img/jumbo.jpg);
         .jumbo {
             &__button {
                 margin: 50px 0px 0px 500px;
@@ -13,13 +13,6 @@
             width: 70vw;
             margin: 0 auto;
             position: relative;
-            &__label {
-                font-size: 24px;
-                color: white;
-                margin: 20px 0 10px;
-                padding: 0;
-                font-weight: bold;
-            }
             &__general {
                 margin: 50px 0 0 80px;
                 line-height: 26px;
@@ -58,7 +51,7 @@
         }
 
         .main-ebook {
-            margin: 100px auto;
+            margin: 100px auto 50px;
             width: 80vw;
             height: 300px;
             background-color: $green;
@@ -114,8 +107,12 @@
         }
 
         .main-gallery {
+            &__label {
+                left: -150px;
+                top: 30px;
+            }
             height: 500px;
-            width: 800px;
+            width: 60vw;
             margin: 0 auto;
         }
         .main-partners {
@@ -135,8 +132,8 @@
             margin: 50px auto;
             position: relative;
             &--label {
-                font-size: 40px;
-                font-family: "Roboto-Bold";
+                left: -70px;
+                top: 20px;
             }
             &__data {
                 display: flex;
@@ -185,7 +182,16 @@
                 position: relative;
                 width: 97%;
                 border-top: 1px solid darken($color: $grey, $amount: 25%);
-                margin: 20px;
+                margin: 30px;
             }
+        }
+        .main-finished {
+            position: relative;
+            background-image: linear-gradient(to bottom, rgba(33,33,33,1) 0%, rgba(0,0,0,0) 100% ), url(../img/main-finished.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 0%;
+            height: 400px;
+            width: 100vw;
         }
     }

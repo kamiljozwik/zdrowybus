@@ -22,15 +22,15 @@ export class MainPageTemplate extends Component {
   render() {
     return (
       <Layout path={this.path}>
-        <section id="mainID" className="main component-wrapper">
+        <section className="main component-wrapper">
           <div className="main__jumbo jumbo">
             <div className="jumbo__title">{this.jumbotrone.title}</div>
             <div className="jumbo__desc">{this.jumbotrone.description}</div>
-            <button type="button" className="jumbo__button btn">Zobacz więcej</button>
+            <a href="#mainID" className="jumbo__button btn">Zobacz więcej</a>
           </div>
-          <div className="main__body component_body">
+          <div id="mainID" className="main__body component_body">
             <section className="main-desc">
-              <h2 className="main-desc__label">Wstęp</h2>
+              <h2 className="main-desc__label left-label">Wstęp</h2>
               <div className="main-desc__general">{this.description}</div>
               <img className="main-desc__img img1" src="https://via.placeholder.com/500x450" alt="genral" />
               <img className="main-desc__img img2" src="https://via.placeholder.com/500x350" alt="genral2" />
@@ -49,6 +49,7 @@ export class MainPageTemplate extends Component {
               </div>
             </section>
             <section className="main-gallery">
+              <h2 className="main-gallery__label left-label">Galeria</h2>
               <Carousel images={this.gallery} />
             </section>
             <section className="main-partners">
@@ -57,7 +58,7 @@ export class MainPageTemplate extends Component {
             </section>
             <section className="main-trip">
               {/* toDo: map() */}
-              <div className="main-trip--label">Najbliższe wyjazdy</div>
+              <div className="main-trip--label left-label">Najbliższe wyjazdy</div>
               <div className="main-trip__data">
                 <div className="main-trip__data--text">
                   <span className="main-trip__data--title">{this.newTrip.frontmatter.title}</span>
@@ -84,6 +85,7 @@ export class MainPageTemplate extends Component {
                 </div>
               </div>
             </section>
+            <section className="main-finished" />
           </div>
         </section>
       </Layout>

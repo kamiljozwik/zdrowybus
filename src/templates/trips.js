@@ -25,7 +25,7 @@ export const TripsPageTemplate = ({ path, newTrips, finishedTrips }) => (
     ? (
       <Layout path={path}>
         <section className="trips component-wrapper">
-          <div className="trips__jumbo jumbo" style={{ backgroundImage: `url(${withPrefix(newTrips[0].graphic)})` }}>
+          <div className="trips__jumbo jumbo" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(33,33,33,1) 100%), url(${withPrefix(newTrips[0].graphic)})` }}>
             <div className="jumbo__label">Najbliższy wyjazd</div>
             <div className="jumbo__title">{newTrips[0].title}</div>
             <div className="jumbo__date">{`${moment(newTrips[0].date).format('DD/MM/YYYY')} - ${moment(newTrips[0].endDate).format('DD/MM/YYYY')}`}</div>
