@@ -1,13 +1,12 @@
 ---
 templateKey: main-page
-path: /main
 jumbotrone:
-  title: ZdrowyBus!
   description: Coś więcej niż sport i podróże. PASJA!
+  title: ZdrowyBus!
 ebook:
-  title: Tytuł PDFa  
   description: Jakiś opis dla prezentu albo info o książce
   file: /img/ebook.pdf
+  title: Tytuł PDFa
 description: |-
   Jeździmy po świecie, zarażając pasją do sportu - Przeprowadzając: warsztaty,
   animacje, festyny sportowe. Pokazując przy tym, że zdrowe odżywianie i
