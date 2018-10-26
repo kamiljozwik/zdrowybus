@@ -6,6 +6,6 @@ date: 2019-01-30T09:43:29.474Z
 endDate: 2019-03-21T09:43:29.475Z
 place: Miejsce
 description: test nowego obrazka w tle
-type: new-trip
+type: finished-trip
 ---
 Body and soul
