@@ -13,28 +13,34 @@ export class MainPageTemplate extends Component {
     this.ebook = props.ebook;
     this.html = props.html;
     this.gallery = props.gallery;
-    this.newTrip = props.newTrip;
-    this.newTrip2 = props.newTrip2;
     this.newTrips = props.newTrips;
     this.description = props.description;
     this.path = props.path;
     this.purposes = React.createRef();
   }
 
-  mapTrips = trips => trips.map(trip => (
-    <div key={nanoid()} className="trip-thumbnail main-trip__data">
-      <div className="trip-thumbnail--text">
-        <span className="trip-thumbnail--title">{trip.node.frontmatter.title}</span>
-        <span className="trip-thumbnail--date">{`${moment(trip.node.frontmatter.date).format('DD/MM/YYYY')} - ${moment(trip.node.frontmatter.endDate).format('DD/MM/YYYY')}`}</span>
-        <span className="trip-thumbnail--desc">{trip.node.frontmatter.description}</span>
-        <Link className="trip-thumbnail--btn btn" to={trip.node.fields.slug} type="button">Zobacz więcej</Link>
+  mapTrips = (trips) => {
+    const mappedTrips = trips.map(trip => (
+      <div key={nanoid()} className="trip-thumbnail main-trip__data">
+        <div className="trip-thumbnail--text">
+          <span className="trip-thumbnail--title">{trip.node.frontmatter.title}</span>
+          <span className="trip-thumbnail--date">{`${moment(trip.node.frontmatter.date).format('DD/MM/YYYY')} - ${moment(trip.node.frontmatter.endDate).format('DD/MM/YYYY')}`}</span>
+          <span className="trip-thumbnail--desc">{trip.node.frontmatter.description}</span>
+          <Link className="trip-thumbnail--btn btn" to={trip.node.fields.slug} type="button">Zobacz więcej</Link>
+        </div>
+        <div className="trip-thumbnail--img">
+          <span className="trip-thumbnail--place">{trip.node.frontmatter.place}</span>
+          <div className="trip-image" style={{ backgroundImage: `url(${trip.node.frontmatter.graphic}-/resize/600x300/)` }} />
+        </div>
       </div>
-      <div className="trip-thumbnail--img">
-        <span className="trip-thumbnail--place">{trip.node.frontmatter.place}</span>
-        <div className="trip-image" style={{ backgroundImage: `url(${trip.node.frontmatter.graphic}-/resize/600x300/)` }} />
-      </div>
-    </div>
-  ))
+    ));
+    return (
+      <>
+        <div className="main-trip--label left-label">Najbliższe wyjazdy</div>
+        {mappedTrips}
+      </>
+    );
+  }
 
   render() {
     return (
@@ -74,8 +80,8 @@ export class MainPageTemplate extends Component {
               <div className="main-partners__partners" />
             </section>
             <section className="main-trip">
-              <div className="main-trip--label left-label">Najbliższe wyjazdy</div>
-              {this.mapTrips(this.newTrips)}
+              {/* <div className="main-trip--label left-label">Najbliższe wyjazdy</div> */}
+              {this.newTrips.length > 0 && this.mapTrips(this.newTrips)}
             </section>
             <section className="main-finished" />
           </div>
@@ -87,7 +93,7 @@ export class MainPageTemplate extends Component {
 
 const MainPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { newTrip } = data;
+  const { newTrips } = data;
 
   return (
     <MainPageTemplate
@@ -98,9 +104,7 @@ const MainPage = ({ data }) => {
       description={post.frontmatter.description}
       html={post.html}
       gallery={post.frontmatter.gallery}
-      newTrip={newTrip.edges[0].node}
-      newTrip2={newTrip.edges[1].node}
-      newTrips={newTrip.edges}
+      newTrips={newTrips ? newTrips.edges : []}
     />
   );
 };
@@ -114,8 +118,6 @@ MainPageTemplate.propTypes = {
   path: PropTypes.string.isRequired,
   html: PropTypes.any.isRequired, //eslint-disable-line
   gallery: PropTypes.array.isRequired,
-  newTrip: PropTypes.object.isRequired,
-  newTrip2: PropTypes.object.isRequired,
   newTrips: PropTypes.array.isRequired
 };
 
@@ -142,7 +144,7 @@ export const mainPageQuery = graphql`
       }
       html
     }
-    newTrip: allMarkdownRemark (
+    newTrips: allMarkdownRemark (
       limit: 3
       filter: {
         frontmatter: {

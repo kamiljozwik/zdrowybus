@@ -57,6 +57,16 @@ export const TripsPageTemplate = ({ path, newTrips, finishedTrips }) => (
             <div className="jumbo__title">Brak wyjazdów</div>
             <div className="jumbo__desc">Zapraszamy wkrótce</div>
           </div>
+          {
+            !(_.isEmpty(finishedTrips)) ? (
+              <div className="trips__body component_body">
+                <div className="trips__finished-trips">
+                  <div className="trips__finished-trips--label left-label">Zakończone wyjazdy</div>
+                  {renderTrips(finishedTrips)}
+                </div>
+              </div>
+            ) : <span />
+          }
         </section>
       </Layout>
     )
@@ -82,8 +92,8 @@ const TripsPage = ({ data }) => {
     return formatedTrips;
   };
 
-  const newTripsData = tripsDataFormatter(newTrips);
-  const finishedTripsData = tripsDataFormatter(finishedTrips);
+  const newTripsData = newTrips ? tripsDataFormatter(newTrips) : [];
+  const finishedTripsData = finishedTrips ? tripsDataFormatter(finishedTrips) : [];
 
   return (
     <TripsPageTemplate
