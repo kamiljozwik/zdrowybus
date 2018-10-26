@@ -1,37 +1,40 @@
 .contact {
-    .contact_body {
+    .contact__jumbo {
         display: flex;
-        flex-wrap: wrap;
-        .first-field, .second-field {
-            width: 60%;
-            border: none;
-            padding: 20px 0px;
-            width: 50%;
-        }
-
-        .links {
-            width: 40%;
-            .contact_links {
-                padding-left: 150px;
-                // border: 1px solid red;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100%;
-            }
-            &__yt {
-                display: inline-block;
-                position: relative;
-                img {
-                    height: 70px;
+        align-items: flex-end;
+        .contact__content-wrapper {
+            height: 40%;
+            width: calc(100% - 350px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            .jumbo__email {
+                &--bus, &--arek {
+                    font-size: 40px;
+                    font-family: "Roboto-Medium";
+                    padding: 5px;
+                    transform: scale(1);
+                    transition: 0.2s;
+                    &:hover {
+                        color: $black;
+                        background: $green;
+                        transform: scale(1.3);
+                        transition: 0.3s;
+                    }
                 }
             }
-            &__fb {
-                display: inline-block;
-                position: relative;
-                margin-left: 50px;
+            .jumbo__social {
+                display: flex;
                 img {
-                    height: 70px;
+                    padding: 10px;
+                    width: 50px;
+                    transform: scale(1);
+                    transition: 0.2s;
+                    &:hover {
+                        transform: scale(1.5);
+                        transition: 0.3s;
+                    }
                 }
             }
         }

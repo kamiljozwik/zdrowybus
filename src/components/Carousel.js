@@ -18,7 +18,7 @@ class Carousel extends React.Component {
   render() {
     const images = this.parseImages(this.props.images);
     return (
-      <ImageGallery thumbnailPosition="left" additionalClass="image-carousel" items={images} />
+      <ImageGallery thumbnailPosition="bottom" additionalClass="image-carousel" items={images} />
     );
   }
 }

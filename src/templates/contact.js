@@ -2,14 +2,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
+import youtube from '../img/social/youtube.svg';
+import facebook from '../img/social/facebook.svg';
 
 export const ContactPageTemplate = ({ path, emailBus, emailArek }) => (
   <Layout path={path}>
-    <section className="blogEntry component-wrapper">
-      <div className="blogEntry_body component_body">
-        <div className="blogEntry__first-line">Kontakt</div>
-        <div className="blogEntry__second-line">{emailBus}</div>
-        <div className="blogEntry__second-line">{emailArek}</div>
+    <section className="contact component-wrapper">
+      <div className="contact__jumbo jumbo">
+        <div className="contact__content-wrapper">
+          <div className="jumbo__email--bus"><a href={`mailto: ${emailBus}`}>{emailBus}</a></div>
+          <div className="jumbo__email--arek"><a href={`mailto: ${emailArek}`}>{emailArek}</a></div>
+          <div className="jumbo__social">
+            <div><a href="https://www.youtube.com/channel/UCYkgb3qAj6vQ9bgF_Eitvdg" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="youtube" /></a></div>
+            <div><a href="https://facebook.com/ZdrowyBuspl" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook" /></a></div>
+          </div>
+        </div>
       </div>
     </section>
   </Layout>

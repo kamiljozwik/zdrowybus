@@ -23,6 +23,12 @@
             cursor: pointer;
             position: relative;
             left: 50px;
+            transform: rotate(0);
+            transition: 0.5s;
+            &:hover {
+                transform: rotate(360deg);
+                transition: 1s;
+            }
         }
     }
     &__links {
@@ -40,8 +46,12 @@
         font-size: 18px;
         cursor: pointer;
         color: $grey;
+        transform: scale(1);
+        transition: 0.1s;
         &:hover {
             color: white;
+            transform: scale(1.05);
+            transition: 0.1s;
         }
         &.active {
             color: white;

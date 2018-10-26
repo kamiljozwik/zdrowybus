@@ -1,0 +1,7 @@
+.team__body, .offer__body {
+    display: flex;
+    .team-desc, .offer-desc {
+        width: 60%;
+        margin: 0 auto 200px;
+    }
+}

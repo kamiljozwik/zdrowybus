@@ -1,50 +1,133 @@
 // Trips Page
-.trips {
-    .jumbo {
-        &__label {}
-        &__title {}
-        &__date {}
-        &__place {}
-        &__desc {}
-        &__button {}
-    }
-
-    & &__body {
-        border: 1px solid red;
+.trips__jumbo, .trip__jumbo {
+    display: flex;
+    align-items: flex-end;
+    .jumbo__content-wrapper {
+        height: 70%;
+        width: calc(100% - 350px);
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    & &__new-trips, & &__finished-trips{
-        &--label {
-            padding: 30px;
+        justify-content: space-evenly;
+        .label {
+            font-family: 'Roboto-Bold';
+            width: 30%;
+            text-align: center;
+            font-size: 30px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid white;
         }
-        .single-trip {
-            &__wrapper {
-                display: flex;
-                justify-content: space-between;
-                border: 1px solid green;
-            }
-            &__data {}
-            .data {
-                &--title {}
-                &--date {}
-                &--place {}
-                &--desc {}
-                &--button {}
-                &--image {
-                    width: 200px;
-                    height: 200px;
-                    background-position: 50% 50%;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                }
-            }
+        .title {
+            max-width: 70%;
+            text-align: center;
+            font-family: 'Roboto-Black';
+            padding: 20px 40px;
+            border: 1px solid white;
+            font-size: 60px;
+        }
+        .date {
+            font-family: 'Roboto-Bold';
+        }
+        .place {
+            font-family: 'Roboto-Bold';
+            font-size: 28px;
+        }
+        .desc {
+            font-family: 'Roboto-Regular';
+            width: 80%;
+            line-height: 24px;
+            text-align: center;
         }
     }
 }
 
+.trip__jumbo {
+    .jumbo__content-wrapper {
+        height: 40%;
+    }
+}
+
+.trips__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .trips__new-trips, .trips__finished-trips{
+        width: 70vw;
+        &--label {
+            font-size: 36px;
+            display: inline-block;
+            left: -150px;
+            top: 20px;
+            border-bottom: 1px solid white;
+            padding: 0 25px 8px 0px;
+        }
+    }
+    .trips__finished-trips{
+        margin-bottom: 180px;  
+    }
+}
 
 
-// Single trip
+// Single trip thumbnail
+.trip-thumbnail {
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 18px;
+    padding: 30px 0px;
+    border-bottom: 1px solid darken($color: $grey, $amount: 25%);
+    &:first-child, &:last-child {
+        border-bottom: none;
+    }
+    &--text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    span {
+        margin: 10px;
+        width: 80%;
+    }
+    &--title {
+        font-family: "Roboto-Bold";
+        font-size: 24px;
+        max-width: 80%;
+    }
+    &--date {
+        color: darken(white, 40);
+        font-family: "Roboto-Medium";
+    }
+    &--desc {
+        line-height: 22px;
+    }
+    &--btn {
+        margin: 10px;
+        width: 200px !important;
+    }
+    &--place {
+        position: absolute;
+        top: 40%;
+        width: 100% !important;
+        text-align: center;
+        font-family: "Pacifico";
+        font-size: 50px;
+    }
+    &--img {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        .trip-image {
+            @include thumbnail(100%, 300px);
+            box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+        }
+    }
+}
+
+.trips__body {
+    .trip-content {
+        width: 60%;
+        margin: 0 auto 200px;
+    }
+}

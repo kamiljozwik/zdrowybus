@@ -2,21 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import nanoid from 'nanoid';
 import moment from 'moment';
-import { Link, graphql, withPrefix } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 
 const _ = require('lodash');
 
 const renderTrips = tripsArray => tripsArray.map(trip => (
-  <div className="single-trip single-trip__wrapper" key={nanoid()}>
-    <div className="single-trip__data data">
-      <div className="data--title">{trip.title}</div>
-      <div className="data--date">{`${moment(trip.date).format('DD/MM/YYYY')} - ${moment(trip.endDate).format('DD/MM/YYYY')}`}</div>
-      <div className="data--place">{trip.place}</div>
-      <div className="data--desc">{trip.description}</div>
-      <div className="data--button"><Link to={trip.slug}>Zobacz więcej</Link></div>
+  <div className="trip-thumbnail" key={nanoid()}>
+    <div className="trip-thumbnail--text">
+      <span className="trip-thumbnail--title">{trip.title}</span>
+      <span className="trip-thumbnail--date">{`${moment(trip.date).format('DD/MM/YYYY')} - ${moment(trip.endDate).format('DD/MM/YYYY')}`}</span>
+      <span className="trip-thumbnail--desc">{trip.description}</span>
+      <span className="trip-thumbnail--btn btn"><Link to={trip.slug}>Zobacz więcej</Link></span>
     </div>
-    <div className="data--image" style={{ backgroundImage: `url(${withPrefix(trip.graphic)})` }} />
+    <div className="trip-thumbnail--img">
+      <span className="trip-thumbnail--place">{trip.place}</span>
+      <div className="trip-image" style={{ backgroundImage: `url(${trip.graphic}-/resize/600x300/)` }} />
+    </div>
   </div>
 ));
 
@@ -25,26 +27,24 @@ export const TripsPageTemplate = ({ path, newTrips, finishedTrips }) => (
     ? (
       <Layout path={path}>
         <section className="trips component-wrapper">
-          <div className="trips__jumbo jumbo" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(33,33,33,1) 100%), url(${withPrefix(newTrips[0].graphic)})` }}>
-            <div className="jumbo__label">Najbliższy wyjazd</div>
-            <div className="jumbo__title">{newTrips[0].title}</div>
-            <div className="jumbo__date">{`${moment(newTrips[0].date).format('DD/MM/YYYY')} - ${moment(newTrips[0].endDate).format('DD/MM/YYYY')}`}</div>
-            <div className="jumbo__place">{newTrips[0].place}</div>
-            <div className="jumbo__desc">{newTrips[0].description}</div>
-            <div className="jumbo__button"><Link to={newTrips[0].slug}>Zobacz więcej</Link></div>
+          <div className="trips__jumbo jumbo" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(33,33,33,1) 100%), url(${newTrips[0].graphic}-/resize/1920x1080/)` }}>
+            <div className="jumbo__content-wrapper">
+              <div className="label">Najbliższy wyjazd</div>
+              <div className="title">{newTrips[0].title}</div>
+              <div className="place">{newTrips[0].place}</div>
+              <div className="date">{`${moment(newTrips[0].date).format('DD/MM/YYYY')} - ${moment(newTrips[0].endDate).format('DD/MM/YYYY')}`}</div>
+              <div className="desc">{newTrips[0].description}</div>
+              <div className="button btn"><Link to={newTrips[0].slug}>Zobacz więcej</Link></div>
+            </div>
           </div>
           <div className="trips__body component_body">
-            <div>
-              <div className="trips__new-trips">
-                <div className="trips__new-trips--label">Nadchodzące wyjazdy</div>
-                {renderTrips(newTrips)}
-              </div>
+            <div className="trips__new-trips">
+              <div className="trips__new-trips--label left-label">Nadchodzące wyjazdy</div>
+              {renderTrips(newTrips)}
             </div>
-            <div>
-              <div className="trips__finished-trips">
-                <div className="trips__finished-trips--label">Zakończone wyjazdy</div>
-                {renderTrips(finishedTrips)}
-              </div>
+            <div className="trips__finished-trips">
+              <div className="trips__finished-trips--label left-label">Zakończone wyjazdy</div>
+              {renderTrips(finishedTrips)}
             </div>
           </div>
         </section>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import Logo from '../img/Logo_small.png';
-import fb from '../img/facebook.svg';
-import yt from '../img/youtube.svg';
+import youtube from '../img/social/youtube--black.svg';
+import facebook from '../img/social/facebook--black.svg';
 
 const Footer = () => (
   <StaticQuery
@@ -29,6 +29,7 @@ const Footer = () => (
       `}
     render={dataQuery => (
       <footer className="footer">
+        <div className="footer__brand">zdrowybus.pl / 2018 / all rights reserved</div>
         <div className="footer__logo">
           <img
             className="footer__logo__img"
@@ -37,20 +38,10 @@ const Footer = () => (
             role="presentation"
           />
         </div>
-        {/* <div className="footer__data">
-          <div className="footer__data--mail">
-            <span>{dataQuery.allMarkdownRemark.edges[0].node.frontmatter.emailBus}</span>
-            <span>{dataQuery.allMarkdownRemark.edges[0].node.frontmatter.emailArek}</span>
-          </div>
-          <div className="footer__data--social">
-            <a href="https://www.youtube.com" className="footer-yt">
-              <img src={yt} alt="YT" />
-            </a>
-            <a href="https://www.youtube.com" className="footer-fb">
-              <img src={fb} alt="FB" />
-            </a>
-          </div>
-        </div> */}
+        <div className="footer__social">
+          <div className="footer__social--yt"><a href="https://www.youtube.com/channel/UCYkgb3qAj6vQ9bgF_Eitvdg" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="youtube" /></a></div>
+          <div className="footer__social--fb"><a href="https://facebook.com/ZdrowyBuspl" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook" /></a></div>
+        </div>
       </footer>
     )}
   />

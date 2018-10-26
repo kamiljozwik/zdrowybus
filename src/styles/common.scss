@@ -40,6 +40,7 @@ body {
     &__desc {
         font-family: "Roboto-Medium";
         font-size: 25px;
+        line-height: 38px;
     }
 }
 
@@ -61,13 +62,6 @@ section {
     font-size: 30px;
 }
 
-.desc {
-    font-family: 'Roboto-Light';
-    font-size: 18px;
-    padding-top: 15px;
-    line-height: 1.3;
-}
-
 .left-label {
     font-size: 24px;
     color: white;
@@ -81,63 +75,47 @@ section {
 
 footer.footer {
     background-color: $green;
-    // background:  linear-gradient(to top, rgba(34,186,194,1) 0%, rgba(34,186,194,0) 100% );
-    height: 90px;
+    height: 75px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     position: absolute;
     bottom: 0px;
     left: 0;
     width: 100vw;
-    .footer__logo {
-        width: 100%;
-        img {
-            position: absolute;
-            margin: 0 auto;
-            top: -80px;
-            left: calc(50% - 40px);
-        }
-    }
-    .footer__data {
+    .footer__brand {
         color: $black;
-        display: flex;
-        width: 100%;
         font-family: "Roboto-Light";
-        font-size: 22px;
-        &--mail {
-            display: flex;
-            flex-direction: column;
-            width: 50%;
-            text-align: center;
-            span {
-                padding: 10px;
+        font-size: 18px;
+    }
+    .footer__logo {
+        position: absolute;
+        top: -80px;
+        img {
+            margin: 0 auto;
+            transform: rotate(0);
+            transition: 0.5s;
+            &:hover {
+                transform: rotate(360deg);
+                transition: 1s;
             }
         }
-        &--social {
-            width: 50%;
-            display: flex;
-            justify-content: center;            
-            align-items: center;
-            .footer-yt {
-                width: 100px;
-                height: 100px;
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-            .footer-fb {
-                width: 100px;
-                height: 50px;
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
+    }  
+    .footer__social {
+        display: flex;
+        justify-content: flex-end;
+        width: 33%;
+        img {
+            padding: 10px;
+            width: 40px;
+            transform: scale(1);
+            transition: 0.2s;
+            &:hover {
+                transform: scale(1.5);
+                transition: 0.3s;
             }
         }
-    }    
+    } 
 }
 
 .btn {
@@ -153,4 +131,10 @@ footer.footer {
     justify-content: center;
     align-items: center;
     box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.3);
+    transform: scale(1);
+    transition: 0.1s;
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
 }
