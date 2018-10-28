@@ -1,5 +1,6 @@
 ---
 templateKey: offer
+path: /offer
 jumbotrone:
   description: >-
     Compellingly grow front-end partnerships with tactical technology.

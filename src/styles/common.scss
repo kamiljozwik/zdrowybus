@@ -41,6 +41,7 @@ body {
         font-family: "Roboto-Medium";
         font-size: 25px;
         line-height: 38px;
+        max-width: 60%;
     }
 }
 
@@ -134,7 +135,7 @@ footer.footer {
     transform: scale(1);
     transition: 0.1s;
     &:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
         transition: 0.2s;
     }
 }

@@ -1,5 +1,6 @@
 ---
 templateKey: team
+path: /team
 jumbotrone:
   description: >-
     Zdrowy zespół opis Efficiently formulate sticky e-markets without diverse

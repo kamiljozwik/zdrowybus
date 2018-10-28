@@ -55,8 +55,8 @@ export class MainPageTemplate extends Component {
             <section className="main-desc">
               <h2 className="main-desc__label left-label">Wstęp</h2>
               <div className="main-desc__general">{this.description}</div>
-              <img className="main-desc__img img1" src="https://via.placeholder.com/500x450" alt="genral" />
-              <img className="main-desc__img img2" src="https://via.placeholder.com/500x350" alt="genral2" />
+              <div className="main-desc__img img1" />
+              <div className="main-desc__img img2" />
               <div ref={this.purposes} className="main-desc__purposes cms-content" dangerouslySetInnerHTML={{ __html: this.html }} />
             </section>
             <section className="main-ebook">
