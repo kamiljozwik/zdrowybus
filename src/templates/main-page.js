@@ -67,7 +67,7 @@ export class MainPageTemplate extends Component {
                   <span className="main-ebook__text--desc">{this.ebook.description}</span>
                 </div>
                 <div className="main-ebook__button">
-                  <a className="main-ebook__button--download" href="https://www.zdrowybus.pl/img/ebook.pdf" download>POBIERZ</a>
+                  <a className="main-ebook__button--download" href="https://www.zdrowybus.pl/pdf/planDzienny.pdf" download>POBIERZ</a>
                 </div>
               </div>
             </section>

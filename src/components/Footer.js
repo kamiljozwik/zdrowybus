@@ -3,6 +3,9 @@ import { StaticQuery, graphql } from 'gatsby';
 import Logo from '../img/Logo_small.png';
 import youtube from '../img/social/youtube--black.svg';
 import facebook from '../img/social/facebook--black.svg';
+import instagram from '../img/social/instagram--black.svg';
+import twitter from '../img/social/twitter--black.svg';
+
 
 const Footer = () => (
   <StaticQuery
@@ -41,6 +44,8 @@ const Footer = () => (
         <div className="footer__social">
           <div className="footer__social--yt"><a href="https://www.youtube.com/channel/UCYkgb3qAj6vQ9bgF_Eitvdg" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="youtube" /></a></div>
           <div className="footer__social--fb"><a href="https://facebook.com/ZdrowyBuspl" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook" /></a></div>
+          <div className="footer__social--instagram"><a href="https://www.instagram.com/zdrowybus.pl" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" /></a></div>
+          <div className="footer__social--twitter"><a href="https://twitter.com/ZdrowyBus" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter" /></a></div>
         </div>
       </footer>
     )}
