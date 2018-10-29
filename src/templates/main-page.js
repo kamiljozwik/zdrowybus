@@ -62,7 +62,7 @@ export class MainPageTemplate extends Component {
             <section className="main-ebook">
               <div className="main-ebook__inner">
                 <div className="main-ebook__text">
-                  <span className="main-ebook__text--label">Pobierz darmowy ebook</span>
+                  <span className="main-ebook__text--label">Darmowy plan działania</span>
                   <span className="main-ebook__text--title">{this.ebook.title}</span>
                   <span className="main-ebook__text--desc">{this.ebook.description}</span>
                 </div>
