@@ -16,8 +16,8 @@ export const BlogEntryPageTemplate = ({ path, newPosts, tripsPosts, healthPosts,
   <LayoutBlog path={path}>
     <section className="blog component-wrapper">
       <div className="blog__jumbo jumbo">
+        <div className="jumbo__label">Najnowsze Posty</div>
         <div className="jumbo__content-wrapper">
-          <div className="jumbo__label">Najnowsze Posty</div>
           {renderNewPosts(newPosts)}
         </div>
       </div>
