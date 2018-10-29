@@ -4,10 +4,10 @@ import Layout from '../components/layout';
 
 export const BlogEntryPageTemplate = ({ path }) => (
   <Layout path={path}>
-    <section className="blog component-wrapper">
-      <div className="blog__body component_body">
-        <div className="blog__first-line">Zdrowy blog</div>
-        <Link to="/blog">Przejdź na BLOG</Link>
+    <section className="blog-page component-wrapper">
+      <div className="blog-page__jumbo jumbo">
+        <div className="jumbo__title">ZdrowyBus blog</div>
+        <Link className="jumbo__desc btn" to="/blog">Przejdź na naszego bloga</Link>
       </div>
     </section>
   </Layout>

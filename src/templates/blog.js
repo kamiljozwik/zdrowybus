@@ -8,7 +8,7 @@ const renderNewPosts = newPosts => newPosts.map(post => (
   <div className="blog__section new-post" key={nanoid()}>
     <div className="new-post--title">{post.node.frontmatter.title}</div>
     <div className="new-post--desc">{post.node.frontmatter.description}</div>
-    <Link className="new-post--more" to={post.node.fields.slug}>Więcej</Link>
+    <Link className="new-post--more btn" to={post.node.fields.slug}>Więcej</Link>
   </div>
 ));
 
@@ -16,8 +16,10 @@ export const BlogEntryPageTemplate = ({ path, newPosts, tripsPosts, healthPosts,
   <LayoutBlog path={path}>
     <section className="blog component-wrapper">
       <div className="blog__jumbo jumbo">
-        <div className="jumbo__label">Najnowsze Posty</div>
-        {renderNewPosts(newPosts)}
+        <div className="jumbo__content-wrapper">
+          <div className="jumbo__label">Najnowsze Posty</div>
+          {renderNewPosts(newPosts)}
+        </div>
       </div>
       <div className="blog__body component_body">
         <div className="blog__section blog__trips">
