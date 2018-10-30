@@ -11,7 +11,8 @@ export const BlogPostTemplate = ({
   description,
   title,
   helmet,
-  tags
+  tags,
+  date
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -52,6 +53,7 @@ const BlogPost = ({ data }) => {
       helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
       tags={post.frontmatter.tags}
       title={post.frontmatter.title}
+      date={post.frontmatter.date}
     />
   );
 };
@@ -70,7 +72,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date
         title
         description
         tags

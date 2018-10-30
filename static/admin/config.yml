@@ -17,6 +17,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Data publikacji", name: "date", widget: "date"}
       - {label: "Tytuł", name: "title", widget: "string"}
       - {label: "Krótki opis", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}

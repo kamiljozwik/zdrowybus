@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+date: 2018-11-01T15:16:28.744Z
 title: Making sense of the SCAA’s new Flavor Wheel
 date: 2016-12-17T15:04:10.000Z
 description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.

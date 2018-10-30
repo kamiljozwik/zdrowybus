@@ -10,7 +10,7 @@ const plugins = [CSSPlugin, AttrPlugin]; // eslint-disable-line
 // const TemplateWrapper = ({ children }) => (
 const TemplateWrapper = props => (
   <React.Fragment>
-    <div>
+    <div className="blog-container">
       <Helmet
         title="ZdrowyBus"
         meta={[
