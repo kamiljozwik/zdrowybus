@@ -19,15 +19,20 @@ export const BlogEntryPageTemplate = ({ path, newPosts, tripsPosts, healthPosts,
     <section className="blog component-wrapper">
       <div className="blog__jumbo jumbo">
         <div className="jumbo__content-wrapper">
-          <div className="jumbo__label">Najnowsze Posty</div>
+          <div className="jumbo__label">Najnowszy Post</div>
+        </div>
+      </div>
+      <div className="blog__newests-posts">
+        <div className="left-panel" />
+        <div className="blog__newests-posts--container">
           {renderNewPosts(newPosts)}
         </div>
       </div>
       <div className="blog__introduction">
         <img className="introduction--image" src="https://via.placeholder.com/400x400" alt="introduction" />
         <div className="introduction--content">
-          <p className="upper-text">Continually administrate 2.0 opportunities with B2C infrastructures. Globally communicate proactive leadership skills vis-a-vis stand-alone architectures. Enthusiastically productivate empowered metrics without B2B infrastructures. Uniquely fabricate resource-leveling e-business after high-payoff human capital. Authoritatively develop user friendly markets through effective imperatives.</p>
-          <p className="lower-text">Continually administrate 2.0 opportunities with B2C infrastructures. Globally communicate proactive leadership skills vis-a-vis stand-alone architectures. Enthusiastically productivate empowered metrics without B2B infrastructures. Uniquely fabricate resource-leveling e-business after high-payoff human capital. Authoritatively develop user friendly markets through effective imperatives.</p>          
+          <p className="upper-text">Continually administrate 2.0 opportunities with B2C infrastructures. Globally communicate proactive leadership skills.</p>
+          <p className="lower-text">Continually administrate 2.0 opportunities with B2C infrastructures. Globally communicate proactive leadership skills.</p>
         </div>
       </div>
       <div className="blog__body component_body">
