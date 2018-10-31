@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { CSSPlugin, AttrPlugin } from 'gsap/all';
 import SidebarBlog from './Sidebar-blog';
+// import Footer from './Footer';
 import '../styles/styles.scss';
 
 const plugins = [CSSPlugin, AttrPlugin]; // eslint-disable-line
@@ -20,6 +21,7 @@ const TemplateWrapper = props => (
       />
       <SidebarBlog path={props.path} />
       <div>{props.children}</div>
+      {/* <Footer /> */}
     </div>
   </React.Fragment>
 );

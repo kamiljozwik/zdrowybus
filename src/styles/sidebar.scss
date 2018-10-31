@@ -81,7 +81,8 @@
                     color: $black;
                 }
                 &--logo {
-                    left: 0px;
+                    z-index: -1;
+                    left: -100px;
                 }
             }
             &__links {

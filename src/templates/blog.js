@@ -39,7 +39,8 @@ export const BlogEntryPageTemplate = ({ path, newestPost, newPosts, tripsPosts, 
         </div>
       </div>
       <div className="blog__introduction">
-        <img className="introduction--image" src="https://via.placeholder.com/400x400" alt="introduction" />
+        {/* <img className="introduction--image" src="https://via.placeholder.com/400x400" alt="introduction" /> */}
+        <div className="introduction--image" />
         <div className="introduction--content">
           <p className="upper-text">Continually administrate 2.0 opportunities with B2C infrastructures. Globally communicate proactive leadership skills.</p>
           <p className="lower-text">Continually administrate 2.0 opportunities with B2C infrastructures. Globally communicate proactive leadership skills.</p>

@@ -169,9 +169,13 @@
         margin-left: 350px;
         height: 480px;
         .introduction--image {
+            background:  url(../img/blog1.jpg);
+            border: 4px solid white;
             position: absolute;
             top: 80px;
             left: -150px;
+            width: 400px;
+            height: 400px;
         }
         .introduction--content {
             font-size: 20px;
@@ -259,6 +263,7 @@
 }
 
 .blog-post {
+    background: white !important;
     .jumbo__content-wrapper.withContent {
         height: 40%;
     }
@@ -270,5 +275,10 @@
         p {
             line-height: 25px;
         }
+    }
+    &__comments {
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 75%;
     }
 }

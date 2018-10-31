@@ -5,8 +5,9 @@
   "author": "Austin Green",
   "dependencies": {
     "bulma": "^0.6.0",
+    "disqus-react": "^1.0.5",
     "gatsby": "2.0.3",
-    "gatsby-cli": "^2.4.1",
+    "gatsby-cli": "^2.4.4",
     "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-netlify": "^2.0.0",
     "gatsby-plugin-netlify-cms": "^3.0.2",
