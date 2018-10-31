@@ -21,7 +21,7 @@ const renderNewPosts = newPosts => newPosts.map(post => (
 export const TagRouteTemplate = ({posts, tag }) => (
   <LayoutBlog path={`/tags/${tag}`}>
     <section className="blog-post blog component-wrapper">
-      <div className="blog__jumbo jumbo">
+      <div className="blog__jumbo jumbo" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(50, 50, 50, 1) 100%), url(${posts[0].node.frontmatter.graphic}-/resize/1920x1080/)` }}>
         <div className="jumbo__content-wrapper">
           <div className="label">Najnowszy Post</div>
           <div className="title">{posts[0].node.frontmatter.title}</div>

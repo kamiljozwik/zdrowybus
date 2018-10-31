@@ -22,7 +22,7 @@ const renderNewPosts = newPosts => newPosts.map(post => (
 export const BlogEntryPageTemplate = ({ path, newestPost, newPosts, tripsPosts, healthPosts, trainingPosts, couchingPosts }) => (
   <LayoutBlog path={path}>
     <section className="blog component-wrapper">
-      <div className="blog__jumbo jumbo">
+      <div className="blog__jumbo jumbo" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(50, 50, 50, 1) 100%), url(${newestPost.node.frontmatter.graphic}-/resize/1920x1080/)` }}>
         <div className="jumbo__content-wrapper">
           <div className="label">Najnowszy Post</div>
           <div className="title">{newestPost.node.frontmatter.title}</div>
@@ -138,7 +138,7 @@ export const blogPageQuery = graphql`
           fields {
             slug
           }
-          ...NewTripsData
+          ...BlogData
         }
       }
     }
@@ -152,7 +152,7 @@ export const blogPageQuery = graphql`
           fields {
             slug
           }
-          ...NewTripsData
+          ...BlogData
         }
       }
     }
@@ -166,7 +166,7 @@ export const blogPageQuery = graphql`
           fields {
             slug
           }
-          ...NewTripsData
+          ...BlogData
         }
       }
     }
@@ -180,7 +180,7 @@ export const blogPageQuery = graphql`
           fields {
             slug
           }
-          ...NewTripsData
+          ...BlogData
         }
       }
     }
@@ -194,7 +194,7 @@ export const blogPageQuery = graphql`
           fields {
             slug
           }
-          ...NewTripsData
+          ...BlogData
         }
       }
     }

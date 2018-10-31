@@ -111,16 +111,24 @@
         text-align: center;
         font-family: "Pacifico";
         font-size: 50px;
+        z-index: 3;
     }
     &--img {
+        overflow: hidden;
         position: relative;
         width: 50%;
         height: 100%;
         display: flex;
         justify-content: flex-end;
+        box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
         .trip-image {
             @include thumbnail(100%, 300px);
-            box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5);
+            transform: scale(1);
+            transition: 0.2s;
+            &:hover {
+                transform: scale(1.2);
+                transition: 0.2s;
+            }
         }
     }
 }

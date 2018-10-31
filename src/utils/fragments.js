@@ -12,4 +12,15 @@ export const query = graphql`
   }
 `;
 
-export const temp = 'temp';
+export const queryBlog = graphql`
+  fragment BlogData on MarkdownRemark {
+    frontmatter {
+      date
+      graphic
+      title
+      description
+      type
+      tags
+    }
+  }
+`;
