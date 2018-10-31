@@ -4,8 +4,10 @@ export const query = graphql`
   fragment NewTripsData on MarkdownRemark {
     frontmatter {
       date
+      graphic
       title
       description
+      type
     }
   }
 `;

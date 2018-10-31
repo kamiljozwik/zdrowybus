@@ -7,24 +7,34 @@ import LayoutBlog from '../components/layout-blog';
 
 const renderNewPosts = newPosts => newPosts.map(post => (
   <div className="blog__section new-post" key={nanoid()}>
-    <div className="new-post--date">{moment(post.node.frontmatter.date).format('DD/MM/YYYY')}</div>
-    <div className="new-post--title">{post.node.frontmatter.title}</div>
-    <div className="new-post--desc">{post.node.frontmatter.description}</div>
-    <Link className="new-post--more btn" to={post.node.fields.slug}>Więcej</Link>
+    <div className="new-post--image" style={{ backgroundImage: `url(${post.node.frontmatter.graphic}-/resize/300x200/)` }} />
+    <div className="new-post--data">
+      <div className="new-post--type">{post.node.frontmatter.type}</div>
+      <div className="new-post--title">{post.node.frontmatter.title}</div>
+      <div className="new-post--footer">
+        <div className="new-post--date">{moment(post.node.frontmatter.date).format('DD/MM/YYYY')}</div>
+        <Link className="new-post--more" to={post.node.fields.slug}>Czytaj</Link>
+      </div>
+    </div>
   </div>
 ));
 
-export const BlogEntryPageTemplate = ({ path, newPosts, tripsPosts, healthPosts, trainingPosts, couchingPosts }) => (
+export const BlogEntryPageTemplate = ({ path, newestPost, newPosts, tripsPosts, healthPosts, trainingPosts, couchingPosts }) => (
   <LayoutBlog path={path}>
     <section className="blog component-wrapper">
       <div className="blog__jumbo jumbo">
         <div className="jumbo__content-wrapper">
-          <div className="jumbo__label">Najnowszy Post</div>
+          <div className="label">Najnowszy Post</div>
+          <div className="title">{newestPost.node.frontmatter.title}</div>
+          <div className="desc">{newestPost.node.frontmatter.description}</div>
+          <div className="date">{moment(newestPost.node.frontmatter.date).format('DD/MM/YYYY')}</div>
+          <Link className="see-more" to={newestPost.node.fields.slug}>Czytaj</Link>
         </div>
       </div>
       <div className="blog__newests-posts">
         <div className="left-panel" />
         <div className="blog__newests-posts--container">
+          <div className="blog__newests-posts--label">Najnowsze posty ___</div>
           {renderNewPosts(newPosts)}
         </div>
       </div>
@@ -39,31 +49,31 @@ export const BlogEntryPageTemplate = ({ path, newPosts, tripsPosts, healthPosts,
         <div className="left-panel" />
         <div className="blog__sections">
           <div className="blog__section blog__trips">
-            <div className="blog__section--label">Najnowsze - Wycieczki</div>
+            <div className="blog__section--label">Podróże ___</div>
             {renderNewPosts(tripsPosts)}
-            <div className="seeAll">
-              <Link className="btn" to="/tags/blog-trips/">Zobacz wszystkie</Link>
+            <div className="blog__section--seeAll">
+              <Link className="see-all" to="/tags/blog-trips/">Zobacz wszystkie</Link>
             </div>
           </div>
           <div className="blog__section blog__health">
-            <div className="blog__section--label">Najnowsze - Zdrowie</div>
+            <div className="blog__section--label">Zdrowie ___</div>
             {renderNewPosts(healthPosts)}
-            <div className="seeAll">
-              <Link className="btn" to="/tags/blog-health/">Zobacz wszystkie</Link>
+            <div className="blog__section--seeAll">
+              <Link className="see-all" to="/tags/blog-health/">Zobacz wszystkie</Link>
             </div>
           </div>
           <div className="blog__section blog__training">
-            <div className="blog__section--label">Najnowsze - Trening</div>
+            <div className="blog__section--label">Trening ___</div>
             {renderNewPosts(trainingPosts)}
-            <div className="seeAll">
-              <Link className="btn" to="/tags/blog-training/">Zobacz wszystkie</Link>
+            <div className="blog__section--seeAll">
+              <Link className="see-all" to="/tags/blog-training/">Zobacz wszystkie</Link>
             </div>
           </div>
           <div className="blog__section blog__couching">
-            <div className="blog__section--label">Najnowsze - Rozwój</div>
+            <div className="blog__section--label">Rozwój ___</div>
             {renderNewPosts(couchingPosts)}
-            <div className="seeAll">
-              <Link className="btn" to="/tags/blog-couching/">Zobacz wszystkie</Link>
+            <div className="blog__section--seeAll">
+              <Link className="see-all" to="/tags/blog-couching/">Zobacz wszystkie</Link>
             </div>
           </div>
         </div>
@@ -74,16 +84,13 @@ export const BlogEntryPageTemplate = ({ path, newPosts, tripsPosts, healthPosts,
 
 const BlogEntryPage = ({ data }) => {
   const { page } = data;
-  const { newPosts } = data;
-  const { tripsPosts } = data;
-  const { healthPosts } = data;
-  const { trainingPosts } = data;
-  const { couchingPosts } = data;
+  const { newPosts, tripsPosts, healthPosts, trainingPosts, couchingPosts } = data;
 
   return (
     <BlogEntryPageTemplate
       path={page.frontmatter.path}
-      newPosts={newPosts.edges}
+      newestPost={newPosts.edges[0]}
+      newPosts={newPosts.edges.slice(1)}
       tripsPosts={tripsPosts.edges}
       healthPosts={healthPosts.edges}
       trainingPosts={trainingPosts.edges}
@@ -122,7 +129,7 @@ export const blogPageQuery = graphql`
       }
     }
     newPosts: allMarkdownRemark(
-      limit: 3
+      limit: 4
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { templateKey: { in: "blog-post" } } }
     ) {
@@ -136,7 +143,7 @@ export const blogPageQuery = graphql`
       }
     }
     tripsPosts: allMarkdownRemark(
-      limit: 4
+      limit: 3
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: "blog-trips" } } }
     ) {
@@ -150,7 +157,7 @@ export const blogPageQuery = graphql`
       }
     }
     healthPosts: allMarkdownRemark(
-      limit: 4
+      limit: 3
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: "blog-health" } } }
     ) {
@@ -164,7 +171,7 @@ export const blogPageQuery = graphql`
       }
     }
     trainingPosts: allMarkdownRemark(
-      limit: 4
+      limit: 3
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: "blog-training" } } }
     ) {
@@ -178,7 +185,7 @@ export const blogPageQuery = graphql`
       }
     }
     couchingPosts: allMarkdownRemark(
-      limit: 4
+      limit: 3
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { tags: { in: "blog-couching" } } }
     ) {

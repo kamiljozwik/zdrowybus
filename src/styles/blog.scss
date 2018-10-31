@@ -2,33 +2,78 @@
     background: $blackBlog;
 }
 
+// blog main page and blog post
 .blog__jumbo {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(50, 50, 50, 1) 100%), url(../img/leadBlog.jpg);
     display: flex;
     align-items: flex-end;
-    .jumbo__label {
-        font-size: 45px;
-        font-family: "Roboto-light";
-        width: 100%;
-        text-align: center;
-        margin-bottom: 30px;
-    }
     .jumbo__content-wrapper {
-        height: 70%;
+        height: 60%;
         width: calc(100% - 350px);
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        .label {
+            font-family: 'Roboto-Bold';
+            width: 30%;
+            text-align: center;
+            font-size: 30px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid white;
+        }
+        .title {
+            max-width: 70%;
+            text-align: center;
+            font-family: 'Roboto-Black';
+            padding: 20px 40px;
+            border: 1px solid white;
+            font-size: 60px;
+        }
+        .date {
+            font-family: "Roboto-Medium";
+            color: $grey;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        .place {
+            font-family: 'Roboto-Bold';
+            font-size: 28px;
+        }
+        .desc {
+            font-family: 'Roboto-Regular';
+            width: 80%;
+            line-height: 24px;
+            text-align: center;
+        }
+        .see-more {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: "Roboto-Medium";
+            font-size: 16px;
+            &::after {
+                content: '\25B6';
+                color: $gold;
+                margin-left: 5px;
+            }
+        }
     }
 }
 
+// blog main page
 .blog__newests-posts {
     display: flex;
     .left-panel {
         width: 350px;
         background: white;
+    }
+    &--label {
+        width: 97%;
+        color: white;
+        padding: 50px 0 40px 10px;
+        font-family: "Roboto-Medium";
+        font-size: 26px;
+        border-top: 1px solid $grey;
     }
     &--container{
         height: 70%;
@@ -41,48 +86,81 @@
     }
 }
 
+// blog main page and blog post
 .new-post {
-    // background: rgba(255, 255, 255, 0.1);
-    background: rgba(34,186,194,0.3);
-    height: 350px;
+    background: $greyBlog;
+    height: 400px;
     width: 30%;
+    min-width: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
-    &--date {
-        font-family: "Roboto-Thin";
-        font-size: 18px;
-        text-align: center;
-        padding: 30px 0px;
+    &--image {
+        @include thumbnail(100%, 45%);
+    }
+    &--data {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 55%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    &--type {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 15px 0px;
+        font-family: "Roboto-Medium";
+        color: $grey;
+        font-size: 14px;
+        &::after {
+            content: "___";
+            position: relative;
+            left: 5px;
+            letter-spacing: 0px;
+        }
     }
     &--title {
-        font-family: "Roboto-Bold";
-        font-size: 32px;
-        text-align: center;
+        font-family: "Roboto-Medium";
+        letter-spacing: 2px;
+        font-size: 22px;
+        text-align: left;
+        line-height: 30px;
+        padding-right: 10px;
+        height: 60%;
     }
-    &--desc {
-        font-family: "Roboto-Light";
-        font-size: 20px;
-        text-align: center;
-        padding: 30px 0px;
-        max-height: 160px;
+    &--footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &--date {
+        font-family: "Roboto-Medium";
+        color: $grey;
+        font-size: 12px;
+        letter-spacing: 1px;
     }
     &--more {
-        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: "Roboto-Medium";
+        font-size: 12px;
+        &::after {
+            content: '\25B6';
+            color: $gold;
+            margin-left: 5px;
+        }
     }
 }
 
-.blog-container {
-    position: relative;
-}
-
+// blog main page and blog post
 .blog {
     .blog__introduction {
         position: absolute;
         display: flex;
         margin-left: 350px;
-        height: 550px;
+        height: 480px;
         .introduction--image {
             position: absolute;
             top: 80px;
@@ -90,8 +168,8 @@
         }
         .introduction--content {
             font-size: 20px;
-            line-height: 24px;
-
+            line-height: 30px;
+            letter-spacing: 1px;
             .upper-text {
                 height: 50%;
                 background: $blackBlog;
@@ -101,7 +179,7 @@
                 padding-top: 20px;
             }
             .lower-text {
-                height: 25;
+                height: 25%;
                 background: white;
                 color: $black;
                 padding-left: 300px;
@@ -118,7 +196,7 @@
             background: white;
         }
         .blog__sections {
-            margin-top: 400px;
+            margin-top: 480px;
         }
         .blog__section {
             display: flex;
@@ -126,16 +204,45 @@
             flex-wrap: wrap;
             .new-post {
                 flex-wrap: nowrap;
-                height: 400px;
-                background: rgba(34,186,194,0.3);
+                margin: 5px;
+                width: 20%;
+                &.fromTag {
+                    margin: 20px;
+                }
             }
             &--label {
                 width: 100%;
                 padding: 30px 0px;
+                color: $black;
+                font-family: "Roboto-Medium";
+                font-size: 26px;
             }
-            .seeAll {
-                width: 100%;
-                padding: 30px 0px;
+            &--seeAll {
+                position: relative;
+                width: 10%;
+                height: 400px;
+                color: white;
+                background: $greyBlog;
+                margin: 5px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-family: "Roboto-Medium";
+                font-size: 12px;
+                .see-all {
+                    padding: 0 2px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    height: 100%;
+                    &::after {
+                        content: '\25B6';
+                        color: $gold;
+                        position: absolute;
+                        top: 55%;
+                        left: 45%;
+                    }
+                }
             }
         }
     }

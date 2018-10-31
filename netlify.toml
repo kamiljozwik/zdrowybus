@@ -1,3 +1,6 @@
 [[redirects]]
   from = "/"
   to = "/main"
+[[redirects]]
+  from = "https://www.blog.zdrowybus.pl"
+  to = "/blog"

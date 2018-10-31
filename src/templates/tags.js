@@ -1,42 +1,54 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
+import nanoid from 'nanoid';
+import moment from 'moment';
 import LayoutBlog from '../components/layout-blog';
 
-class TagRoute extends React.Component {
-  render() {
-    const NewPosts = this.props.data.allMarkdownRemark.edges.slice(0, 3);
-    const OldPosts = this.props.data.allMarkdownRemark.edges.slice(3);
+const renderNewPosts = newPosts => newPosts.map(post => (
+  <div className="blog__section new-post fromTag" key={nanoid()}>
+    <div className="new-post--image" style={{ backgroundImage: `url(${post.node.frontmatter.graphic}-/resize/300x200/)` }} />
+    <div className="new-post--data">
+      <div className="new-post--type">{post.node.frontmatter.type}</div>
+      <div className="new-post--title">{post.node.frontmatter.title}</div>
+      <div className="new-post--footer">
+        <div className="new-post--date">{moment(post.node.frontmatter.date).format('DD/MM/YYYY')}</div>
+        <Link className="new-post--more" to={post.node.fields.slug}>Czytaj</Link>
+      </div>
+    </div>
+  </div>
+));
 
-    const postLinks = posts => posts.map(post => (
-      <li key={post.node.fields.slug}>
-        <h2>{post.node.frontmatter.title}</h2>
-        <p>{post.node.frontmatter.description}</p>
-        <Link to={post.node.fields.slug}>Zobacz</Link>
-      </li>
-    ));
+export const TagRouteTemplate = ({posts, tag }) => (
+  <LayoutBlog path={`/tags/${tag}`}>
+    <section className="blog-post blog component-wrapper">
+      <div className="blog__jumbo jumbo">
+        <div className="jumbo__content-wrapper">
+          <div className="label">Najnowszy Post</div>
+          <div className="title">{posts[0].node.frontmatter.title}</div>
+          <div className="desc">{posts[0].node.frontmatter.description}</div>
+          <div className="date">{moment(posts[0].node.frontmatter.date).format('DD/MM/YYYY')}</div>
+          <Link className="see-more" to={posts[0].node.fields.slug}>Czytaj</Link>
+        </div>
+      </div>
+      <div className="blog-post__body blog__body component_body">
+        <div className="left-panel" />
+        <div className="blog__section blog__trips">
+          <div className="blog__section--label">Wszystkie posty ___</div>
+          {renderNewPosts(posts)}
+        </div>
+      </div>
+    </section>
+  </LayoutBlog>
+);
 
-    // const { tag } = this.props.pageContext;
-    const { totalCount } = this.props.data.allMarkdownRemark;
-    const tagHeader = `Liczba postów: ${totalCount}`;
-
-    return (
-      <LayoutBlog path={`/tags/${this.props.pageContext.tag}`}>
-        <section className="blog-post component-wrapper">
-          <div className="blog-post__jumbo jumbo">
-            <div>{tagHeader}</div>
-            <ul>{postLinks(NewPosts)}</ul>
-          </div>
-          <div className="blog-post__body component_body">
-            <div>
-              <div>Pozostałe posty:</div>
-              <ul>{postLinks(OldPosts)}</ul>
-            </div>
-          </div>
-        </section>
-      </LayoutBlog>
-    );
-  }
-}
+const TagRoute = ({ data, pageContext }) => {
+  return (
+    <TagRouteTemplate
+      posts={data.allMarkdownRemark.edges}
+      tag={pageContext.tag}
+    />
+  );
+};
 
 export default TagRoute;
 
@@ -53,10 +65,7 @@ export const tagPageQuery = graphql`
           fields {
             slug
           }
-          frontmatter {
-            title
-            description
-          }
+          ...NewTripsData
         }
       }
     }
