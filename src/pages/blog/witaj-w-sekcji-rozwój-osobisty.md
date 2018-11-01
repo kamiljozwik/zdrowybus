@@ -8,9 +8,10 @@ description: Informacje o tym czego możesz spodziewać się w tej sekcji.
 tags:
   - blog-couching
 ---
-Witaj w sekcji "Rozwój osobisty"
+## Witaj w sekcji "Rozwój osobisty"
 
-W sekcji tej znajdziesz informacje dotyczące rozwoju osobistego. Miłego czyatania. W sekcji tej znajdziesz informacje dotyczące rozwoju osobistego. W sekcji tej znajdziesz informacje dotyczące rozwoju osobistego. Miłego czytania.
+W sekcji tej znajdziesz informacje dotyczące rozwoju osobistego. Miłego czyatania.
+W sekcji tej znajdziesz informacje dotyczące rozwoju osobistego. W sekcji tej znajdziesz informacje dotyczące rozwoju osobistego. Miłego czytania.
 
 
 

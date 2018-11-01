@@ -8,7 +8,7 @@ description: Informacje o tym czego możesz spodziewać się w tej sekcji.
 tags:
   - blog-training
 ---
-**Witaj w sekcji "Trening"**
+## Witaj w sekcji "Trening"
 
 W sekcji tej znajdziesz informacje dotyczące Treningu. W sekcji tej znajdziesz informacje dotyczące Treningu. W sekcji tej znajdziesz informacje dotyczące Treningu. W sekcji tej znajdziesz informacje dotyczące Treningu.
 

@@ -210,6 +210,7 @@
             margin-top: 480px;
         }
         .blog__section {
+            width: 100%;
             display: flex;
             justify-content: flex-start;
             flex-wrap: wrap;
@@ -238,7 +239,7 @@
                 text-transform: uppercase;
                 letter-spacing: 1px;
                 font-family: "Roboto-Medium";
-                font-size: 12px;
+                font-size: 10px;
                 .see-all {
                     padding: 0 2px;
                     display: flex;
