@@ -5,7 +5,7 @@ import nanoid from 'nanoid';
 import moment from 'moment';
 import LayoutBlog from '../components/layout-blog';
 
-const renderNewPosts = (newPosts, link) => {
+const renderNewPosts = (newPosts, link = '', isVisible = true) => {
   const thumbnails = newPosts.map(post => (
     <div className="blog__section new-post" key={nanoid()}>
       <div className="new-post--image" style={{ backgroundImage: `url(${post.node.frontmatter.graphic}-/resize/300x200/)` }} />
@@ -22,9 +22,13 @@ const renderNewPosts = (newPosts, link) => {
   return (
     <>
       {thumbnails}
-      <div className="blog__section--seeAll">
-        <Link className="see-all" to={`/tags/${link}/`}>Zobacz wszystkie</Link>
-      </div>
+      {isVisible
+        ? (
+          <div className="blog__section--seeAll">
+            <Link className="see-all" to={`/tags/${link}/`}>Zobacz wszystkie</Link>
+          </div>
+        ) : <></>
+      }
     </>
   );
 };
@@ -45,14 +49,14 @@ export const BlogEntryPageTemplate = ({ path, newestPost, newPosts, tripsPosts, 
         <div className="left-panel" />
         <div className="blog__newests-posts--container">
           <div className="blog__newests-posts--label">Najnowsze posty ___</div>
-          {renderNewPosts(newPosts)}
+          {renderNewPosts(newPosts, '', false)}
         </div>
       </div>
       <div className="blog__introduction">
         <div className="introduction--image" />
         <div className="introduction--content">
-          <p className="upper-text">Continually administrate 2.0 opportunities with B2C infrastructures. Globally communicate proactive leadership skills.</p>
-          <p className="lower-text">Continually administrate 2.0 opportunities with B2C infrastructures. Globally communicate proactive leadership skills.</p>
+          <p className="upper-text">Witaj na blogu prowadzonym przez zespół zdrowego busa.</p>
+          <p className="lower-text">Znajdziesz tutaj wiele ciekawych informacji na tematy związane z podróżowaniem, zdrowym trybem życia oraz rozwojem osobistm.</p>
         </div>
       </div>
       <div className="blog__body component_body">
@@ -83,7 +87,7 @@ export const BlogEntryPageTemplate = ({ path, newestPost, newPosts, tripsPosts, 
 const BlogEntryPage = ({ data }) => {
   const { page } = data;
   const { newPosts, tripsPosts, healthPosts, trainingPosts, couchingPosts } = data;
-
+  console.log(tripsPosts.edges);
   return (
     <BlogEntryPageTemplate
       path={page.frontmatter.path}
@@ -104,7 +108,7 @@ BlogEntryPageTemplate.propTypes = {
   tripsPosts: PropTypes.array,
   healthPosts: PropTypes.array,
   trainingPosts: PropTypes.array,
-  couchingPosts: PropTypes.object,
+  couchingPosts: PropTypes.array,
 };
 
 BlogEntryPageTemplate.defaultProps = {
