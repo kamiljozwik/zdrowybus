@@ -5,19 +5,29 @@ import nanoid from 'nanoid';
 import moment from 'moment';
 import LayoutBlog from '../components/layout-blog';
 
-const renderNewPosts = newPosts => newPosts.map(post => (
-  <div className="blog__section new-post" key={nanoid()}>
-    <div className="new-post--image" style={{ backgroundImage: `url(${post.node.frontmatter.graphic}-/resize/300x200/)` }} />
-    <div className="new-post--data">
-      <div className="new-post--type">{post.node.frontmatter.type}</div>
-      <div className="new-post--title">{post.node.frontmatter.title}</div>
-      <div className="new-post--footer">
-        <div className="new-post--date">{moment(post.node.frontmatter.date).format('DD/MM/YYYY')}</div>
-        <Link className="new-post--more" to={post.node.fields.slug}>Czytaj</Link>
+const renderNewPosts = (newPosts, link) => {
+  const thumbnails = newPosts.map(post => (
+    <div className="blog__section new-post" key={nanoid()}>
+      <div className="new-post--image" style={{ backgroundImage: `url(${post.node.frontmatter.graphic}-/resize/300x200/)` }} />
+      <div className="new-post--data">
+        <div className="new-post--type">{post.node.frontmatter.type}</div>
+        <div className="new-post--title">{post.node.frontmatter.title}</div>
+        <div className="new-post--footer">
+          <div className="new-post--date">{moment(post.node.frontmatter.date).format('DD/MM/YYYY')}</div>
+          <Link className="new-post--more" to={post.node.fields.slug}>Czytaj</Link>
+        </div>
       </div>
     </div>
-  </div>
-));
+  ));
+  return (
+    <>
+      {thumbnails}
+      <div className="blog__section--seeAll">
+        <Link className="see-all" to={`/tags/${link}/`}>Zobacz wszystkie</Link>
+      </div>
+    </>
+  );
+};
 
 export const BlogEntryPageTemplate = ({ path, newestPost, newPosts, tripsPosts, healthPosts, trainingPosts, couchingPosts }) => (
   <LayoutBlog path={path}>
@@ -39,7 +49,6 @@ export const BlogEntryPageTemplate = ({ path, newestPost, newPosts, tripsPosts, 
         </div>
       </div>
       <div className="blog__introduction">
-        {/* <img className="introduction--image" src="https://via.placeholder.com/400x400" alt="introduction" /> */}
         <div className="introduction--image" />
         <div className="introduction--content">
           <p className="upper-text">Continually administrate 2.0 opportunities with B2C infrastructures. Globally communicate proactive leadership skills.</p>
@@ -51,31 +60,19 @@ export const BlogEntryPageTemplate = ({ path, newestPost, newPosts, tripsPosts, 
         <div className="blog__sections">
           <div className="blog__section blog__trips">
             <div className="blog__section--label">Podróże ___</div>
-            {renderNewPosts(tripsPosts)}
-            <div className="blog__section--seeAll">
-              <Link className="see-all" to="/tags/blog-trips/">Zobacz wszystkie</Link>
-            </div>
+            {renderNewPosts(tripsPosts, 'blog-trips')}
           </div>
           <div className="blog__section blog__health">
             <div className="blog__section--label">Zdrowie ___</div>
-            {renderNewPosts(healthPosts)}
-            <div className="blog__section--seeAll">
-              <Link className="see-all" to="/tags/blog-health/">Zobacz wszystkie</Link>
-            </div>
+            {renderNewPosts(healthPosts, 'blog-health')}
           </div>
           <div className="blog__section blog__training">
             <div className="blog__section--label">Trening ___</div>
-            {renderNewPosts(trainingPosts)}
-            <div className="blog__section--seeAll">
-              <Link className="see-all" to="/tags/blog-training/">Zobacz wszystkie</Link>
-            </div>
+            {renderNewPosts(trainingPosts, 'blog-training')}
           </div>
           <div className="blog__section blog__couching">
             <div className="blog__section--label">Rozwój ___</div>
-            {renderNewPosts(couchingPosts)}
-            <div className="blog__section--seeAll">
-              <Link className="see-all" to="/tags/blog-couching/">Zobacz wszystkie</Link>
-            </div>
+            {renderNewPosts(couchingPosts, 'blog-couching')}
           </div>
         </div>
       </div>
@@ -95,7 +92,7 @@ const BlogEntryPage = ({ data }) => {
       tripsPosts={tripsPosts.edges}
       healthPosts={healthPosts.edges}
       trainingPosts={trainingPosts.edges}
-      couchingPosts={couchingPosts.edges}
+      couchingPosts={couchingPosts ? couchingPosts.edges : []}
     />
   );
 };
@@ -103,19 +100,21 @@ const BlogEntryPage = ({ data }) => {
 BlogEntryPageTemplate.propTypes = {
   path: PropTypes.string,
   newPosts: PropTypes.array,
+  newestPost: PropTypes.object,
   tripsPosts: PropTypes.array,
   healthPosts: PropTypes.array,
   trainingPosts: PropTypes.array,
-  couchingPosts: PropTypes.array,
+  couchingPosts: PropTypes.object,
 };
 
 BlogEntryPageTemplate.defaultProps = {
   path: '/',
   newPosts: [],
+  newestPost: {},
   tripsPosts: [],
   healthPosts: [],
   trainingPosts: [],
-  couchingPosts: [],
+  couchingPosts: {},
 };
 
 export default BlogEntryPage;
