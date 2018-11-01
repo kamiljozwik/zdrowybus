@@ -1,13 +1,17 @@
 ---
 templateKey: blog-post
+graphic: 'https://ucarecdn.com/8edeb22b-03ca-4fd7-bd8f-59befcb4dede/'
+type: Trening
 date: 2018-11-01T15:16:28.744Z
-graphic: 'https://ucarecdn.com/013a1481-e20b-42d2-9333-a6eb388a4290/'
-title: Authoritatively mesh magnetic innovation.
-description: >-
-  Authoritatively mesh magnetic innovation. Authoritatively mesh magnetic
-  innovation.
-type: Treninig
+title: Witaj w sekcji "Trening"
+description: Informacje o tym czego możesz spodziewać się w tej sekcji.
 tags:
   - blog-training
 ---
-Authoritatively mesh magnetic innovation.
+**Witaj w sekcji "Trening"**
+
+W sekcji tej znajdziesz informacje dotyczące Treningu. W sekcji tej znajdziesz informacje dotyczące Treningu. W sekcji tej znajdziesz informacje dotyczące Treningu. W sekcji tej znajdziesz informacje dotyczące Treningu.
+
+
+
+Dłuższy opis tego posta...
