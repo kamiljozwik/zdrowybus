@@ -50,6 +50,7 @@
             letter-spacing: 1px;
             font-family: "Roboto-Medium";
             font-size: 16px;
+            color: white;
             &:hover {
                 transform: scale(1.1);
             }
@@ -150,6 +151,7 @@
         letter-spacing: 1px;
         font-family: "Roboto-Medium";
         font-size: 12px;
+        color: white;
         &::after {
             content: '\25B6';
             color: $gold;
@@ -247,6 +249,7 @@
                     align-items: center;
                     text-align: center;
                     height: 100%;
+                    color: white;
                     &:hover {
                         transform: scale(1.1);
                     }
@@ -281,5 +284,8 @@
         margin: 0 auto;
         margin-top: 50px;
         width: 75%;
+        .publisher-anchor-color a {
+            color: $black !important;
+        }
     }
 }

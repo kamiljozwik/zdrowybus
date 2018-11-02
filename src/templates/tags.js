@@ -6,7 +6,7 @@ import LayoutBlog from '../components/layout-blog';
 
 const renderNewPosts = newPosts => newPosts.map(post => (
   <div className="blog__section new-post fromTag" key={nanoid()}>
-    <div className="new-post--image" style={{ backgroundImage: `url(${post.node.frontmatter.graphic}-/resize/300x200/)` }} />
+    <div className="new-post--image" style={{ backgroundImage: `url(${post.node.frontmatter.graphic}-/resize/352x198/)` }} />
     <div className="new-post--data">
       <div className="new-post--type">{post.node.frontmatter.type}</div>
       <div className="new-post--title">{post.node.frontmatter.title}</div>

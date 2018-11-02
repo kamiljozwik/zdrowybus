@@ -11,14 +11,18 @@ const plugins = [CSSPlugin, AttrPlugin]; // eslint-disable-line
 // const TemplateWrapper = ({ children }) => (
 const TemplateWrapper = props => (
   <React.Fragment>
+    <Helmet>
+      <title>ZdrowyBus Blog</title>
+      <meta name="description" content="Blog zdrowegoBusa" />
+      {/* Style tag for author name color in disqus */}
+      <style type="text/css">
+        {` a {
+            color: #212121;
+        }
+    `}
+      </style>
+    </Helmet>
     <div className="blog-container">
-      <Helmet
-        title="ZdrowyBus"
-        meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
-        ]}
-      />
       <SidebarBlog path={props.path} />
       <div>{props.children}</div>
       {/* <Footer /> */}

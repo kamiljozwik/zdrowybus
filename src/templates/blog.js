@@ -8,7 +8,7 @@ import LayoutBlog from '../components/layout-blog';
 const renderNewPosts = (newPosts, link = '', isVisible = true) => {
   const thumbnails = newPosts.map(post => (
     <div className="blog__section new-post" key={nanoid()}>
-      <div className="new-post--image" style={{ backgroundImage: `url(${post.node.frontmatter.graphic}-/resize/300x200/)` }} />
+      <div className="new-post--image" style={{ backgroundImage: `url(${post.node.frontmatter.graphic}-/resize/352x198/)` }} />
       <div className="new-post--data">
         <div className="new-post--type">{post.node.frontmatter.type}</div>
         <div className="new-post--title">{post.node.frontmatter.title}</div>
@@ -87,7 +87,6 @@ export const BlogEntryPageTemplate = ({ path, newestPost, newPosts, tripsPosts, 
 const BlogEntryPage = ({ data }) => {
   const { page } = data;
   const { newPosts, tripsPosts, healthPosts, trainingPosts, couchingPosts } = data;
-  console.log(tripsPosts.edges);
   return (
     <BlogEntryPageTemplate
       path={page.frontmatter.path}
