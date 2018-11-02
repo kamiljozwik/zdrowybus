@@ -1,19 +1,22 @@
 import React from 'react';
-import moment from 'moment';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
+import { TripJumbo } from '../components/jumbos/page';
 
 export const TripPageTemplate = trip => (
   <Layout path="/trips">
     <section className="trip component-wrapper">
-      <div className="trip__jumbo jumbo" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(33,33,33,1) 100%), url(${trip.trip.frontmatter.graphic}-/resize/1920x1080/)` }}>
-        <div className="jumbo__content-wrapper">
-          <div className="title">{trip.trip.frontmatter.title}</div>
-          <div className="place">{trip.trip.frontmatter.place}</div>
-          <div className="date">{`${moment(trip.trip.date).format('DD/MM/YYYY')} - ${moment(trip.trip.endDate).format('DD/MM/YYYY')}`}</div>
-          <div className="desc">{trip.trip.frontmatter.description}</div>
-        </div>
-      </div>
+      <TripJumbo
+        type="trip"
+        title={trip.trip.frontmatter.title}
+        place={trip.trip.frontmatter.place}
+        date={trip.trip.frontmatter.date}
+        endDate={trip.trip.frontmatter.endDate}
+        desc={trip.trip.frontmatter.description}
+        graphic={trip.trip.frontmatter.graphic}
+        slug=""
+        isTripsList={false}
+      />
       <div className="trips__body component_body">
         <div className="trip-content cms-content" dangerouslySetInnerHTML={{ __html: trip.trip.html }} />
       </div>

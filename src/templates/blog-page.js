@@ -1,14 +1,14 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
+import Jumbo from '../components/jumbos/page';
 
 export const BlogEntryPageTemplate = ({ path }) => (
   <Layout path={path}>
     <section className="blog-page component-wrapper">
-      <div className="blog-page__jumbo jumbo">
-        <div className="jumbo__title">ZdrowyBus blog</div>
-        <Link className="jumbo__desc btn" to="/blog">Przejdź na naszego bloga</Link>
-      </div>
+      <Jumbo page="blog-page" title="ZdrowyBus blog" desc="">
+        <Link className="jumbo__button btn" to="/blog">Przejdź na naszego bloga</Link>
+      </Jumbo>
     </section>
   </Layout>
 );

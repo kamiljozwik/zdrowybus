@@ -4,6 +4,7 @@ import nanoid from 'nanoid';
 import moment from 'moment';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
+import { TripJumbo } from '../components/jumbos/page';
 
 const _ = require('lodash');
 
@@ -27,16 +28,17 @@ export const TripsPageTemplate = ({ path, newTrips, finishedTrips }) => (
     ? (
       <Layout path={path}>
         <section className="trips component-wrapper">
-          <div className="trips__jumbo jumbo" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(33,33,33,1) 100%), url(${newTrips[0].graphic}-/resize/1920x1080/)` }}>
-            <div className="jumbo__content-wrapper">
-              <div className="label">Najbliższy wyjazd</div>
-              <div className="title">{newTrips[0].title}</div>
-              <div className="place">{newTrips[0].place}</div>
-              <div className="date">{`${moment(newTrips[0].date).format('DD/MM/YYYY')} - ${moment(newTrips[0].endDate).format('DD/MM/YYYY')}`}</div>
-              <div className="desc">{newTrips[0].description}</div>
-              <div className="button btn"><Link to={newTrips[0].slug}>Zobacz więcej</Link></div>
-            </div>
-          </div>
+          <TripJumbo
+            type="trips"
+            title={newTrips[0].title}
+            place={newTrips[0].place}
+            date={newTrips[0].date}
+            endDate={newTrips[0].endDate}
+            desc={newTrips[0].description}
+            graphic={newTrips[0].graphic}
+            slug={newTrips[0].slug}
+            isTripsList
+          />
           <div className="trips__body component_body">
             <div className="trips__new-trips">
               <div className="trips__new-trips--label left-label">Nadchodzące wyjazdy</div>

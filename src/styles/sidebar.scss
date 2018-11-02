@@ -48,12 +48,16 @@
         transform: scale(1);
         transition: 0.1s;
         &:hover {
-            color: white;
+            a {
+                color: white;
+            }
             transform: scale(1.05);
             transition: 0.1s;
         }
         &.active {
-            color: white;
+            a {
+                color: white;
+            }
             &::after {
                 content: '';
                 width: 200px;

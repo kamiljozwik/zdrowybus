@@ -2,14 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
+import Jumbo from '../components/jumbos/page';
 
 export const TeamPageTemplate = ({ path, jumbotrone, html }) => (
   <Layout path={path}>
     <section className="team component-wrapper">
-      <div className="team__jumbo jumbo">
-        <div className="jumbo__title">{jumbotrone.title}</div>
-        <div className="jumbo__desc">{jumbotrone.description}</div>
-      </div>
+      <Jumbo page="team" title={jumbotrone.title} desc={jumbotrone.description} />
       <div className="team__body component_body">
         <div className="team-desc cms-content" dangerouslySetInnerHTML={{ __html: html }} />
       </div>

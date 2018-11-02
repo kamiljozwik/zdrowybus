@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 import nanoid from 'nanoid';
 import { graphql, Link } from 'gatsby';
+import Jumbo from '../components/jumbos/page';
 import Carousel from '../components/Carousel';
 import Layout from '../components/layout';
 
@@ -46,11 +47,9 @@ export class MainPageTemplate extends Component {
     return (
       <Layout path={this.path}>
         <section className="main component-wrapper">
-          <div className="main__jumbo jumbo">
-            <div className="jumbo__title">{this.jumbotrone.title}</div>
-            <div className="jumbo__desc">{this.jumbotrone.description}</div>
+          <Jumbo page="main" title={this.jumbotrone.title} desc={this.jumbotrone.description}>
             <a href="#mainID" className="jumbo__button btn">Zobacz więcej</a>
-          </div>
+          </Jumbo>
           <div id="mainID" className="main__body component_body">
             <section className="main-desc">
               <h2 className="main-desc__label left-label">Wstęp</h2>
@@ -80,7 +79,6 @@ export class MainPageTemplate extends Component {
               <div className="main-partners__partners" />
             </section>
             <section className="main-trip">
-              {/* <div className="main-trip--label left-label">Najbliższe wyjazdy</div> */}
               {this.newTrips.length > 0 && this.mapTrips(this.newTrips)}
             </section>
             <section className="main-finished" />
@@ -124,7 +122,6 @@ MainPageTemplate.propTypes = {
 MainPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
-// "4a959880-fa53-5806-8fe1-d40f48bf2350"
 export const mainPageQuery = graphql`
   query MainPage($id: String!) {
     markdownRemark(id: { eq: $id }) {

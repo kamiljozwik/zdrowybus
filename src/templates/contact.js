@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
+import Jumbo from '../components/jumbos/page';
 import youtube from '../img/social/youtube.svg';
 import facebook from '../img/social/facebook.svg';
 import instagram from '../img/social/instagram.svg';
@@ -10,7 +11,7 @@ import twitter from '../img/social/twitter.svg';
 export const ContactPageTemplate = ({ path, emailBus, emailArek }) => (
   <Layout path={path}>
     <section className="contact component-wrapper">
-      <div className="contact__jumbo jumbo">
+      <Jumbo page="contact" title="" desc="">
         <div className="contact__content-wrapper">
           <div className="jumbo__email--bus"><a href={`mailto: ${emailBus}`}>{emailBus}</a></div>
           <div className="jumbo__email--arek"><a href={`mailto: ${emailArek}`}>{emailArek}</a></div>
@@ -21,7 +22,7 @@ export const ContactPageTemplate = ({ path, emailBus, emailArek }) => (
             <div><a href="https://twitter.com/ZdrowyBus" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter" /></a></div>
           </div>
         </div>
-      </div>
+      </Jumbo>
     </section>
   </Layout>
 );
