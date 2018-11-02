@@ -2,67 +2,6 @@
     background: $blackBlog;
 }
 
-// blog main page and blog post
-.blog__jumbo {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(50, 50, 50, 1) 100%), url(../img/leadBlog.jpg);
-    display: flex;
-    align-items: flex-end;
-    .jumbo__content-wrapper {
-        height: 60%;
-        width: calc(100% - 350px);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        .label {
-            font-family: 'Roboto-Bold';
-            width: 30%;
-            text-align: center;
-            font-size: 30px;
-            padding-bottom: 5px;
-            border-bottom: 1px solid white;
-        }
-        .title {
-            max-width: 70%;
-            text-align: center;
-            font-family: 'Roboto-Black';
-            padding: 20px 40px;
-            border: 1px solid white;
-            font-size: 60px;
-        }
-        .date {
-            font-family: "Roboto-Medium";
-            font-size: 12px;
-            letter-spacing: 1px;
-        }
-        .place {
-            font-family: 'Roboto-Bold';
-            font-size: 28px;
-        }
-        .desc {
-            font-family: 'Roboto-Regular';
-            width: 80%;
-            line-height: 24px;
-            text-align: center;
-        }
-        .see-more {
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-family: "Roboto-Medium";
-            font-size: 16px;
-            color: white;
-            &:hover {
-                transform: scale(1.1);
-            }
-            &::after {
-                content: '\25B6';
-                color: $gold;
-                margin-left: 5px;
-            }
-        }
-    }
-}
-
 // blog main page
 .blog__newests-posts {
     display: flex;
@@ -268,9 +207,6 @@
 
 .blog-post {
     background: white !important;
-    .jumbo__content-wrapper.withContent {
-        height: 40%;
-    }
     &--content {
         width: 75%;
         margin: 0 auto;

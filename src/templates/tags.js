@@ -1,8 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import nanoid from 'nanoid';
 import moment from 'moment';
 import LayoutBlog from '../components/layout-blog';
+import BlogJumbo from '../components/jumbos/blog';
 
 const renderNewPosts = newPosts => newPosts.map(post => (
   <div className="blog__section new-post fromTag" key={nanoid()}>
@@ -18,18 +20,17 @@ const renderNewPosts = newPosts => newPosts.map(post => (
   </div>
 ));
 
-export const TagRouteTemplate = ({posts, tag }) => (
+export const TagRouteTemplate = ({ posts, tag }) => (
   <LayoutBlog path={`/tags/${tag}`}>
     <section className="blog-post blog component-wrapper">
-      <div className="blog__jumbo jumbo" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(50, 50, 50, 1) 100%), url(${posts[0].node.frontmatter.graphic}-/resize/1920x1080/)` }}>
-        <div className="jumbo__content-wrapper">
-          <div className="label">Najnowszy Post</div>
-          <div className="title">{posts[0].node.frontmatter.title}</div>
-          <div className="desc">{posts[0].node.frontmatter.description}</div>
-          <div className="date">{moment(posts[0].node.frontmatter.date).format('DD/MM/YYYY')}</div>
-          <Link className="see-more" to={posts[0].node.fields.slug}>Czytaj</Link>
-        </div>
-      </div>
+      <BlogJumbo
+        title={posts[0].node.frontmatter.title}
+        desc={posts[0].node.frontmatter.description}
+        date={posts[0].node.frontmatter.date}
+        graphic={posts[0].node.frontmatter.graphic}
+        slug={posts[0].node.fields.slug}
+        isNewest
+      />
       <div className="blog-post__body blog__body component_body">
         <div className="left-panel" />
         <div className="blog__section blog__trips">
@@ -41,13 +42,17 @@ export const TagRouteTemplate = ({posts, tag }) => (
   </LayoutBlog>
 );
 
-const TagRoute = ({ data, pageContext }) => {
-  return (
-    <TagRouteTemplate
-      posts={data.allMarkdownRemark.edges}
-      tag={pageContext.tag}
-    />
-  );
+const TagRoute = ({ data, pageContext }) => (
+  <TagRouteTemplate
+    posts={data.allMarkdownRemark.edges}
+    tag={pageContext.tag}
+  />
+);
+
+
+TagRouteTemplate.propTypes = {
+  posts: PropTypes.array.isRequired,
+  tag: PropTypes.string.isRequired
 };
 
 export default TagRoute;

@@ -4,6 +4,7 @@ import { graphql, Link } from 'gatsby';
 import nanoid from 'nanoid';
 import moment from 'moment';
 import LayoutBlog from '../components/layout-blog';
+import BlogJumbo from '../components/jumbos/blog';
 
 const renderNewPosts = (newPosts, link = '', isVisible = true) => {
   const thumbnails = newPosts.map(post => (
@@ -36,15 +37,14 @@ const renderNewPosts = (newPosts, link = '', isVisible = true) => {
 export const BlogEntryPageTemplate = ({ path, newestPost, newPosts, tripsPosts, healthPosts, trainingPosts, couchingPosts }) => (
   <LayoutBlog path={path}>
     <section className="blog component-wrapper">
-      <div className="blog__jumbo jumbo" style={{ backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(50, 50, 50, 1) 100%), url(${newestPost.node.frontmatter.graphic}-/resize/1920x1080/)` }}>
-        <div className="jumbo__content-wrapper">
-          <div className="label">Najnowszy Post</div>
-          <div className="title">{newestPost.node.frontmatter.title}</div>
-          <div className="desc">{newestPost.node.frontmatter.description}</div>
-          <div className="date">{moment(newestPost.node.frontmatter.date).format('DD/MM/YYYY')}</div>
-          <Link className="see-more" to={newestPost.node.fields.slug}>Czytaj</Link>
-        </div>
-      </div>
+      <BlogJumbo
+        title={newestPost.node.frontmatter.title}
+        desc={newestPost.node.frontmatter.description}
+        date={newestPost.node.frontmatter.date}
+        graphic={newestPost.node.frontmatter.graphic}
+        slug={newestPost.node.fields.slug}
+        isNewest
+      />
       <div className="blog__newests-posts">
         <div className="left-panel" />
         <div className="blog__newests-posts--container">

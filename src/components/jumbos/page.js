@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 import { Link } from 'gatsby';
-import './styles/page.scss';
+import './styles/jumbo.scss';
 
 const Jumbo = ({ page, title, desc, children }) => (
   <div className={`${page}__jumbo jumbo`}>
