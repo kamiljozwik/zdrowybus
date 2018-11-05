@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 import { Link } from 'gatsby';
 
-const PostThumbnail = ({ type, title, date, slug, graphic }) => (
-  <div className="blog__section new-post">
+const PostThumbnail = ({ type, title, date, slug, graphic, fromTag = false }) => (
+  <div className={`blog__section new-post ${fromTag ? 'fromTag' : ''}`}>
     <div className="new-post--image" style={{ backgroundImage: `url(${graphic}-/resize/352x198/)` }} />
     <div className="new-post--data">
       <div className="new-post--type">{type}</div>

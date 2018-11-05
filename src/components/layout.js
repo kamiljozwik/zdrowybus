@@ -8,14 +8,12 @@ import '../styles/styles.scss';
 
 const plugins = [CSSPlugin, AttrPlugin]; // eslint-disable-line
 
-// const TemplateWrapper = ({ children }) => (
 const TemplateWrapper = props => (
   <div id="container">
     <Helmet
       title="ZdrowyBus"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Strona zdrowybus.pl' }
       ]}
     />
     <Sidebar path={props.path} />

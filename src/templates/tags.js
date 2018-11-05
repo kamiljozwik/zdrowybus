@@ -2,22 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import nanoid from 'nanoid';
-import moment from 'moment';
 import LayoutBlog from '../components/layout-blog';
 import BlogJumbo from '../components/jumbos/blog';
+import PostThumbnail from '../components/PostThumbnail';
 
 const renderNewPosts = newPosts => newPosts.map(post => (
-  <div className="blog__section new-post fromTag" key={nanoid()}>
-    <div className="new-post--image" style={{ backgroundImage: `url(${post.node.frontmatter.graphic}-/resize/352x198/)` }} />
-    <div className="new-post--data">
-      <div className="new-post--type">{post.node.frontmatter.type}</div>
-      <div className="new-post--title">{post.node.frontmatter.title}</div>
-      <div className="new-post--footer">
-        <div className="new-post--date">{moment(post.node.frontmatter.date).format('DD/MM/YYYY')}</div>
-        <Link className="new-post--more" to={post.node.fields.slug}>Czytaj</Link>
-      </div>
-    </div>
-  </div>
+  <PostThumbnail
+    key={nanoid()}
+    type={post.node.frontmatter.type}
+    title={post.node.frontmatter.title}
+    date={post.node.frontmatter.date}
+    slug={post.node.fields.slug}
+    graphic={post.node.frontmatter.graphic}
+    fromTag
+  />
 ));
 
 export const TagRouteTemplate = ({ posts, tag }) => (

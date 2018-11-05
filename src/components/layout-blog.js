@@ -8,12 +8,11 @@ import '../styles/styles.scss';
 
 const plugins = [CSSPlugin, AttrPlugin]; // eslint-disable-line
 
-// const TemplateWrapper = ({ children }) => (
 const TemplateWrapper = props => (
   <React.Fragment>
     <Helmet>
       <title>ZdrowyBus Blog</title>
-      <meta name="description" content="Blog zdrowegoBusa" />
+      <meta name="description" content="blog zdrowybus" />
       {/* Style tag for author name color in disqus */}
       <style type="text/css">
         {` a {
