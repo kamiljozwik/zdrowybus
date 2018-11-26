@@ -1,13 +1,13 @@
 ---
 templateKey: main-page
-title: MainPage
-path: /main
 jumbotrone:
   description: Coś więcej niż sport i podróże. PASJA!
   title: ZdrowyBus!
 ebook:
-  description: Jakiś opis dla prezentu albo info o książce
-  title: Tytuł PDFa
+  description: |-
+    Z kolei jeśli chcesz otrzymać darmowy tygodniowy plan działania --> 
+    napisz do nas mail lub wiadomość na Facebook'u
+  title: Jednodniowy szablon
 description: |-
   Jeździmy po świecie, zarażając pasją do sportu - Przeprowadzając: warsztaty,
   animacje, festyny sportowe. Pokazując przy tym, że zdrowe odżywianie i
@@ -28,10 +28,11 @@ gallery:
 3. Przeprowadzanie zajęć fitness 
 4. Pokazy akrobatyki, parkour 
 5. Przemówienia motywacyjne 
-6. Prowadzenie warsztatów: pierwsza pomoc, motywacja, zdrowy styl życia, zdrowe odżywiania, treningi personalne, fitness, żonglerka
-7. Seminaria, wykłady, prelekcje: co warto zwiedzić, jak podróżować małym kosztem, jak połączyć podróże z pracą, jak połączyć podróże ze zdrowym stylem życia, dlaczego podróże wzbogacają itp. 
-8. Pisanie poradników podróżniczych ( co warto zwiedzić itp.), motywujących (dąż do celu, rób co kochasz, rozwijaj się, celebruj życie, szanuj każdą chwilę, niemożliwe nie istnieje).
-9. Branie udziału w wydarzeniach sportowych: zdobywanie koron górskich, biegi uliczne, biegi miejskie z przeszkodami, biegi górskie, biegi ekstremalne, spływy kajakowe, rafting, ścianki wspinaczkowe, skoki bungee, skoki spadochronowe, Adventure race, nurkowanie, mecze uliczne koszykówki, piłki nożnej, siatkówki.
+6. Angażowanie się w akcje społeczne, pomoc innym
+7. Prowadzenie warsztatów: pierwsza pomoc, motywacja, zdrowy styl życia, zdrowe odżywiania, treningi personalne, fitness, żonglerka
+8. Seminaria, wykłady, prelekcje: co warto zwiedzić, jak podróżować małym kosztem, jak połączyć podróże z pracą, jak połączyć podróże ze zdrowym stylem życia, dlaczego podróże wzbogacają itp. 
+9. Pisanie poradników podróżniczych ( co warto zwiedzić itp.), motywujących (dąż do celu, rób co kochasz, rozwijaj się, celebruj życie, szanuj każdą chwilę, niemożliwe nie istnieje).
+10. Branie udziału w wydarzeniach sportowych: zdobywanie koron górskich, biegi uliczne, biegi miejskie z przeszkodami, biegi górskie, biegi ekstremalne, spływy kajakowe, rafting, ścianki wspinaczkowe, skoki bungee, skoki spadochronowe, Adventure race, nurkowanie, mecze uliczne koszykówki, piłki nożnej, siatkówki.
 
 ## Założenia
 
