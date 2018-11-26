@@ -10,4 +10,4 @@ Adrian Józwik - Prawa ręka projektu
 
 Kamil Józwik - moderator strony www
 
-Członkowie Stowarzyszenia Pasjonatów Sportu i Podróży - czynny udział w rozwoju ZdrowegoBusa
+Członkowie Stowarzyszenia Pasjonatów Sportu i Podróży
