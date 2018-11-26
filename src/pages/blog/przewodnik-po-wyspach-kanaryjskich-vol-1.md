@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-graphic: 'https://ucarecdn.com/01896cc0-d70e-48ab-a023-4847dd39738e/'
+graphic: 'https://ucarecdn.com/e4ad35c0-6652-4660-ae65-0bd2342aadbd/-/preview/'
 type: Podróże
 date: 2018-11-26T15:52:02.570Z
 title: Przewodnik po Wyspach Kanaryjskich
@@ -23,7 +23,11 @@ To jeszcze zanim zaczniemy – 6 ciekawostek o wyspie Lanzarote:
 5. Na tej małej wyspie znajduje się ponad 300 kraterów wulkanów!
 6. Nazwisko o jakim najczęściej usłyszycie na Lanzarote to zdecydowanie ‚Manrique”
 
+
+
 ## Dla tych co nie mają czasu 22 miejsca w pigułce:
+
+
 
 1. Jamoes del Agua – Jaskinia, basen królewski, audytorium, ślepe (białe) kraby
 2. Cueva de los Verdes – Jaskinia z przewodnikiem, audytorium + tajemnicza niespodzianka
