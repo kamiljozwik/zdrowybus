@@ -4,7 +4,7 @@ graphic: 'https://ucarecdn.com/c328277a-dc93-4012-bc47-360e90a565d0/'
 title: Bałkany Lato 2019
 date: 2019-07-02T22:00:00.000Z
 endDate: 2019-08-25T14:19:49.495Z
-place: 'Kraje Bałkańskie '
+place: Bałkany
 description: >-
   Już w najbliższe lato odbędzie się wyjazd do krajów Bałkańskich! 
 
