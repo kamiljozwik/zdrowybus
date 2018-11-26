@@ -11,5 +11,3 @@ tags:
 ## Witaj w sekcji "Podróże"
 
 W sekcji tej znajdziesz informacje dotyczące podróżowania.
-
-Dłuższy opis tego posta...
