@@ -11,11 +11,9 @@ tags:
 ---
 ## Witaj w sekcji "Zdrowie"
 
-W sekcji tej znajdziesz informacje dotyczące zdrowego trybu życia oraz zdrowego odżywiania.
-W sekcji tej znajdziesz informacje dotyczące zdrowego trybu życia oraz zdrowego odżywiania.
+W sekcji tej znajdziesz informacje dotyczące zdrowego stylu życia oraz zdrowego odżywiania.
 
-Zapraszamy do czytania. W sekcji tej znajdziesz informacje dotyczące zdrowego trybu życia oraz zdrowego odżywiania.
+## 
+Zapraszamy do czytania!
 
-
-
-Dłuższy opis tego posta...
+##
