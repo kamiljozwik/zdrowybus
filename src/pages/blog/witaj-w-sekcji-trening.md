@@ -10,8 +10,4 @@ tags:
 ---
 ## Witaj w sekcji "Trening"
 
-W sekcji tej znajdziesz informacje dotyczące Treningu. W sekcji tej znajdziesz informacje dotyczące Treningu. W sekcji tej znajdziesz informacje dotyczące Treningu. W sekcji tej znajdziesz informacje dotyczące Treningu.
-
-
-
-Dłuższy opis tego posta...
+W sekcji tej znajdziesz informacje dotyczące Treningu.
