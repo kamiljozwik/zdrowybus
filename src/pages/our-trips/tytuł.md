@@ -1,6 +1,6 @@
 ---
 templateKey: new-trip
-graphic: 'https://ucarecdn.com/93fae2e6-7261-4093-8670-5575c38df04e/'
+graphic: 'https://ucarecdn.com/e5c41288-5a21-4cf2-9257-40580e962769/'
 title: Korona Gór Polski
 date: 2018-08-04T08:34:30.884Z
 endDate: 2018-08-21T22:00:00.000Z
@@ -10,8 +10,6 @@ description: >-
   liczącą 28 szczytów. 
 type: finished-trip
 ---
-## **_Pełny opis wkrótce_**
+## _**Pełny opis wkrótce**_
 
-
-
-_Zdjęcie: Katarzyna Wojewódzka_
+Zdjęcie:_ Katarzyna Wojewódzka_
