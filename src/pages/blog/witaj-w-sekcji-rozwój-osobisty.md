@@ -10,9 +10,4 @@ tags:
 ---
 ## Witaj w sekcji "Rozwój osobisty"
 
-W sekcji tej znajdziesz informacje dotyczące rozwoju osobistego. Miłego czyatania.
-W sekcji tej znajdziesz informacje dotyczące rozwoju osobistego. W sekcji tej znajdziesz informacje dotyczące rozwoju osobistego. Miłego czytania.
-
-
-
-Dłuższy opis tego posta...
+W sekcji tej znajdziesz informacje dotyczące rozwoju osobistego. Miłego czytania.
