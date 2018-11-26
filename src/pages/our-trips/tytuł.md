@@ -1,6 +1,6 @@
 ---
 templateKey: new-trip
-graphic: 'https://ucarecdn.com/f5a16a98-036e-4b0d-ada9-185f6f029dc0/'
+graphic: 'https://ucarecdn.com/e088f530-7b15-4d39-964d-67f5d8e8f451/'
 title: Korona Gór Polski
 date: 2018-08-04T08:34:30.884Z
 endDate: 2018-08-22T08:34:30.884Z
