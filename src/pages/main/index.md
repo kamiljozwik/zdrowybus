@@ -18,9 +18,9 @@ description: |-
   na temat zdrowego stylu życia, ale także na temat rozwoju osobistego,
   sportu, pasji i podróży.
 gallery:
-  - 'https://ucarecdn.com/4d40a83c-a81b-4d89-b70f-a13f8696cc4c~3/nth/0/'
-  - 'https://ucarecdn.com/4d40a83c-a81b-4d89-b70f-a13f8696cc4c~3/nth/1/'
-  - 'https://ucarecdn.com/4d40a83c-a81b-4d89-b70f-a13f8696cc4c~3/nth/2/'
+  - 'https://ucarecdn.com/c9b70052-2451-4ae1-bec6-86e4daacfc19~3/nth/0/'
+  - 'https://ucarecdn.com/c9b70052-2451-4ae1-bec6-86e4daacfc19~3/nth/1/'
+  - 'https://ucarecdn.com/c9b70052-2451-4ae1-bec6-86e4daacfc19~3/nth/2/'
 ---
 ## Główne cele
 
