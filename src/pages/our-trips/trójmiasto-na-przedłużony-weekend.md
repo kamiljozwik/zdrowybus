@@ -1,6 +1,6 @@
 ---
 templateKey: new-trip
-graphic: 'https://ucarecdn.com/c328277a-dc93-4012-bc47-360e90a565d0/'
+graphic: 'https://ucarecdn.com/dcd8b20e-31cd-463b-9df5-7c641e8ae1d4/'
 title: Bałkany Lato 2019
 date: 2019-07-02T22:00:00.000Z
 endDate: 2019-08-25T14:19:49.495Z
