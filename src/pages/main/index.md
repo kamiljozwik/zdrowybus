@@ -5,8 +5,9 @@ jumbotrone:
   title: ZdrowyBus!
 ebook:
   description: |-
-    Z kolei jeśli chcesz otrzymać darmowy tygodniowy plan działania --> 
-    napisz do nas mail lub wiadomość na Facebook'u
+    Z kolei jeśli chcesz otrzymać darmowy, tygodniowy plan działania 
+    --> Napisz do nas mail lub wiadomość na Facebook'u
+    i ciesz się większą ilością czasu w ciągu dnia! 
   title: Jednodniowy szablon
 description: |-
   Jeździmy po świecie, zarażając pasją do sportu - Przeprowadzając: warsztaty,
