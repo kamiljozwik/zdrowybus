@@ -1,19 +1,13 @@
 ---
 templateKey: team
 jumbotrone:
-  description: >-
-    Arkadiusz Prałat - Twórca projektu
-
-    Adrian Józwik - Prawa ręka projektu
-
-    Kamil Józwik - moderator strony www
-
-    Członkowie Stowarzyszenia Pasjonatów Sportu i Podróży - czynny udział w
-    rozwoju ZdrowegoBusa
+  description: 'Kto za tym wszystkim stoi? :)'
   title: Zdrowy zespół
 ---
-Chcesz dołączyć do zespołu, spełniać marzenia i pomóc Nam się rozwijać?
+Arkadiusz Prałat - Twórca projektu
 
-Nie zwlekaj - napisz! 
+Adrian Józwik - Prawa ręka projektu
 
-Odpowiemy na każdą wiadomość
+Kamil Józwik - moderator strony www
+
+Członkowie Stowarzyszenia Pasjonatów Sportu i Podróży - czynny udział w rozwoju ZdrowegoBusa
