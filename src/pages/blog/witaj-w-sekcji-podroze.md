@@ -10,6 +10,6 @@ tags:
 ---
 ## Witaj w sekcji ..:: Podróże ::..
 
-W sekcji tej znajdziesz informacje dotyczące podróżowania.
+W sekcji tej znajdziesz informacje dotyczące podróżowania. Co warto zobaczyć, o jakiej porze roku. Gdzie warto zjeść, w jakim lokalnym barze czy knajpie. 
 
-Zapraszamy do czytania
+Zapraszamy do czytania!
