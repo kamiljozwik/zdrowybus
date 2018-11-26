@@ -1,30 +1,19 @@
 ---
 templateKey: team
-path: /team
 jumbotrone:
   description: >-
-    Zdrowy zespół opis Efficiently formulate sticky e-markets without diverse
-    data. Rapidiously pursue standards.
+    Arkadiusz Prałat - Twórca projektu
+
+    Adrian Józwik - Prawa ręka projektu
+
+    Kamil Józwik - moderator strony www
+
+    Członkowie Stowarzyszenia Pasjonatów Sportu i Podróży - czynny udział w
+    rozwoju ZdrowegoBusa
   title: Zdrowy zespół
 ---
-## Wstęp
+Chcesz dołączyć do zespołu, spełniać marzenia i pomóc Nam się rozwijać?
 
-Seamlessly iterate stand-alone methods of empowerment without extensible services. Efficiently coordinate multidisciplinary meta-services without empowered platforms. Rapidiously.
+Nie zwlekaj - napisz! 
 
-## Coś tam
-
-Seamlessly iterate stand-alone methods of empowerment without extensible services. Efficiently coordinate multidisciplinary meta-services without empowered platforms. Rapidiously.
-
-### Jakaś lista
-
-1. Item 1
-2. Item 2
-3. Item 3
-
-## Coś tam
-
-Seamlessly iterate stand-alone methods of empowerment without extensible services. Efficiently coordinate multidisciplinary meta-services without empowered platforms. Rapidiously.
-
-Seamlessly iterate stand-alone methods of empowerment without extensible services. Efficiently coordinate multidisciplinary meta-services without empowered platforms. Rapidiously.
-
-Seamlessly iterate stand-alone methods of empowerment without extensible services. Efficiently coordinate multidisciplinary meta-services without empowered platforms. Rapidiously.
+Odpowiemy na każdą wiadomość
