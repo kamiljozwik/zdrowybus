@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-graphic: 'https://ucarecdn.com/e4ad35c0-6652-4660-ae65-0bd2342aadbd/-/preview/'
+graphic: 'https://ucarecdn.com/1891d3c9-ad33-4801-a80e-35be606a3f0c/'
 type: Podróże
 date: 2018-11-26T15:52:02.570Z
 title: Przewodnik po Wyspach Kanaryjskich
@@ -55,4 +55,4 @@ To jeszcze zanim zaczniemy – 6 ciekawostek o wyspie Lanzarote:
 21. Nazaret – Miasto w Izraelu czy na Lanzarote? Nic tylko szybki klik i mamy zdjęcie z tabliczką. + w Nazarecie znajduje się dom LagOmar który wbudowany jest w jaskinie, a wieczorem zamienia się w klimatyczny pub. 
 22. Teguise – była stolica, targ, dom schizofrenika.
 
-## **_Szczegółowy opis ze zdjęciami wkrótce!_**
+## _**Szczegółowy opis ze zdjęciami wkrótce!**_
