@@ -4,7 +4,7 @@ graphic: 'https://ucarecdn.com/a2ea427b-a7a5-4962-95fd-ae2572418630/'
 type: Rozwój
 date: 2018-11-01T15:15:15.658Z
 title: Witaj w sekcji Rozwój osobisty
-description: Czas na kolejna dawkę motywacji!
+description: Czas na kolejną dawkę motywacji!
 tags:
   - blog-couching
 ---
