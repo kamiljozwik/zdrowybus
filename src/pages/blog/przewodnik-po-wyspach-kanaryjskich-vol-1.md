@@ -8,9 +8,15 @@ description: 22 miejsca na Lanzarote które trzeba zobaczyć!
 tags:
   - blog-trips
 ---
+##   22 miejsca na Lanzarote które trzeba zobaczyć!
+
+\    
+
   Cześć!
 
-Zacznijmy od tego, że poradnik napisany jest przez osobę która mieszkała na Wyspach Kanaryjskich przez niespełna rok. Poza rankingiem najpiękniejszy atrakcji dołączamy informacje o punkcie docelowym, kosztach, porady, ciekawostki, szacowany czas pobytu,ocenę atrakcji oraz zdjęcia. 
+Czym wyróżnia się ten przewodnik od pozostałych?
+
+Zacznijmy od tego, że poradnik napisany jest przez osobę która mieszkała na Wyspach Kanaryjskich przez niespełna rok. Przez osobę, która każdą wolną chwilę poświęciła na odkrywanie wyspy kamień po kamieniu. Dlatego poza rankingiem najpiękniejszy 22 atrakcji dołączę również informacje o punkcie docelowym, szacowanych kosztach, porady, ciekawostki, szacowany czas pobytu, subiektywną ocenę atrakcji oraz zdjęcia. 
 
 Gotowi?
 
@@ -55,4 +61,72 @@ To jeszcze zanim zaczniemy – 6 ciekawostek o wyspie Lanzarote:
 21. Nazaret – Miasto w Izraelu czy na Lanzarote? Nic tylko szybki klik i mamy zdjęcie z tabliczką. + w Nazarecie znajduje się dom LagOmar który wbudowany jest w jaskinie, a wieczorem zamienia się w klimatyczny pub. 
 22. Teguise – była stolica, targ, dom schizofrenika.
 
-## _**Szczegółowy opis ze zdjęciami wkrótce!**_
+
+
+# Szczegółowy opis atrakcji:
+
+22 miejsca na Lanzarote które trzeba zobaczyć!
+
+## **__**
+
+![](https://ucarecdn.com/73327fe9-03e8-4152-bbe2-5a4a5648747c/)
+
+# 1) Jameos del Agua!
+
+
+
+Moim zdaniem zdecydowanie numerem jeden jest Jameos del Agua! Co prawda to miejsca znajduje się w każdym przewodniku, ale jest naprawdę tego warte. Niesamowita jaskinia do której wpada wiązka światła, która mieni się w przezroczystej wodzie, a w niej pływają małe białe (ślepe) kraby.  Królewski basen, tak czysty i piękny, że nie da się obok niego przejść obojętnie. Niestety jedyną osobą która może wejść do tej krystalicznej wody jest Król Hiszpanii. Gdyby tego było mało, to w tym niepowtarzalnym miejscu znajdziemy również audytorium (sala koncertowa) która znajduje się w grocie oO
+
+
+
+Porady praktyczne: 
+
+1) W sezonie czerwiec-wrzesień: polecam wybrać się wczesną porą, ponieważ nie raz w kolejce można stać nawet przez godzinę! W pozostałe miesiące, można wybrać się o najwygodniejszej porze, gdyż nie ma wówczas zbyt dużo turystów.
+
+
+
+2) Należy nastawić się psychicznie na wydatek rzędu 10 euro za wejście do tej atrakcji, lecz proszę mi uwierzyć naprawdę warto wydać tę kwotę, aby to zobaczyć na własne oczy. 
+
+Vol 2.1 Istnieje coś takiego jak bilety łączone. Można kupić pakiet 4-6 wejść do największych atrakcji wyspy i dzięki temu zaoszczędzić kilka euro. Myślę, że jest to świetne rozwiązanie ponieważ każda atrakcja z pakietu jest naprawdę wyjątkowa! 
+
+
+
+3) Dojazd do Jameos del Agua jest prosty i dobrze oznaczony. Można wybrać 4 opcje dostania się w to miejsce na północy wyspy. Najłatwiejszy – wycieczka hotelowa w skład której wchodzi zwiedzanie tej atrakcji (nie polecam). Wynajęcia samochodu z firmy (Paylesscar, Cicar, Plus car) doba kosztuje 30e, można dojechać samemu i przy okazji zwiedzić okoliczne atrakcje – Gorąco polecam! Można również wybrać się siłą własnych mięśni: spacerem, bądź rowerem. 
+
+
+
+4) Dla fanów selfie „na górze” o ile się nie mylę w drodze do toalet znajdują się lustra na podeście, ścianie i suficie, więc można cyknąć sobie nietypowe zdjęcie. W Jamoes del Aqua byłem wiele razy i zawsze znalazły się grupy które spędziły więcej czasu na tych lustrach niż podziwiając główne atrakcje (takie czasy). 
+
+
+
+Ciekawostka: 
+
+Jeśli mamy szczęście, to w sezonie letnim możemy trafić na Jazz festiwal. Dzięki temu oprócz podziwiania widoków można również posłuchać muzyki w tym jakże klimatycznym miejscu.
+
+
+
+Koszty: 
+
+~ 10 euro: Bilet dla osoby dorosłej
+
+
+
+Sugerowany czas pobytu:
+
+60-90 minut
+
+
+
+Subiektywna ocena atrakcji:
+
+10/10
+
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/d5a15667-4ce0-485e-b2d5-4c5d422e891e/)
+
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/8b64c30b-a738-43d7-9286-585576b16331/)
+
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/128171dd-3842-4a2a-8eec-a01a8c060a8c/)
+
+
+
+## 2) Cueva de los Verdes
