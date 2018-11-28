@@ -18,14 +18,14 @@ description: |-
   na temat zdrowego stylu życia, ale także na temat rozwoju osobistego,
   sportu, pasji i podróży.
 gallery:
-  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/0/'
-  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/1/'
-  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/2/'
-  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/3/'
-  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/4/'
-  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/5/'
-  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/6/'
-  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/7/'
+  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/0/'
+  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/1/'
+  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/2/'
+  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/3/'
+  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/4/'
+  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/5/'
+  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/6/'
+  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/7/'
 ---
 ## Główne cele
 
@@ -49,4 +49,4 @@ gallery:
 4. Zainspirujemy innych, że warto spełniać marzenia i cieszyć się życiem. 
 5. Wywołamy uśmiech na twarzach dzieci i dorosłych. 
 6. Udowodnimy, że można podróżować: żywiąc się racjonalnie, mając czas na treningi oraz nie potrzebując większych nakładów finansowych. 
-7. Pokażemy, że podróżowanie może być stylem życia, źródłem zarobku, wiedzy, dobrej zabawy, pomocy innym
+7. Pokażemy, że podróżowanie może być stylem życia, źródłem zarobku, wiedzy, dobrej zabawy, pomocy innym.
