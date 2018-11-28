@@ -18,14 +18,14 @@ description: |-
   na temat zdrowego stylu życia, ale także na temat rozwoju osobistego,
   sportu, pasji i podróży.
 gallery:
-  - 'https://ucarecdn.com/b568923d-0437-4a52-bf41-6ead13064505~8/nth/0/'
-  - 'https://ucarecdn.com/b568923d-0437-4a52-bf41-6ead13064505~8/nth/1/'
-  - 'https://ucarecdn.com/b568923d-0437-4a52-bf41-6ead13064505~8/nth/2/'
-  - 'https://ucarecdn.com/b568923d-0437-4a52-bf41-6ead13064505~8/nth/3/'
-  - 'https://ucarecdn.com/b568923d-0437-4a52-bf41-6ead13064505~8/nth/4/'
-  - 'https://ucarecdn.com/b568923d-0437-4a52-bf41-6ead13064505~8/nth/5/'
-  - 'https://ucarecdn.com/b568923d-0437-4a52-bf41-6ead13064505~8/nth/6/'
-  - 'https://ucarecdn.com/b568923d-0437-4a52-bf41-6ead13064505~8/nth/7/'
+  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/0/'
+  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/1/'
+  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/2/'
+  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/3/'
+  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/4/'
+  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/5/'
+  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/6/'
+  - 'https://ucarecdn.com/9b098468-fe01-4673-baa0-d422e19603cc~8/nth/7/'
 ---
 ## Główne cele
 
