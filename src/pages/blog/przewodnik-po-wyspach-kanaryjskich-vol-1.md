@@ -284,27 +284,23 @@ Subiektywna ocena atrakcji:
 
 10/10
 
-![](https://ucarecdn.com/2876af98-fef5-4f03-bf21-4b640be81077/)
+![null](https://ucarecdn.com/2876af98-fef5-4f03-bf21-4b640be81077/)
 
-![](https://ucarecdn.com/6a98a928-ffab-4a92-9404-a3f5cb95b201/)
+![null](https://ucarecdn.com/6a98a928-ffab-4a92-9404-a3f5cb95b201/)
 
-![](https://ucarecdn.com/32c9cb9c-de70-40b6-8fa0-41d6a865585b/)
+![null](https://ucarecdn.com/32c9cb9c-de70-40b6-8fa0-41d6a865585b/)
 
-![](https://ucarecdn.com/6ffa6375-ecc7-4a00-a6e8-808cf4472301/)
+![null](https://ucarecdn.com/6ffa6375-ecc7-4a00-a6e8-808cf4472301/)
 
-![](https://ucarecdn.com/9abc616c-372b-4403-96c9-0dffb2a1fd67/)
+![null](https://ucarecdn.com/9abc616c-372b-4403-96c9-0dffb2a1fd67/)
 
-![](https://ucarecdn.com/992ce320-4e04-4c38-b7b5-7a04f4db03e9/)
+![null](https://ucarecdn.com/992ce320-4e04-4c38-b7b5-7a04f4db03e9/)
 
-![](https://ucarecdn.com/3afbf432-7277-45f8-8c76-93264689780f/)
+![null](https://ucarecdn.com/3afbf432-7277-45f8-8c76-93264689780f/)
 
 ## 9) Playa Papagayo + Playa Blanca i inne atrakcje
 
-
-
 Jedna z piękniejszych plaż położona na południu wyspy. Znak rozpoznawczy Lanzarote. Znajduję się ona praktycznie na każdej pocztówce oraz gdy wpiszemy Lanzarote w wyszukiwarkę. Ciekawostką jest to, że Playa Papagayo (plaża papuga) to nie tylko jeden piaszczysty brzeg, a ich cały kompleks. Co więcej wszystkie z tych plaż są równie piękne. Moja rekomendacja jest taka, aby dojechać busem bądź autem do Playa Blanca. A stamtąd bardzo urokliwym deptakiem, portem, klifem z widokiem na położoną nieopodal kolejną wyspę kanaryjską: Fuerteventura - dostać się na pierwszą plażę, a następnie przespacerować się do ostatniej tej najbardziej nietypowej. Pierwsze brzegi oceanu mają mnóstwo odmian koloru błękitnego, natomiast ostatnia jest mniejsza i wchodzi w odcienie szmaragdu. Trzeba się tam koniecznie wybrać! 
-
-
 
 Jak się tam dostać?
 
@@ -314,13 +310,43 @@ Można również z Playa Blanca dojechać busem do pierwszej plaży Papagayo, a 
 
 Można również zacząć od drugiej strony. Dojechać autem na płatny parking – 3e za samochód. Przespacerować 200-300m i cieszyć się niesamowitymi widokami 
 
-
-
 Cena: 
 
 3e za samochód na parkingu
 
 Koszty przejazdu busem (ok. 1,5e) 
+
+Ciekawostki:
+
+W miejscowości Playa Blanca również można nurkować! Podjeżdża się motorówką, zeskakuje do wody, schodzi po linie 15m na dno oceanu i zwiedza muzeum podwodne. Niesamowity przeżycie, poza figurami ludzi, bramą i innymi atrakcjami: na dnie znajdziemy również lustro, co jest nie lada gratką móc przeglądać siebie na takiej głębokości.
+
+Kolejną atrakcją jest Katamaran. Jeśli mieszkamy w Puerto del Carmen lub Puerto Calero – możemy kupić 4h wycieczkę Katamaranem na Playa Papagayo. W cenie dostaniemy maski do nurkowania, przejedziemy się z kierowcą skutera wodnego czy będziemy korzystać z drinków i przekąsek serwowanych na pokładzie. To nie wszystko! Moim zdaniem największą atrakcją jest możliwość poczucia zewu powietrza i mocy oceanu siedząc na siatce z przodu. Co prawda będziemy cali mokrzy, ale wrażenia będą niezapomniane. Przyznaję szczerze, że przez całą podróż śmiałem się jak dziecko, nie myśląc o niczym innym.  
+
+Sugerowany czas pobytu:
+
+90 minut – cały dzień. Możemy wpaść autem na szybki spacer po plażach, zrobić zdjęcie i wrócić, ale możemy zabrać mnóstwo jedzenia, koce i spędzić cały dzień z rodziną w tym pięknym miejscu. 
+
+Subiektywna ocena atrakcji: 
+
+10/10
+
+![null](https://ucarecdn.com/83b4dc4d-eda5-4435-a406-62ae2d3fe0ea/)
+
+![null](https://ucarecdn.com/1cb3f0f7-5eb5-4532-858b-6faa522ce3ea/)
+
+![null](https://ucarecdn.com/99157c09-9cc1-45d4-b3fb-b5a89b70e018/)
+
+![null](https://ucarecdn.com/dbbb03d6-66bd-41c1-90ed-960a6cb7c843/)
+
+![null](https://ucarecdn.com/c8edbc45-c701-4d40-96f9-ee25bddc38b3/)
+
+# 10) Park Narodowy Timanfaya
+
+
+
+Widziałeś kiedyś krater wulkanu od środka? Nie? A może chociaż na filmie? Na Lanzarote jest to możliwe na żywo, bowiem Park Narodowy Timanfaya jest kolejną ikoną wyspy. Przejażdżka busem czy wielbłądami, pokaz gejzerów tylko dodają animuszu tej wyprawie. Główną atrakcją jest teren po wybuchu wulkanu. Otwarty krater, dookoła magma, festiwal kolorów od złotego, po czarny czy czerwony. Rozmawiałem o Timanfaya z setkami ludzi i każdy wrócił z tej wprawy zachwycony. 
+
+UWAGA! Parku nie można zwiedzać na własną rękę. Z wynajętego auta czy busa należy przesiąść się do autokaru i wraz z przewodnikiem objechać to niesamowite miejsce. 
 
 
 
@@ -328,15 +354,27 @@ Ciekawostki:
 
 
 
-W miejscowości Playa Blanca również można nurkować! Podjeżdża się motorówką, zeskakuje do wody, schodzi po linie 15m na dno oceanu i zwiedza muzeum podwodne. Niesamowity przeżycie, poza figurami ludzi, bramą i innymi atrakcjami: na dnie znajdziemy również lustro, co jest nie lada gratką móc przeglądać siebie na takiej głębokości.
+Co jakiś czas organizowany jest trekking po parku. Poziom trekkingu jest bardzo niski, więc mimo braku kondycji możesz śmiało zapisać się na ten niezapomniany spacer
 
-Kolejną atrakcją jest Katamaran. Jeśli mieszkamy w Puerto del Carmen lub Puerto Calero – możemy kupić 4h wycieczkę Katamaranem na Playa Papagayo. W cenie dostaniemy maski do nurkowania, przejedziemy się z kierowcą skutera wodnego czy będziemy korzystać z drinków i przekąsek serwowanych na pokładzie. To nie wszystko! Moim zdaniem największą atrakcją jest możliwość poczucia zewu powietrza i mocy oceanu siedząc na siatce z przodu. Co prawda będziemy cali mokrzy, ale wrażenia będą niezapomniane. Przyznaję szczerze, że przez całą podróż śmiałem się jak dziecko, nie myśląc o niczym innym.  
+Jeśli nie chcesz płacić za zwiedzanie parku, możesz zorganizować indywidualnie trekking na wulkan Montana Blanca i z trasy podziwiać Timanfaya i Górę Ognia. Dodatkowo jeśli wybierzemy się na wycieczkę rowerową mniej więcej pośrodku wsypy z południa na północ (np. z Puerto del Carmen – La Santa) to również będziemy mogli podziwiać ten nietypowy krajobraz
+
+
+
+Koszty:
+
+9e wjazd do parku, a w tym przejażdżka autokarem, pokaz wybuchu gejzeru 
+
+12e za 2 osoby przejażdżka wielbłądami
 
 
 
 Sugerowany czas pobytu:
 
-90 minut – cały dzień. Możemy wpaść autem na szybki spacer po plażach, zrobić zdjęcie i wrócić, ale możemy zabrać mnóstwo jedzenia, koce i spędzić cały dzień z rodziną w tym pięknym miejscu. 
+120' – przejazd na wielbłądach, wycieczka autokarem. 
+
+4h jeśli chcemy wybrać się na trekking po parku
+
+Całodniowa wycieczka rowerowa bądź trekking na wulkan Montana Blanca
 
 
 
@@ -344,12 +382,68 @@ Subiektywna ocena atrakcji:
 
 10/10
 
-![](https://ucarecdn.com/83b4dc4d-eda5-4435-a406-62ae2d3fe0ea/)
+![](https://ucarecdn.com/6913c0ee-2169-4994-a9e5-caeee6543bcb/)
 
-![](https://ucarecdn.com/1cb3f0f7-5eb5-4532-858b-6faa522ce3ea/)
+![](https://ucarecdn.com/5474d556-0d1c-4ba4-8ae4-9603e7e8ac5f/)
 
-![](https://ucarecdn.com/99157c09-9cc1-45d4-b3fb-b5a89b70e018/)
+![](https://ucarecdn.com/6535aae6-f03a-4ef1-84a2-c5963c9324fe/)
 
-![](https://ucarecdn.com/dbbb03d6-66bd-41c1-90ed-960a6cb7c843/)
+![](https://ucarecdn.com/da601e1e-1b7b-44a6-aca3-b64de40f31e4/)
 
-![](https://ucarecdn.com/c8edbc45-c701-4d40-96f9-ee25bddc38b3/)
+# 11) Los Hervideros + czarne plaże
+
+Los Hervideros czyli kolejne miejsce gdzie z pobliskich klifów może oglądać niesamowitą moc oceanu. Szum wody, dawniej jaskinie podwodne - zapewniają wspaniałe wrażenia. Za każdym razem proponowałem po prostu wjechać w to miejsce i poświecić kwadrans, aczkolwiek 9/10 osób które tam było spędziło ponad 60 minut wśród klifów. Dodatkowo okolice Los Hervideros to pasmo czarnych plaż. Jest ich naprawdę dużo i w licznych punktach można trafić na podobne miejsca dlatego warto zarezerwować parę minut więcej i zatrzymywać się na spacer w co drugim możliwym zjeździe i podziwiać formację skalne z różnych perspektyw okraszone czarnym piaskiem. 
+
+
+
+Lokalizacja:
+
+nieopodal parku Timanfaya i El Golfo (zielonego jeziorka). Jeśli jesteśmy w zachodniej części wyspy to koniecznie musimy pojawić się w tych miejscach.
+
+
+
+Koszty:
+
+Za darmo! 
+
+
+
+Sugerowany czas pobytu:
+
+60' samo Los Hervideros
+
+120' z pobliskimi plażami i klifami 
+
+
+
+Subiektywna ocena atrakcji: 
+
+9/10
+
+
+
+![](https://ucarecdn.com/48adfd1f-f94d-4f1b-b559-602f20baa0ac/)
+
+![](https://ucarecdn.com/2f07c9f2-1237-43e2-af20-9f5acb908205/)
+
+![](https://ucarecdn.com/f5518877-1aa1-4e06-9c6c-8d6fbd30aad8/)
+
+![](https://ucarecdn.com/03949619-0c90-445a-b0a8-ec41d3b0848b/)
+
+
+
+****
+
+_**To już wszystko w pierwszej części Przewodnika: **_
+
+_**22 miejsca na Lanzarote które trzeba zobaczyć. **_
+
+_****_
+
+## _**Już wkrótce pojawi się jego druga część!**_
+
+_****_
+
+_**Do przeczytania, **_
+
+_**Hey! **_
