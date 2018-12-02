@@ -18,14 +18,27 @@ description: |-
   na temat zdrowego stylu życia, ale także na temat rozwoju osobistego,
   sportu, pasji i podróży.
 gallery:
-  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/0/'
-  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/1/'
-  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/2/'
-  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/3/'
-  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/4/'
-  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/5/'
-  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/6/'
-  - 'https://ucarecdn.com/8a379210-a8c2-46ac-9138-17af08a9e495~8/nth/7/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/0/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/1/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/2/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/3/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/4/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/5/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/6/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/7/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/8/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/9/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/10/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/11/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/12/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/13/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/14/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/15/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/16/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/17/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/18/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/19/'
+  - 'https://ucarecdn.com/bf262d9b-ca1f-4a59-b024-9b5e736db30f~21/nth/20/'
 ---
 ## Główne cele
 
