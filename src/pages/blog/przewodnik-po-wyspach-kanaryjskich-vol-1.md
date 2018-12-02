@@ -29,7 +29,11 @@ To jeszcze zanim zaczniemy – 6 ciekawostek o wyspie Lanzarote:
 5. Na tej małej wyspie znajduje się ponad 300 kraterów wulkanów!
 6. Nazwisko o jakim najczęściej usłyszycie na Lanzarote to zdecydowanie ‚Manrique”
 
+
+
 ## Dla tych co nie mają czasu 22 miejsca w pigułce:
+
+
 
 1. Jamoes del Agua – Jaskinia, basen królewski, audytorium, ślepe (białe) kraby
 2. Cueva de los Verdes – Jaskinia z przewodnikiem, audytorium + tajemnicza niespodzianka
@@ -57,9 +61,13 @@ To jeszcze zanim zaczniemy – 6 ciekawostek o wyspie Lanzarote:
 21. Nazaret – Miasto w Izraelu czy na Lanzarote? Nic tylko szybki klik i mamy zdjęcie z tabliczką. + w Nazarecie znajduje się dom LagOmar który wbudowany jest w jaskinie, a wieczorem zamienia się w klimatyczny pub. 
 22. Teguise – była stolica, targ, dom schizofrenika.
 
+
+
 # Szczegółowy opis atrakcji:
 
 22 miejsca na Lanzarote które trzeba zobaczyć!
+
+
 
 # 1) Jameos del Agua!
 
@@ -91,7 +99,7 @@ Subiektywna ocena atrakcji:
 
 10/10
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/1f7c33b0-1835-461d-8b15-37d21cf1e477/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/448adc93-ec50-4e8c-b985-e514b67c4d9e/)
 
 ![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/44dd84c1-6d1b-4980-8fca-3bf186be0319/)
 
@@ -123,9 +131,9 @@ Subiektywna ocena atrakcji:
 
 10/10
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/ddf454dd-c2b7-40cb-bbed-a41b6d35a8a2/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/923046a3-4b91-401e-aadf-7e70441ed118/)
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/436bbd4e-0e70-455a-8ab1-e4cf0ca8ed7f/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/d5f16cdb-d59e-4f81-9405-bfc5c7af67f5/)
 
 ## 3) Punkt widokowy Mirador del Rio
 
@@ -209,4 +217,4 @@ Subiektywna ocena atrakcji:
 
 ![null](https://ucarecdn.com/80869c35-b7de-4c27-970b-bcb36c89c6c9/)
 
-![null](https://ucarecdn.com/e1d2aea6-4729-4e5e-868e-cb29433b32d5/)
+![null](https://ucarecdn.com/9dbf24f0-704c-4aa4-8728-d2e9f28f70d7/)
