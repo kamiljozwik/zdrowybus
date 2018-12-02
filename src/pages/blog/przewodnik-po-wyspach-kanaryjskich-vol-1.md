@@ -3,7 +3,7 @@ templateKey: blog-post
 graphic: 'https://ucarecdn.com/1891d3c9-ad33-4801-a80e-35be606a3f0c/'
 type: Podróże
 date: 2018-11-26T15:52:02.570Z
-title: Przewodnik po Wyspach Kanaryjskich
+title: 'Przewodnik po Wyspach Kanaryjskich - Część 1 '
 description: 22 miejsca na Lanzarote które trzeba zobaczyć!
 tags:
   - blog-trips
@@ -29,11 +29,7 @@ To jeszcze zanim zaczniemy – 6 ciekawostek o wyspie Lanzarote:
 5. Na tej małej wyspie znajduje się ponad 300 kraterów wulkanów!
 6. Nazwisko o jakim najczęściej usłyszycie na Lanzarote to zdecydowanie ‚Manrique”
 
-
-
 ## Dla tych co nie mają czasu 22 miejsca w pigułce:
-
-
 
 1. Jamoes del Agua – Jaskinia, basen królewski, audytorium, ślepe (białe) kraby
 2. Cueva de los Verdes – Jaskinia z przewodnikiem, audytorium + tajemnicza niespodzianka
@@ -61,13 +57,9 @@ To jeszcze zanim zaczniemy – 6 ciekawostek o wyspie Lanzarote:
 21. Nazaret – Miasto w Izraelu czy na Lanzarote? Nic tylko szybki klik i mamy zdjęcie z tabliczką. + w Nazarecie znajduje się dom LagOmar który wbudowany jest w jaskinie, a wieczorem zamienia się w klimatyczny pub. 
 22. Teguise – była stolica, targ, dom schizofrenika.
 
-
-
 # Szczegółowy opis atrakcji:
 
 22 miejsca na Lanzarote które trzeba zobaczyć!
-
-
 
 # 1) Jameos del Agua!
 
@@ -101,9 +93,9 @@ Subiektywna ocena atrakcji:
 
 ![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/448adc93-ec50-4e8c-b985-e514b67c4d9e/)
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/44dd84c1-6d1b-4980-8fca-3bf186be0319/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/610211cf-ca70-42b9-83c0-11c03605f760/)
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/b3af1045-648b-4380-822d-1eccf8e8d69f/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/3803c149-0287-40d6-ac34-9596f333c1f6/)
 
 ## 2) Cueva de los Verdes
 
@@ -131,9 +123,9 @@ Subiektywna ocena atrakcji:
 
 10/10
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/923046a3-4b91-401e-aadf-7e70441ed118/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/9a582e3d-44ee-4b31-ac4b-605b9d703a8a/)
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/d5f16cdb-d59e-4f81-9405-bfc5c7af67f5/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/2d70add0-eb59-4560-8295-2fd4c774d1ba/)
 
 ## 3) Punkt widokowy Mirador del Rio
 
@@ -163,9 +155,9 @@ Subiektywna ocena atrakcji:
 
 9,5/10
 
-![null](https://ucarecdn.com/dafbb5d5-933a-45c1-aa03-58a9d25d7a45/)
+![null](https://ucarecdn.com/5179625d-7728-4cbb-a29d-52c82634e577/)
 
-![null](https://ucarecdn.com/950fa05e-9e29-4ac1-b14d-6d46f1d72fc4/)
+![null](https://ucarecdn.com/6c88f242-e8b6-47d5-a95c-68168d377fd0/)
 
 # 4) Haria z punktem widokowym
 
@@ -217,4 +209,62 @@ Subiektywna ocena atrakcji:
 
 ![null](https://ucarecdn.com/80869c35-b7de-4c27-970b-bcb36c89c6c9/)
 
-![null](https://ucarecdn.com/9dbf24f0-704c-4aa4-8728-d2e9f28f70d7/)
+![null](https://ucarecdn.com/072562fe-b9ca-43a0-a224-bd5dfa11e4b8/)
+
+# 6) Los Charcones + opuszczony hotel
+
+
+
+Kolejny punkt tylko dla lokalnych mieszkańców! Tak naprawdę nie dziwi mnie, że turyści nie wiedzą o tym, bo droga w to magiczne miejsce jest dosyć długa i uciążliwa. Raz, trzeba dojechać spory kawał autem, dwa dojść pieszo jakieś 2 km po pustyni, czyli po prostu po Lanzarote :) Kierujemy się na opuszczony hotel który może przyprawić Nas o dodatkową dawkę adrenaliny. Całość wygląda jak po filmie katastroficznym. Tuż za budynkiem znajduje się klif, a u jego stóp naturalne baseny w których nie tylko można się wygrzać, ale także zobaczyć moc oceanu jak rozbija się o okoliczne skały. 
+
+Uwaga! Należy wybrać te baseny w których nie ma mocnego prądu, a woda wpada przez małe szczeliny. W pozostałych miejscach moc żywiołu jest tak duża, że pojawiały się już wypadki śmiertelne. 
+
+
+
+Porady praktyczne: 
+
+Proponuję wziąć ze sobą krem z filtrem oraz wodę. Jeśli słońce mocno przygrzeje to przy jasnej karnacji na pewno pojawią się problemy ze skórą po tym nietypowym trekkingu.
+
+
+
+Sugerowany czas pobytu:
+
+5h – trekking, obejście hotelu, wymoczenie się w basenie to zdecydowanie wycieczka na pół dnia. 
+
+
+
+Subiektywna ocena atrakcji:
+
+9,5/10
+
+![](https://ucarecdn.com/ceacd83a-a44e-4390-880c-f8e9279d2b96/)
+
+![](https://ucarecdn.com/9c9fad8d-71ca-43c4-8618-c14deb7d9fc9/)
+
+![](https://ucarecdn.com/f6e1888b-32d3-4414-8dbd-d6a0b80e402f/)
+
+![](https://ucarecdn.com/c053e285-f4b6-4b77-8d02-7776aae863b2/)
+
+# 7) Puerto Calero
+
+Najbogatszy port na wyspie. Malowniczy deptak oraz trasa biegowa w kierunku Puerto del Carmen (głównej dzielnicy turystycznej wyspy). Warto się tam wybrać, aby chociaż zobaczyć dziesiątki, a może i setki jachtów, zjeść coś pysznego w okolicznych restauracjach albo przejść się przepięknym deptakiem. Dodatkowo w Puerto Calero można skorzystać z wielu atrakcji, takich jak Katamaran, Łódź podwodna czy buggy, czyli nietypowe kłady którymi można wjechać m.in. na okoliczny wulkan.
+
+
+
+Porady praktyczne: 
+
+
+
+Jeśli wynajęliśmy hotel w Puerto del Carmen, to warto wybrać się do Puerto Calero busem, aczkolwiek jeszcze lepszą opcją jest wycieczka biegowa lub wynajęcie roweru (z tym, że trzeba przygotować się na pokonanie schodów na trasie, które prowadzą do ukrytej „plaży” gdzie chodzą lokalni mieszkańcy. Plażę, dałem w „” ponieważ nie ma tam piasku, a ręczniki leżą na kamieniach). Trasa prowadzi wzdłuż wybrzeża z portu w Puerto del Carmen do portu Puerto Calero. Jedyny minus tej drogi to dosyć spory wiatr, ale poza tym wszystko wygląda doskonale.
+
+
+
+Sugerowany czas pobytu:
+
+60 minut (+ ew czas na posiłek czy pokonanie trasy biegowej)
+
+
+
+Subiektywna ocena atrakcji:
+
+8/10
