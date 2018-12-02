@@ -91,7 +91,7 @@ Subiektywna ocena atrakcji:
 
 10/10
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/aaea08c8-dfc4-4e35-b0ed-596e8721178d/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/1f7c33b0-1835-461d-8b15-37d21cf1e477/)
 
 ![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/44dd84c1-6d1b-4980-8fca-3bf186be0319/)
 
@@ -123,33 +123,23 @@ Subiektywna ocena atrakcji:
 
 10/10
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/5dba2406-243c-4f89-83a0-d2f2982e5e9c/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/ddf454dd-c2b7-40cb-bbed-a41b6d35a8a2/)
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/100a0b25-a595-40bb-b0b4-257bb653a5bc/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/436bbd4e-0e70-455a-8ab1-e4cf0ca8ed7f/)
 
 ## 3) Punkt widokowy Mirador del Rio
 
-
-
 Punkt widokowy na położoną niespełna 2 km od Lanzarote wyspę La Graciosa. 
-
-
 
 Dlaczego warto? 
 
 Widok na wyspę, wiele odcieni oceanu, a wszystko na 400 m klifie zapierającym dech w piersiach.
 
-
-
 Koszt:
 
 ~ 5 euro: Bilet dla osoby dorosłej
 
-
-
 Porady praktyczne: 
-
-
 
 Mirador del Rio również zalicza się do pakietu atrakcji, które kupione razem dają Nam niższą cenę
 
@@ -157,35 +147,25 @@ Dla osób które niekoniecznie chcą wydawać 20 zł, polecam podjechać autem n
 
 Punkt znajduje się na samej północy wyspy i oczywiście warto go zobaczyć w tym samym dniu co jaskinie, aczkolwiek drogę powrotną polecałbym wybrać naokoło poprzez górską serpentynową trasę. Wrażenie z samochodu i widoki zrekompensują wszystko ; ) Gdzie znajduję się ta trasa? Otóż właśnie na tym zakręcie w lewo tuż przy parking skąd można podziwiać wyspę La Graciosa. Powodzenia! 
 
-
-
 Sugerowany czas pobytu:
 
 30 minut
-
-
 
 Subiektywna ocena atrakcji:
 
 9,5/10
 
-![](https://ucarecdn.com/dafbb5d5-933a-45c1-aa03-58a9d25d7a45/)
+![null](https://ucarecdn.com/dafbb5d5-933a-45c1-aa03-58a9d25d7a45/)
 
-![](https://ucarecdn.com/950fa05e-9e29-4ac1-b14d-6d46f1d72fc4/)
+![null](https://ucarecdn.com/950fa05e-9e29-4ac1-b14d-6d46f1d72fc4/)
 
 # 4) Haria z punktem widokowym
 
-
-
 Haria, czyli miasto 1000 palm. Koniecznie trzeba wybrać się z punktu widokowego Mirador del Rio bezpośrednio do tego miasteczka. Niesamowita droga, liczne punty widokowe sprawią, że dzięki tej przejażdżce będziemy mieli wspaniałe zdjęcie w tle na Facebook'u. Samo miasteczko warto objechać samochodem, ponieważ można zobaczyć nieliczne drzewa cytrusowe, co na Lanzarote jest nie lada gratką. Haria jest najbardziej zieloną częścią wyspy. 
-
-
 
 Koszty:
 
 Brak wstępu. Wynajęcie auta + paliwo, które kosztuje mniej niż 1e/l lub ewentualnie wyprawa busem
-
-
 
 Ciekawostka: 
 
@@ -195,52 +175,38 @@ Czarownica na miotle: to kolejny pomysł Manrique, który ustawił oświetlenie 
 
 Uwaga! Im jesteśmy wyżej tym widok jest bardziej wyraźny. 
 
-
-
 Sugerowany czas pobytu:
 
 60-90 minut (przejechanie drogi, miasteczka oraz punkt widokowy)
-
-
 
 Subiektywna ocena atrakcji:
 
 9/10
 
-![](https://ucarecdn.com/73d0b6af-0f0b-43de-a89e-46bb71970b60/)
+![null](https://ucarecdn.com/73d0b6af-0f0b-43de-a89e-46bb71970b60/)
 
-![](https://ucarecdn.com/42aa97da-ac17-4491-946a-1b12eb294336/)
+![null](https://ucarecdn.com/42aa97da-ac17-4491-946a-1b12eb294336/)
 
-![](https://ucarecdn.com/1c901b6d-a5af-40ab-87be-6cd0cae3d55c/)
+![null](https://ucarecdn.com/1c901b6d-a5af-40ab-87be-6cd0cae3d55c/)
 
 # 5) Playa de las Cocinitas
 
-
-
 Przepiękna plaża na północy wyspy o której nie pisze żaden przewodnik. Prawdopodobnie jest kilka ładniejszych miejsc na tej wyspie, aczkolwiek Cocinitas jest 100m od głównej drogi z atrakcji nr 1 i 2 na Mirador del Rio, bądź na drodze do Orzoli (miasteczko rybackie z którego wypływają promy na nieopodal położoną wyspę La Graciosa). Dodatkowym atutem plaży położonych na północy wyspy jest to, że są często puste i można znaleźć spokojne miejsce z dala od zgiełku miasta i hoteli.
-
-
 
 Koszty: 
 
 Prom na La Graciosa kosztuje dla osoby dorosłej 20e w dwie strony.
 
-
-
 \*Więcej o La Graciosa przeczytasz w kolejnych przewodnikach
-
-
 
 Sugerowany czas pobytu:
 
 30-60  minut (lub pół dnia relaksując się na plaży)
 
-
-
 Subiektywna ocena atrakcji:
 
 8/10
 
-![](https://ucarecdn.com/80869c35-b7de-4c27-970b-bcb36c89c6c9/)
+![null](https://ucarecdn.com/80869c35-b7de-4c27-970b-bcb36c89c6c9/)
 
-![](https://ucarecdn.com/cbe814e2-b2fa-400f-9aca-7476ac192843/)
+![null](https://ucarecdn.com/e1d2aea6-4729-4e5e-868e-cb29433b32d5/)
