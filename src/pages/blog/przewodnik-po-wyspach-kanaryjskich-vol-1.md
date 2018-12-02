@@ -213,108 +213,143 @@ Subiektywna ocena atrakcji:
 
 # 6) Los Charcones + opuszczony hotel
 
-
-
 Kolejny punkt tylko dla lokalnych mieszkańców! Tak naprawdę nie dziwi mnie, że turyści nie wiedzą o tym, bo droga w to magiczne miejsce jest dosyć długa i uciążliwa. Raz, trzeba dojechać spory kawał autem, dwa dojść pieszo jakieś 2 km po pustyni, czyli po prostu po Lanzarote :) Kierujemy się na opuszczony hotel który może przyprawić Nas o dodatkową dawkę adrenaliny. Całość wygląda jak po filmie katastroficznym. Tuż za budynkiem znajduje się klif, a u jego stóp naturalne baseny w których nie tylko można się wygrzać, ale także zobaczyć moc oceanu jak rozbija się o okoliczne skały. 
 
 Uwaga! Należy wybrać te baseny w których nie ma mocnego prądu, a woda wpada przez małe szczeliny. W pozostałych miejscach moc żywiołu jest tak duża, że pojawiały się już wypadki śmiertelne. 
-
-
 
 Porady praktyczne: 
 
 Proponuję wziąć ze sobą krem z filtrem oraz wodę. Jeśli słońce mocno przygrzeje to przy jasnej karnacji na pewno pojawią się problemy ze skórą po tym nietypowym trekkingu.
 
-
-
 Sugerowany czas pobytu:
 
 5h – trekking, obejście hotelu, wymoczenie się w basenie to zdecydowanie wycieczka na pół dnia. 
-
-
 
 Subiektywna ocena atrakcji:
 
 9,5/10
 
-![](https://ucarecdn.com/ceacd83a-a44e-4390-880c-f8e9279d2b96/)
+![null](https://ucarecdn.com/ceacd83a-a44e-4390-880c-f8e9279d2b96/)
 
-![](https://ucarecdn.com/9c9fad8d-71ca-43c4-8618-c14deb7d9fc9/)
+![null](https://ucarecdn.com/9c9fad8d-71ca-43c4-8618-c14deb7d9fc9/)
 
-![](https://ucarecdn.com/f6e1888b-32d3-4414-8dbd-d6a0b80e402f/)
+![null](https://ucarecdn.com/f6e1888b-32d3-4414-8dbd-d6a0b80e402f/)
 
-![](https://ucarecdn.com/c053e285-f4b6-4b77-8d02-7776aae863b2/)
+![null](https://ucarecdn.com/c053e285-f4b6-4b77-8d02-7776aae863b2/)
 
 # 7) Puerto Calero
 
 Najbogatszy port na wyspie. Malowniczy deptak oraz trasa biegowa w kierunku Puerto del Carmen (głównej dzielnicy turystycznej wyspy). Warto się tam wybrać, aby chociaż zobaczyć dziesiątki, a może i setki jachtów, zjeść coś pysznego w okolicznych restauracjach albo przejść się przepięknym deptakiem. Dodatkowo w Puerto Calero można skorzystać z wielu atrakcji, takich jak Katamaran, Łódź podwodna czy buggy, czyli nietypowe kłady którymi można wjechać m.in. na okoliczny wulkan.
 
-
-
 Porady praktyczne: 
 
-
-
 Jeśli wynajęliśmy hotel w Puerto del Carmen, to warto wybrać się do Puerto Calero busem, aczkolwiek jeszcze lepszą opcją jest wycieczka biegowa lub wynajęcie roweru (z tym, że trzeba przygotować się na pokonanie schodów na trasie, które prowadzą do ukrytej „plaży” gdzie chodzą lokalni mieszkańcy. Plażę, dałem w „” ponieważ nie ma tam piasku, a ręczniki leżą na kamieniach). Trasa prowadzi wzdłuż wybrzeża z portu w Puerto del Carmen do portu Puerto Calero. Jedyny minus tej drogi to dosyć spory wiatr, ale poza tym wszystko wygląda doskonale.
-
-
 
 Sugerowany czas pobytu:
 
 60 minut (+ ew czas na posiłek czy pokonanie trasy biegowej)
 
-
-
 Subiektywna ocena atrakcji:
 
 8/10
 
-![](https://ucarecdn.com/c4fd948d-fb83-463b-a921-a68266e3823b/)
+![null](https://ucarecdn.com/c4fd948d-fb83-463b-a921-a68266e3823b/)
 
-![](https://ucarecdn.com/f37e8c25-57c6-4231-88d1-65529b16d8ef/)
+![null](https://ucarecdn.com/f37e8c25-57c6-4231-88d1-65529b16d8ef/)
 
-![](https://ucarecdn.com/284d291a-ae96-4b2b-b764-ca57e3ed2c30/)
+![null](https://ucarecdn.com/284d291a-ae96-4b2b-b764-ca57e3ed2c30/)
 
-![](https://ucarecdn.com/0c6d69dd-b257-4273-98f4-13b36522238a/)
+![null](https://ucarecdn.com/0c6d69dd-b257-4273-98f4-13b36522238a/)
 
 # 8) Puerto del Carmen
 
 Najbardziej turystyczna, tętniąca życiem część wyspy. Mnóstwo restauracji, sklepów, muzycznych pubów. Długie piaszczyste plaże, na nich schrony z kamieni, bądź leżaki. W porównaniu do Costa Teguise czy Playa Blanca (pozostałe turystyczne miejscowości wyspy) zdecydowanie najbardziej żywy rejon znajdujący się bardzo blisko lotniska oraz stolicy wyspy (Arrecife). Jeśli lubisz wakacje w hotelu all inclusive zdecydowanie wybierz Puerto del Carmen! Z kolei jeśli lubisz imprezy, atrakcje wodne (skutery, pierwsze nurkowanie) to również znajdź lokum w tym jakże urokliwym miejscu. 
 
-
-
 Co można robić w Puerto del Carmen? 
 
-
-
-1) Przejść się deptakiem na lotnisko i zrobić sobie selfie z samolotem lecącym 10m nad Twoją głową. Właśnie na Lanzarote znajduje się droga oraz plaża pomiędzy płytą lotniska a oceanem. Selfie to za mało? 
+1. Przejść się deptakiem na lotnisko i zrobić sobie selfie z samolotem lecącym 10m nad Twoją głową. Właśnie na Lanzarote znajduje się droga oraz plaża pomiędzy płytą lotniska a oceanem. Selfie to za mało? 
 
 Przejdź kilka metrów dalej poza strefę osłoniętą od wiatru i przekonaj się jaką siłę ma startujący samolot. Piasek we włosach gwarantowany ;) 
 
+2. Skoczyć z 4m ściany do wody! Wielu osobą marzą się skoki do wody z wysokich klifów, ale brakuje Nam odwagi aby to zrobić. Playa Chica oferuje 4m ścianę z której możemy bezpiecznie skoczyć do oceanu. Co jeszcze warto mieć ze sobą w tym miejscu? Maskę do nurkowania ponieważ przy tej plaży znajdziemy mnóstwo kolorowych ryb. W związku z powyższym również w okolicy Playa Chica można spróbować nurkowania i zanurzyć się na głębokość 7-8m. 
+3. Lubisz hazard? W Puerto del Carmen znajduje się największe kasyno na wyspie! Można zagrać na maszynach, w ruletkę, black jacka czy pokera. Dodatkowo w każdy wtorek i czwartek organizowane są osobne turnieje pokerowe, gdzie za wpisowe rzędu 25e można wziąć w nich udział i wygrać znacznie więcej. 
+4. Cafe la Ola! Zdecydowanie najbardziej rozpoznawalny punkt na mapie wyspy. Jeśli mamy ochotę coś zjeść bądź się czegoś napić – nietuzinkowy wystrój restauracji, wysoka jakość potraw sprawią, że obiad bądź kolacja będą na pewno udane
+5. Ranczo Texas – niesamowity ogród zoologiczny, o którym więcej napiszę w osobnym punkcie. Bo jest o czym pisać :)  
+
+Sugerowany czas pobytu:
+
+1 dzień, tydzień, miesiąc: niezależnie na ile przyjedziemy, to zawsze będzie tutaj coś do roboty :)
+
+Subiektywna ocena atrakcji: 
+
+10/10
+
+![](https://ucarecdn.com/2876af98-fef5-4f03-bf21-4b640be81077/)
+
+![](https://ucarecdn.com/6a98a928-ffab-4a92-9404-a3f5cb95b201/)
+
+![](https://ucarecdn.com/32c9cb9c-de70-40b6-8fa0-41d6a865585b/)
+
+![](https://ucarecdn.com/6ffa6375-ecc7-4a00-a6e8-808cf4472301/)
+
+![](https://ucarecdn.com/9abc616c-372b-4403-96c9-0dffb2a1fd67/)
+
+![](https://ucarecdn.com/992ce320-4e04-4c38-b7b5-7a04f4db03e9/)
+
+![](https://ucarecdn.com/3afbf432-7277-45f8-8c76-93264689780f/)
+
+## 9) Playa Papagayo + Playa Blanca i inne atrakcje
 
 
-2) Skoczyć z 4m ściany do wody! Wielu osobą marzą się skoki do wody z wysokich klifów, ale brakuje Nam odwagi aby to zrobić. Playa Chica oferuje 4m ścianę z której możemy bezpiecznie skoczyć do oceanu. Co jeszcze warto mieć ze sobą w tym miejscu? Maskę do nurkowania ponieważ przy tej plaży znajdziemy mnóstwo kolorowych ryb. W związku z powyższym również w okolicy Playa Chica można spróbować nurkowania i zanurzyć się na głębokość 7-8m. 
+
+Jedna z piękniejszych plaż położona na południu wyspy. Znak rozpoznawczy Lanzarote. Znajduję się ona praktycznie na każdej pocztówce oraz gdy wpiszemy Lanzarote w wyszukiwarkę. Ciekawostką jest to, że Playa Papagayo (plaża papuga) to nie tylko jeden piaszczysty brzeg, a ich cały kompleks. Co więcej wszystkie z tych plaż są równie piękne. Moja rekomendacja jest taka, aby dojechać busem bądź autem do Playa Blanca. A stamtąd bardzo urokliwym deptakiem, portem, klifem z widokiem na położoną nieopodal kolejną wyspę kanaryjską: Fuerteventura - dostać się na pierwszą plażę, a następnie przespacerować się do ostatniej tej najbardziej nietypowej. Pierwsze brzegi oceanu mają mnóstwo odmian koloru błękitnego, natomiast ostatnia jest mniejsza i wchodzi w odcienie szmaragdu. Trzeba się tam koniecznie wybrać! 
 
 
 
-3) Lubisz hazard? W Puerto del Carmen znajduje się największe kasyno na wyspie! Można zagrać na maszynach, w ruletkę, black jacka czy pokera. Dodatkowo w każdy wtorek i czwartek organizowane są osobne turnieje pokerowe, gdzie za wpisowe rzędu 25e można wziąć w nich udział i wygrać znacznie więcej. 
+Jak się tam dostać?
+
+Jedną z opcji jest dojazd busem/autem do Playa Blanca, a z niej przespacerować się na plażę (droga w jedno stronę to około 7 km).
+
+Można również z Playa Blanca dojechać busem do pierwszej plaży Papagayo, a następnie wybrać się na spacer 
+
+Można również zacząć od drugiej strony. Dojechać autem na płatny parking – 3e za samochód. Przespacerować 200-300m i cieszyć się niesamowitymi widokami 
 
 
 
-4) Cafe la Ola! Zdecydowanie najbardziej rozpoznawalny punkt na mapie wyspy. Jeśli mamy ochotę coś zjeść bądź się czegoś napić – nietuzinkowy wystrój restauracji, wysoka jakość potraw sprawią, że obiad bądź kolacja będą na pewno udane
+Cena: 
+
+3e za samochód na parkingu
+
+Koszty przejazdu busem (ok. 1,5e) 
 
 
 
-5) Ranczo Texas – niesamowity ogród zoologiczny, o którym więcej napiszę w osobnym punkcie. Bo jest o czym pisać :)  
+Ciekawostki:
+
+
+
+W miejscowości Playa Blanca również można nurkować! Podjeżdża się motorówką, zeskakuje do wody, schodzi po linie 15m na dno oceanu i zwiedza muzeum podwodne. Niesamowity przeżycie, poza figurami ludzi, bramą i innymi atrakcjami: na dnie znajdziemy również lustro, co jest nie lada gratką móc przeglądać siebie na takiej głębokości.
+
+Kolejną atrakcją jest Katamaran. Jeśli mieszkamy w Puerto del Carmen lub Puerto Calero – możemy kupić 4h wycieczkę Katamaranem na Playa Papagayo. W cenie dostaniemy maski do nurkowania, przejedziemy się z kierowcą skutera wodnego czy będziemy korzystać z drinków i przekąsek serwowanych na pokładzie. To nie wszystko! Moim zdaniem największą atrakcją jest możliwość poczucia zewu powietrza i mocy oceanu siedząc na siatce z przodu. Co prawda będziemy cali mokrzy, ale wrażenia będą niezapomniane. Przyznaję szczerze, że przez całą podróż śmiałem się jak dziecko, nie myśląc o niczym innym.  
 
 
 
 Sugerowany czas pobytu:
 
-1 dzień, tydzień, miesiąc: niezależnie na ile przyjedziemy, to zawsze będzie tutaj coś do roboty :)
+90 minut – cały dzień. Możemy wpaść autem na szybki spacer po plażach, zrobić zdjęcie i wrócić, ale możemy zabrać mnóstwo jedzenia, koce i spędzić cały dzień z rodziną w tym pięknym miejscu. 
 
 
 
 Subiektywna ocena atrakcji: 
 
 10/10
+
+![](https://ucarecdn.com/83b4dc4d-eda5-4435-a406-62ae2d3fe0ea/)
+
+![](https://ucarecdn.com/1cb3f0f7-5eb5-4532-858b-6faa522ce3ea/)
+
+![](https://ucarecdn.com/99157c09-9cc1-45d4-b3fb-b5a89b70e018/)
+
+![](https://ucarecdn.com/dbbb03d6-66bd-41c1-90ed-960a6cb7c843/)
+
+![](https://ucarecdn.com/c8edbc45-c701-4d40-96f9-ee25bddc38b3/)
