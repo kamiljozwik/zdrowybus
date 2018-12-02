@@ -10,7 +10,7 @@ tags:
 ---
 ## 22 miejsca na Lanzarote które trzeba zobaczyć!
 
-![](https://ucarecdn.com/6bae23ed-bc2d-4cff-8d7b-273bc72e229b/)
+![null](https://ucarecdn.com/6bae23ed-bc2d-4cff-8d7b-273bc72e229b/)
 
   Cześć!
 
@@ -57,8 +57,6 @@ To jeszcze zanim zaczniemy – 6 ciekawostek o wyspie Lanzarote:
 21. Nazaret – Miasto w Izraelu czy na Lanzarote? Nic tylko szybki klik i mamy zdjęcie z tabliczką. + w Nazarecie znajduje się dom LagOmar który wbudowany jest w jaskinie, a wieczorem zamienia się w klimatyczny pub. 
 22. Teguise – była stolica, targ, dom schizofrenika.
 
-
-
 # Szczegółowy opis atrakcji:
 
 22 miejsca na Lanzarote które trzeba zobaczyć!
@@ -93,58 +91,156 @@ Subiektywna ocena atrakcji:
 
 10/10
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/d5a15667-4ce0-485e-b2d5-4c5d422e891e/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/aaea08c8-dfc4-4e35-b0ed-596e8721178d/)
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/8b64c30b-a738-43d7-9286-585576b16331/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/44dd84c1-6d1b-4980-8fca-3bf186be0319/)
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/128171dd-3842-4a2a-8eec-a01a8c060a8c/)
-
-
-
-
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/b3af1045-648b-4380-822d-1eccf8e8d69f/)
 
 ## 2) Cueva de los Verdes
 
 Kochani przyszedł czas na jaskinię numer dwa. Jest ona oddalona od w/w o 5 minut drogi autem. Wejście jest również płatnę ~ 10 euro, z kolei tutaj wchodzimy z przewodnikiem i wycieczka trwa około 45 minut. Jak ktoś nigdy nie był pod ziemią to zdecydowanie warto wybrać się do tego tunelu. Z kolei jeśli ktoś był, to w środku czeka niespodzianka która zostanie już ze mną do końca mych dni, dlatego chociażby właśnie dla niej zdecydowanie warto odwiedzić to miejsce!
 
-
-
 Ciekawostka:
-
-
 
 W trakcie wyprawy czeka na Was tajemnicza niespodzianka, której nigdy, nikomu nie będziecie mogli zdradzić. Zaciekawieni co to?
 
 Również w tym tunelu wulkanicznym znajduje się audytorium. Jeśli mamy trochę szczęścia również możemy trafić na koncert muzyki klasycznej czy jazzowej. 
 
-
-
 Koszt: 
 
 ~ 10 euro: Bilet dla osoby dorosłej
-
-
 
 Praktyczne porady: 
 
 Cueva de los Verdes jest kolejnym miejscem który wchodzi w skład kuponu na kilka atrakcji, dzięki któremu zapłacicie mniej za całość. Zdecydowanie warto z tego skorzystać i odwiedzić obydwie jaskinie w tym samym dniu.
 
-
-
 Sugerowany czas pobytu:
 
 60 minut
-
-
 
 Subiektywna ocena atrakcji:
 
 10/10
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/dcb430f1-b13a-4051-ac83-dd336116beac/)
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/5dba2406-243c-4f89-83a0-d2f2982e5e9c/)
 
-![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/9b1e7eb7-0ff3-49a6-82d6-2112483467a4/)
-
-
+![Zdjęcie: Aleksandra Marszałek](https://ucarecdn.com/100a0b25-a595-40bb-b0b4-257bb653a5bc/)
 
 ## 3) Punkt widokowy Mirador del Rio
+
+
+
+Punkt widokowy na położoną niespełna 2 km od Lanzarote wyspę La Graciosa. 
+
+
+
+Dlaczego warto? 
+
+Widok na wyspę, wiele odcieni oceanu, a wszystko na 400 m klifie zapierającym dech w piersiach.
+
+
+
+Koszt:
+
+~ 5 euro: Bilet dla osoby dorosłej
+
+
+
+Porady praktyczne: 
+
+
+
+Mirador del Rio również zalicza się do pakietu atrakcji, które kupione razem dają Nam niższą cenę
+
+Dla osób które niekoniecznie chcą wydawać 20 zł, polecam podjechać autem na parking i przejść się dosłownie 200m w lewo, aby zobaczyć praktycznie ten sam widok, co z płatnego punktu. Nie ma za co ; ) 
+
+Punkt znajduje się na samej północy wyspy i oczywiście warto go zobaczyć w tym samym dniu co jaskinie, aczkolwiek drogę powrotną polecałbym wybrać naokoło poprzez górską serpentynową trasę. Wrażenie z samochodu i widoki zrekompensują wszystko ; ) Gdzie znajduję się ta trasa? Otóż właśnie na tym zakręcie w lewo tuż przy parking skąd można podziwiać wyspę La Graciosa. Powodzenia! 
+
+
+
+Sugerowany czas pobytu:
+
+30 minut
+
+
+
+Subiektywna ocena atrakcji:
+
+9,5/10
+
+![](https://ucarecdn.com/dafbb5d5-933a-45c1-aa03-58a9d25d7a45/)
+
+![](https://ucarecdn.com/950fa05e-9e29-4ac1-b14d-6d46f1d72fc4/)
+
+# 4) Haria z punktem widokowym
+
+
+
+Haria, czyli miasto 1000 palm. Koniecznie trzeba wybrać się z punktu widokowego Mirador del Rio bezpośrednio do tego miasteczka. Niesamowita droga, liczne punty widokowe sprawią, że dzięki tej przejażdżce będziemy mieli wspaniałe zdjęcie w tle na Facebook'u. Samo miasteczko warto objechać samochodem, ponieważ można zobaczyć nieliczne drzewa cytrusowe, co na Lanzarote jest nie lada gratką. Haria jest najbardziej zieloną częścią wyspy. 
+
+
+
+Koszty:
+
+Brak wstępu. Wynajęcie auta + paliwo, które kosztuje mniej niż 1e/l lub ewentualnie wyprawa busem
+
+
+
+Ciekawostka: 
+
+Dla biegaczy: Haria Extreme to renomowany bieg na wyspie. Można zmierzyć się z dystansem: 10, 26, 42 lub 80 km)
+
+Czarownica na miotle: to kolejny pomysł Manrique, który ustawił oświetlenie w taki sposób, aby w nocy miało kształt czarownicy na miotle. Ah ten Manrique ; ) 
+
+Uwaga! Im jesteśmy wyżej tym widok jest bardziej wyraźny. 
+
+
+
+Sugerowany czas pobytu:
+
+60-90 minut (przejechanie drogi, miasteczka oraz punkt widokowy)
+
+
+
+Subiektywna ocena atrakcji:
+
+9/10
+
+![](https://ucarecdn.com/73d0b6af-0f0b-43de-a89e-46bb71970b60/)
+
+![](https://ucarecdn.com/42aa97da-ac17-4491-946a-1b12eb294336/)
+
+![](https://ucarecdn.com/1c901b6d-a5af-40ab-87be-6cd0cae3d55c/)
+
+# 5) Playa de las Cocinitas
+
+
+
+Przepiękna plaża na północy wyspy o której nie pisze żaden przewodnik. Prawdopodobnie jest kilka ładniejszych miejsc na tej wyspie, aczkolwiek Cocinitas jest 100m od głównej drogi z atrakcji nr 1 i 2 na Mirador del Rio, bądź na drodze do Orzoli (miasteczko rybackie z którego wypływają promy na nieopodal położoną wyspę La Graciosa). Dodatkowym atutem plaży położonych na północy wyspy jest to, że są często puste i można znaleźć spokojne miejsce z dala od zgiełku miasta i hoteli.
+
+
+
+Koszty: 
+
+Prom na La Graciosa kosztuje dla osoby dorosłej 20e w dwie strony.
+
+
+
+\*Więcej o La Graciosa przeczytasz w kolejnych przewodnikach
+
+
+
+Sugerowany czas pobytu:
+
+30-60  minut (lub pół dnia relaksując się na plaży)
+
+
+
+Subiektywna ocena atrakcji:
+
+8/10
+
+![](https://ucarecdn.com/80869c35-b7de-4c27-970b-bcb36c89c6c9/)
+
+![](https://ucarecdn.com/cbe814e2-b2fa-400f-9aca-7476ac192843/)
