@@ -268,3 +268,53 @@ Sugerowany czas pobytu:
 Subiektywna ocena atrakcji:
 
 8/10
+
+![](https://ucarecdn.com/c4fd948d-fb83-463b-a921-a68266e3823b/)
+
+![](https://ucarecdn.com/f37e8c25-57c6-4231-88d1-65529b16d8ef/)
+
+![](https://ucarecdn.com/284d291a-ae96-4b2b-b764-ca57e3ed2c30/)
+
+![](https://ucarecdn.com/0c6d69dd-b257-4273-98f4-13b36522238a/)
+
+# 8) Puerto del Carmen
+
+Najbardziej turystyczna, tętniąca życiem część wyspy. Mnóstwo restauracji, sklepów, muzycznych pubów. Długie piaszczyste plaże, na nich schrony z kamieni, bądź leżaki. W porównaniu do Costa Teguise czy Playa Blanca (pozostałe turystyczne miejscowości wyspy) zdecydowanie najbardziej żywy rejon znajdujący się bardzo blisko lotniska oraz stolicy wyspy (Arrecife). Jeśli lubisz wakacje w hotelu all inclusive zdecydowanie wybierz Puerto del Carmen! Z kolei jeśli lubisz imprezy, atrakcje wodne (skutery, pierwsze nurkowanie) to również znajdź lokum w tym jakże urokliwym miejscu. 
+
+
+
+Co można robić w Puerto del Carmen? 
+
+
+
+1) Przejść się deptakiem na lotnisko i zrobić sobie selfie z samolotem lecącym 10m nad Twoją głową. Właśnie na Lanzarote znajduje się droga oraz plaża pomiędzy płytą lotniska a oceanem. Selfie to za mało? 
+
+Przejdź kilka metrów dalej poza strefę osłoniętą od wiatru i przekonaj się jaką siłę ma startujący samolot. Piasek we włosach gwarantowany ;) 
+
+
+
+2) Skoczyć z 4m ściany do wody! Wielu osobą marzą się skoki do wody z wysokich klifów, ale brakuje Nam odwagi aby to zrobić. Playa Chica oferuje 4m ścianę z której możemy bezpiecznie skoczyć do oceanu. Co jeszcze warto mieć ze sobą w tym miejscu? Maskę do nurkowania ponieważ przy tej plaży znajdziemy mnóstwo kolorowych ryb. W związku z powyższym również w okolicy Playa Chica można spróbować nurkowania i zanurzyć się na głębokość 7-8m. 
+
+
+
+3) Lubisz hazard? W Puerto del Carmen znajduje się największe kasyno na wyspie! Można zagrać na maszynach, w ruletkę, black jacka czy pokera. Dodatkowo w każdy wtorek i czwartek organizowane są osobne turnieje pokerowe, gdzie za wpisowe rzędu 25e można wziąć w nich udział i wygrać znacznie więcej. 
+
+
+
+4) Cafe la Ola! Zdecydowanie najbardziej rozpoznawalny punkt na mapie wyspy. Jeśli mamy ochotę coś zjeść bądź się czegoś napić – nietuzinkowy wystrój restauracji, wysoka jakość potraw sprawią, że obiad bądź kolacja będą na pewno udane
+
+
+
+5) Ranczo Texas – niesamowity ogród zoologiczny, o którym więcej napiszę w osobnym punkcie. Bo jest o czym pisać :)  
+
+
+
+Sugerowany czas pobytu:
+
+1 dzień, tydzień, miesiąc: niezależnie na ile przyjedziemy, to zawsze będzie tutaj coś do roboty :)
+
+
+
+Subiektywna ocena atrakcji: 
+
+10/10
