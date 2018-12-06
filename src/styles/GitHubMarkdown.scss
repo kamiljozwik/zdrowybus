@@ -21,8 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-
-font-family: 'Roboto-Light';
+font-family: "Roboto-Light";
 
 a {
   text-decoration: none;
@@ -92,6 +91,7 @@ h1 {
 h2 {
   font-size: 24px;
 }
+
 
 h3 {
   font-size: 18px;
@@ -394,6 +394,53 @@ pre code, pre tt {
 }
 
 strong {
-  font-weight: bold;
+  font-weight: 600;
 }
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+&.blog-post--content {
+  h1 {
+    font-size: 38px;
+    color: black;
   }
+  
+  h2 {
+    font-size: 32px;
+    color: $black;
+    padding: 40px 0px 10px 0;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  ul {
+    font-size: 20px;
+    list-style: disc;
+    li {
+      line-height: 36px;
+    }
+  }
+  
+  ol {
+    font-size: 20px;
+    list-style: decimal;
+    li {
+      line-height: 36px;
+    }
+  }
+}
+
+}

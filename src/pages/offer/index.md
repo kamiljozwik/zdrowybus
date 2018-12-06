@@ -1,5 +1,6 @@
 ---
 templateKey: offer
+path: /offer
 jumbotrone:
   description: |-
     Chcesz dołączyć do zespołu, spełniać marzenia i pomóc Nam się rozwijać?

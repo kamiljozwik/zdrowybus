@@ -16,6 +16,7 @@ const menuItemsList = {
 const renderList = path => (
   Object.keys(menuItemsList).map((item, i) => (
     <li className={`sidebar__item ${path === item ? 'active' : ''}`} key={nanoid()}>
+      {console.log(path, item)}
       <Link to={item}>{menuItemsList[item]}</Link>
     </li>
   ))

@@ -1,5 +1,6 @@
 ---
-templateKey: team
+templateKey: 'team'
+path: /team
 jumbotrone:
   description: 'Kto za tym wszystkim stoi? :)'
   title: Zdrowy zespół
