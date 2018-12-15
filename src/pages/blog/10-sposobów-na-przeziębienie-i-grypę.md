@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-graphic: 'https://ucarecdn.com/6f68e970-d88a-4d56-ad1b-8363bcdd97e7/'
+graphic: 'https://ucarecdn.com/99217f71-307f-47e6-af2a-7ff8fddbbe76/'
 type: Zdrowie
 date: 2018-12-15T17:18:46.679Z
 title: 10 SPOSOBÓW NA PRZEZIĘBIENIE I GRYPĘ
