@@ -8,7 +8,7 @@ description: >-
   Chcielibyście bardziej świadomie wejść w Nowy Rok? Mamy dla Was ciekawą
   propozycję..
 tags:
-  - blog-couching blog-health
+  - blog-couching
 ---
 # Podsumuj stary rok w saunie!
 
