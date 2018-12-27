@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-graphic: 'https://ucarecdn.com/e379327c-ac11-445c-a30d-cd0ae9fa8cdf/'
+graphic: 'https://ucarecdn.com/336f61e1-71af-412a-b9f3-84c60f2ac0c0/'
 type: Rozwój
 date: 2018-12-27T13:07:37.700Z
 title: 'ODPICUJ MI BUSA, CZYLI HISTORIA ZŁOTEJ STRZAŁY'
@@ -9,7 +9,7 @@ description: |
 tags:
   - blog-couching
 ---
-02.06.2018 w sobotę ZdrowyBus.pl po raz pierwszy stanął na moim parkingu. Ogromna radość, seria zdjęć oraz telefony nie miały końca. Następnie „załatwianie papierów” i wrócenie na chwilę do swoich spraw. Oczywiście sam zakup nie przyszedł łatwo. Poprzednie tygodnie były okraszone długimi godzinami spędzonymi na edukowaniu się, poszukiwaniu, oglądaniu, jeżdżeniu gdzie się da, aby znaleźć najlepsze auto. Dodatkowo ścigaliśmy się z innymi kupcami i na szczęście zajechaliśmy 15' szybciej. Krótkie oględziny i wszystko podpisane. Nie ma już odwrotu : )
+**02.06.2018** w sobotę ZdrowyBus.pl po raz pierwszy stanął na moim parkingu. Ogromna radość, seria zdjęć oraz telefony nie miały końca. Następnie „załatwianie papierów” i wrócenie na chwilę do swoich spraw. Oczywiście sam zakup nie przyszedł łatwo. Poprzednie tygodnie były okraszone długimi godzinami spędzonymi na edukowaniu się, poszukiwaniu, oglądaniu, jeżdżeniu gdzie się da, aby znaleźć najlepsze auto. Dodatkowo ścigaliśmy się z innymi kupcami i na szczęście zajechaliśmy 15' szybciej. Krótkie oględziny i wszystko podpisane. Nie ma już odwrotu : )
 
 Wybija lipiec. 
 
@@ -37,15 +37,15 @@ W trakcie tego wszystkiego odbyła się jeszcze rodzinna impreza, a w wolnej chw
 
 Samą wyprawę: zdjęcia, opis, video widzieliście w poprzednich postach. https://www.facebook.com/ZdrowyBuspl/posts/676303116104621?\_\_tn\_\_=K-R 
 
-A tak właśnie to wszystko się zaczęło... ; )
+**A tak właśnie to wszystko się zaczęło... ; )**
 
 ![null](https://ucarecdn.com/373bcdb9-d19f-49d5-a4e3-e0e380a51c37/)
 
 \=======
 
-Już to 100 razy mówiłem, ale powtórzę po raz kolejny i na pewno nie ostatni – moja Rodzina jest najlepsza i zasługuje na złoty medal <3 Prawda? 😇
+**Już to 100 razy mówiłem, ale powtórzę po raz kolejny i na pewno nie ostatni – moja Rodzina jest najlepsza i zasługuje na złoty medal <3 Prawda? 😇**
 
-\*Ciekawostka, jeśli tak to można nazwać:
+## \*Ciekawostka, jeśli tak to można nazwać:
 
 Przez 8 tygodni lata spałem o połowę mniej niż średni dorosły człowiek. 5 tygodni spędziłem na karimacie pod namiotem. Podsumowując przebiegnięte kilometry, trekking po fiordach i w górach wyszło ponad 1000 km w nogach, a na zakończenie lata tuż po wyprawach wygrałem bieg na 10 km z przeszkodami dopingowany przez rodzinę w moim rodzinnym mieście. 
 
