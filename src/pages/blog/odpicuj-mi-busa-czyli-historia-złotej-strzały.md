@@ -21,7 +21,7 @@ Pierwsza wyprawa zaplanowana na początek sierpnia, a ja daleko w ... Przecież 
 
 Kolejny dzień to wyciąganie wszystkiego z środka. Okazuje się, że brudu i rdzy jest trochę więcej niż się spodziewałem. Paradoksalnie brakuje też wielu rzeczy, które powinny znajdować się w busie. Wielkie czyszczenie, mycie, sprzątanie trwa mnóstwo godzin, ale misja mimo 33 stopni na dworze została zakończona sukcesem. Pomimo upału nie ma czasu na odpoczynek. W każdej wolnej chwili zamawiamy wszystko co jest potrzebne, aby bus był kompletny. Trwa wyścig z czasem. 
 
-Jako, że nie potrafię sobie odpuścić wyjazdu – ruszam z Alicja Zdeb na wyprawę autostopową po Norwegii (2 tygodnie). Nie ważne, że przecież i tak ledwo wyrabiam się z busem i wyprawą😂😂. Szybki lot i na miejscu przejeżdżamy niespełna 3000 km. Do tego nie próżnujemy i z całym dobytkiem na plecach zdarza nam się chodzić 50 km dziennie. Spędzamy niesamowite 14 dni zapominając o otaczającym nas świecie. 
+Jako, że nie potrafię sobie odpuścić wyjazdu – ruszam z Alicja Zdeb na wyprawę autostopową po Norwegii (2 tygodnie). Nieważne, że przecież i tak ledwo wyrabiam się z busem i wyprawą😂😂. Szybki lot i na miejscu przejeżdżamy niespełna 3000 km. Do tego nie próżnujemy i z całym dobytkiem na plecach zdarza nam się chodzić 50 km dziennie. Spędzamy niesamowite 14 dni zapominając o otaczającym nas świecie. 
 
 ![null](https://ucarecdn.com/04cad681-9e4e-4680-ade8-235349ab503c/)
 
