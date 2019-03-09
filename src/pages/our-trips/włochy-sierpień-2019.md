@@ -6,9 +6,9 @@ date: 2019-08-04T20:44:39.063Z
 endDate: 2019-08-28T20:44:39.064Z
 place: Włochy
 description: >-
-  Już w najbliższe lato odbędzie się wyjazd do krajów Bałkańskich! Mamy w
-  planach zdobyć najwyższe szczyty górskie, zwiedzać okoliczne miejscowości,
-  kosztować lokalne produkty oraz cieszyć się słońcem na rajskich plażach! 
+  Już w najbliższe lato odbędzie się wyjazd do pięknych Włoch! Mamy w planach
+  objechać cały kraj, zwiedzać okoliczne miejscowości, kosztować lokalne
+  produkty oraz cieszyć się słońcem na rajskich plażach! 
 type: new-trip
 ---
 ‼️\[WŁOCHY 2019]\[SIERPIEŃ]\[ZAPISY]‼️
